@@ -1,0 +1,3 @@
+C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\Definitions.SimpleShooter.h
+H:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+H:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

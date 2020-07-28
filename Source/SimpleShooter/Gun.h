@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Gun.generated.h"
+// #include "cstdlib"
 
 UCLASS()
 class SIMPLESHOOTER_API AGun : public AActor
@@ -32,4 +33,17 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	USkeletalMeshComponent *Mesh;
 
+	UPROPERTY(EditAnywhere)
+	UParticleSystem *ImpactEffect;
+
+	UPROPERTY(EditAnywhere)
+	UParticleSystem *MuzzleFlash;
+
+	UPROPERTY(EditAnywhere)
+	float MaxRange = 1000.0f;
+
+	UPROPERTY(EditAnywhere)
+	// float Damage = static_cast<float> (rand())/(static_cast <float> (RAND_MAX/10));
+	float Damage = 10.0f;
+	
 };

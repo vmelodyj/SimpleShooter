@@ -3511,3 +3511,1270 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.28-08.29.19:429][135]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBoxBCA5546B4738F3282EED75B6037A8534.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
 [2020.07.28-08.29.19:469][135]AssetCheck: New page: Asset Save: SandBox
 [2020.07.28-08.29.19:469][135]LogContentValidation: Display: Validating World /Game/SandBox.SandBox
+[2020.07.28-08.30.21:676][472]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.07.28-08.30.23:143][472]LogSlate: Window 'Save Content' being destroyed
+[2020.07.28-08.30.23:278][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_ShooterCharacter" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset" SILENT=true
+[2020.07.28-08.30.23:291][472]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/ABP_ShooterCharacter0A5CC9AE41F680872A474D90D855C441.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/ABP_ShooterCharacter.uasset'
+[2020.07.28-08.30.24:145][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2020.07.28-08.30.24:155][472]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_ShooterCharacter0629DE3F4A615B8F7AD3FEB009E042B7.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2020.07.28-08.30.24:174][472]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.28-08.30.24:174][472]LogContentValidation: Display: Validating AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2020.07.28-08.30.24:174][472]LogContentValidation: Display: Validating Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2020.07.28-08.30.27:138][593]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2020.07.28-08.32.00:117][612]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.28-08.32.00:117][612]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.07.28-08.32.07:482][  7]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.07.28-08.32.13:837][344]Candidate modules for hot reload:
+[2020.07.28-08.32.13:837][344]  SimpleShooter
+[2020.07.28-08.32.13:837][344]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,1247 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.32.21:651][344]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:32:21 PM
+[2020.07.28-08.32.21:651][344]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.32.21:651][344]CompilerResultsLog: Invalidating makefile for SimpleShooterEditor (source file added)
+[2020.07.28-08.32.21:651][344]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.28-08.32.21:652][344]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.465682 seconds
+[2020.07.28-08.32.21:652][344]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-08.32.21:652][344]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-08.32.21:652][344]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   [1/6] Gun.cpp
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   [2/6] SimpleShooter.init.gen.cpp
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   [3/6] Gun.gen.cpp
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-1247.lib
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1247.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1247.exp
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-1247.dll
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1247.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1247.suppressed.exp
+[2020.07.28-08.32.21:652][344]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
+[2020.07.28-08.32.21:652][344]CompilerResultsLog: Total time in Parallel executor: 1.52 seconds
+[2020.07.28-08.32.21:652][344]CompilerResultsLog: Total execution time: 7.72 seconds
+[2020.07.28-08.32.21:652][344]LogMainFrame: MainFrame: Module compiling took 7.820 seconds
+[2020.07.28-08.32.21:671][344]LogClass: Could not find existing class Gun in package /Script/SimpleShooter for HotReload, assuming new class
+[2020.07.28-08.32.21:682][344]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2020.07.28-08.32.21:686][344]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-08.32.21:816][344]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-08.32.21:824][344]Display: HotReload took  8.0s.
+[2020.07.28-08.32.21:831][344]Warning: HotReload operation took  8.0s.
+[2020.07.28-08.32.21:866][344]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.07.28-08.32.22:394][345]LogHotReload: New module detected: UE4Editor-SimpleShooter-1247.dll
+[2020.07.28-08.32.22:425][346]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.28-08.32.22:483][346]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.07.28-08.32.22:489][346]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-08.32.22:499][346]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-08.32.22:515][346]Display: HotReload took  0.1s.
+[2020.07.28-08.32.39:708][448]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.28-08.32.39:708][448]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.07.28-08.32.57:990][271]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Gun.BP_Gun
+[2020.07.28-08.32.58:375][271]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.07.28-08.39.18:522][414]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.07.28-08.39.18:536][414]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox' took 0.121
+[2020.07.28-08.39.18:536][414]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Gun] ([1] browsable assets)...
+[2020.07.28-08.39.18:536][414]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Gun]
+[2020.07.28-08.39.18:536][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Gun" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/BP_Gun_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.07.28-08.39.18:540][414]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_Gun_Auto481308EB346F9413B8106AD9641FB75E1.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/BP_Gun_Auto4.uasset'
+[2020.07.28-08.39.18:541][414]LogFileHelpers: Auto-saving content packages took 0.006
+[2020.07.28-08.43.56:053][240]Candidate modules for hot reload:
+[2020.07.28-08.43.56:053][240]  SimpleShooter
+[2020.07.28-08.43.56:053][240]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,3431 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.43.56:058][240]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.44.03:863][595]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:44:03 PM
+[2020.07.28-08.44.03:863][595]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 5.2000186 seconds
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   [1/6] Gun.cpp
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   [2/6] SimpleShooter.init.gen.cpp
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   [3/6] Gun.gen.cpp
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-3431.lib
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3431.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3431.exp
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-3431.dll
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3431.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3431.suppressed.exp
+[2020.07.28-08.44.03:864][595]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Total time in Parallel executor: 1.84 seconds
+[2020.07.28-08.44.03:864][595]CompilerResultsLog: Total execution time: 7.71 seconds
+[2020.07.28-08.44.03:864][595]LogMainFrame: MainFrame: Module compiling took 7.815 seconds
+[2020.07.28-08.44.03:880][595]LogClass: Could not find existing class Gun in package /Script/SimpleShooter for HotReload, assuming new class
+[2020.07.28-08.44.03:893][595]LogHotReload: Re-instancing Gun after hot-reload.
+[2020.07.28-08.44.03:941][595]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.07.28-08.44.03:945][595]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-08.44.04:140][595]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-08.44.04:146][595]Display: HotReload took  8.1s.
+[2020.07.28-08.44.16:035][ 30]LogSlate: Window 'BP_Gun' being destroyed
+[2020.07.28-08.44.16:058][ 30]LogSlate: Window 'BP_Gun' being destroyed
+[2020.07.28-08.44.16:102][ 30]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.44.16:102][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.44.16:156][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.28-08.44.16:156][ 30]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.44.16:156][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.44.17:162][ 74]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Gun.BP_Gun
+[2020.07.28-08.44.19:805][201]LogSlate: Window 'BP_Gun' being destroyed
+[2020.07.28-08.44.19:836][201]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.44.19:836][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.44.19:889][201]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Gun.BP_Gun
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: holo_layer_1_5 (AutoDXT, 256X256)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: SightLens_maskA (AutoDXT, 2048X2048)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: SightLens_maskB (AutoDXT, 2048X2048)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGun_Display_EM (AutoDXT, 2048X2048)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGunT1_section (AutoDXT, 4096X4096)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGunT2_section (AutoDXT, 4096X4096)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGun_01_N (BC5, 4096X4096)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGun_02_N (BC5, 4096X4096)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGunT2_shade (AutoDXT, 4096X4096)
+[2020.07.28-08.45.03:952][766]LogTexture: Display: Building textures: MagGunT1_shade (AutoDXT, 4096X4096)
+[2020.07.28-08.45.03:952][766]LogSkeletalMesh: Building Skeletal Mesh Rifle...
+[2020.07.28-08.45.03:970][766]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/AssetPacks/ShooterGame/Weapons/Rifle.Rifle
+[2020.07.28-08.45.03:973][766]LogMaterial: Display: Missing cached shader map for material MagGun_SightLens_Mat, compiling. 
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.07.28-08.45.05:440][766]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.07.28-08.45.05:440][766]LogMaterial: Display: Missing cached shader map for material MagGun_MatA, compiling. 
+[2020.07.28-08.45.06:846][766]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 105
+[2020.07.28-08.45.06:846][766]LogMaterial: Display: Missing cached shader map for material MagGun_MatB, compiling. 
+[2020.07.28-08.45.07:836][791]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 200
+[2020.07.28-08.45.08:463][807]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 190
+[2020.07.28-08.45.08:638][816]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 180
+[2020.07.28-08.45.08:828][822]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 170
+[2020.07.28-08.45.09:662][842]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 160
+[2020.07.28-08.45.09:933][849]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 150
+[2020.07.28-08.45.10:097][852]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 140
+[2020.07.28-08.45.11:642][891]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 130
+[2020.07.28-08.45.12:688][922]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 120
+[2020.07.28-08.45.13:670][954]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 110
+[2020.07.28-08.45.13:943][963]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 100
+[2020.07.28-08.45.14:745][985]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 90
+[2020.07.28-08.45.15:768][ 19]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 80
+[2020.07.28-08.45.16:477][ 40]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 70
+[2020.07.28-08.45.16:760][ 48]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 61
+[2020.07.28-08.45.17:216][ 61]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 53
+[2020.07.28-08.45.19:361][123]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 46
+[2020.07.28-08.45.19:492][127]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 40
+[2020.07.28-08.45.19:640][131]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 34
+[2020.07.28-08.45.19:658][131]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 29
+[2020.07.28-08.45.19:856][136]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2020.07.28-08.45.19:998][140]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 21
+[2020.07.28-08.45.20:085][143]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 18
+[2020.07.28-08.45.21:414][180]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2020.07.28-08.45.21:606][184]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2020.07.28-08.45.21:895][191]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2020.07.28-08.45.22:019][195]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.07.28-08.45.22:214][201]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.07.28-08.45.22:482][209]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.07.28-08.45.22:600][212]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.07.28-08.45.22:650][214]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.07.28-08.45.22:679][214]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.07.28-08.45.23:003][223]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.07.28-08.45.23:032][224]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.28-08.45.28:660][414]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.07.28-08.45.28:678][414]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2020.07.28-08.45.28:678][414]LogMetaData: Removing '/Game/BP_Rifle.SKEL_BP_Rifle_C' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2020.07.28-08.45.28:678][414]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle_C' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2020.07.28-08.45.28:678][414]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2020.07.28-08.45.28:678][414]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2020.07.28-08.45.28:678][414]LogMetaData: Removing '/Game/BP_Rifle.BP_Rifle:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_Gun.PackageMetaData'
+[2020.07.28-08.45.28:716][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Rifle" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_Rifle.uasset" SILENT=true
+[2020.07.28-08.45.28:724][414]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_Rifle2B6B4AA94E0A2C09FD4C038CD92F4D47.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_Rifle.uasset'
+[2020.07.28-08.45.29:825][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.07.28-08.45.29:850][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.07.28-08.45.29:868][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.07.28-08.45.29:998][414]AssetCheck: New page: Asset Save: BP_Rifle
+[2020.07.28-08.45.29:998][414]LogContentValidation: Display: Validating Blueprint /Game/BP_Rifle.BP_Rifle
+[2020.07.28-08.45.44:309][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.07.28-08.50.29:553][553]Candidate modules for hot reload:
+[2020.07.28-08.50.29:553][553]  SimpleShooter
+[2020.07.28-08.50.29:553][553]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,1687 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.50.29:560][553]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.50.35:344][824]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:50:35 PM
+[2020.07.28-08.50.35:344][824]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.50.35:344][824]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.28-08.50.35:344][824]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.28-08.50.35:344][824]CompilerResultsLog: Error: C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Source/SimpleShooter/ShooterCharacter.h(43)  : LogCompile: Error: Unknown variable specifier 'EditDefaultOnly'
+[2020.07.28-08.50.35:345][824]LogMainFrame: MainFrame: Module compiling took 5.821 seconds
+[2020.07.28-08.50.35:345][824]Warning: HotReload failed, recompile failed
+[2020.07.28-08.51.39:971][191]Candidate modules for hot reload:
+[2020.07.28-08.51.39:971][191]  SimpleShooter
+[2020.07.28-08.51.39:971][191]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,2800 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.51.39:977][191]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.51.45:484][268]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:51:45 PM
+[2020.07.28-08.51.45:484][268]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.51.45:484][268]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.28-08.51.45:484][268]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.28-08.51.45:484][268]CompilerResultsLog: Error: C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Source/SimpleShooter/ShooterCharacter.h(43)  : LogCompile: Error: Unknown variable specifier 'EditDefaultOnly'
+[2020.07.28-08.51.45:484][268]LogMainFrame: MainFrame: Module compiling took 5.518 seconds
+[2020.07.28-08.51.45:485][268]Warning: HotReload failed, recompile failed
+[2020.07.28-08.52.25:862][681]Candidate modules for hot reload:
+[2020.07.28-08.52.25:862][681]  SimpleShooter
+[2020.07.28-08.52.25:862][681]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,2459 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.52.25:867][681]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:52:33 PM
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 5.288748 seconds
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   [1/6] SimpleShooter.init.gen.cpp
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   [2/6] ShooterCharacter.gen.cpp
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   [3/6] ShooterCharacter.cpp
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-2459.lib
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2459.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2459.exp
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-2459.dll
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2459.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2459.suppressed.exp
+[2020.07.28-08.52.33:805][724]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Total time in Parallel executor: 1.78 seconds
+[2020.07.28-08.52.33:805][724]CompilerResultsLog: Total execution time: 7.71 seconds
+[2020.07.28-08.52.33:805][724]LogMainFrame: MainFrame: Module compiling took 7.962 seconds
+[2020.07.28-08.52.33:822][724]LogClass: Could not find existing class ShooterCharacter in package /Script/SimpleShooter for HotReload, assuming new class
+[2020.07.28-08.52.33:834][724]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2020.07.28-08.52.33:869][724]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.07.28-08.52.33:874][724]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-08.52.33:989][724]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-08.52.33:996][724]Display: HotReload took  8.2s.
+[2020.07.28-08.52.34:125][724]LogSlate: Window 'Message Log' being destroyed
+[2020.07.28-08.52.34:132][724]LogSlate: Window 'Message Log' being destroyed
+[2020.07.28-08.53.03:309][ 29]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2020.07.28-08.53.30:940][322]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-08.53.30:952][322]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.07.28-08.53.30:953][322]LogPlayLevel: [PlayLevel] Compiling BP_ShooterCharacter before play...
+[2020.07.28-08.53.31:058][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.07.28-08.53.31:063][322]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (1 blueprints)
+[2020.07.28-08.53.31:063][322]PIE: New page: PIE session: SandBox (Jul 27, 2020, 6:53:31 PM)
+[2020.07.28-08.53.31:064][322]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-08.53.31:226][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.162600s)
+[2020.07.28-08.53.31:227][322]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-08.53.31:227][322]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019AB015BE00), frame # 409322
+[2020.07.28-08.53.31:227][322]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019AFDF09BC0), frame # 409322
+[2020.07.28-08.53.31:227][322]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2020.07.28-08.53.31:227][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.164106s)
+[2020.07.28-08.53.31:255][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-08.53.31:256][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-08.53.31:256][322]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-08.53.31:256][322]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-08.53.31:268][322]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-08.53.31:268][322]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-08.53.31:346][322]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-08.53.31:346][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-08.53.31:346][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-08.53.31:346][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-08.53.31:346][322]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-08.53.31:356][322]LogInit: FAudioDevice initialized.
+[2020.07.28-08.53.31:368][322]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-08.53.31:420][322]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-01.53.31
+[2020.07.28-08.53.31:428][322]LogWorld: Bringing up level for play took: 0.059744
+[2020.07.28-08.53.31:428][322]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2020.07.28-08.53.31:433][322]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.07.28-08.53.31:433][322]PIE: Server logged in
+[2020.07.28-08.53.31:433][322]PIE: Play in editor total start time 0.485 seconds.
+[2020.07.28-08.53.36:204][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.53.36:204][670]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-08.53.36:205][670]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.53.36:213][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.53.36:220][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-08.53.36:227][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.53.36:249][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.53.36:276][670]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019AFDF09BC0), frame # 409670
+[2020.07.28-08.53.36:276][670]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019AB015BE00), frame # 409670
+[2020.07.28-08.53.36:283][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.07.28-08.53.36:329][671]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2020.07.28-08.54.04:372][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.07.28-08.54.04:376][340]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox' took 0.028
+[2020.07.28-08.54.04:377][340]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_ShooterCharacter] ([1] browsable assets)...
+[2020.07.28-08.54.04:384][340]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter]
+[2020.07.28-08.54.04:384][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_ShooterCharacter]
+[2020.07.28-08.54.04:384][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/BP_ShooterCharacter_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2020.07.28-08.54.04:396][340]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_ShooterCharacter_Auto5D376BA3C439C27FE75FCA1967EEDB5E4.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/BP_ShooterCharacter_Auto5.uasset'
+[2020.07.28-08.54.04:397][340]LogFileHelpers: Auto-saving content packages took 0.021
+[2020.07.28-08.54.04:695][360]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.28-08.54.10:498][759]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2020.07.28-08.54.10:546][759]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.07.28-08.54.11:179][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterCharacter" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_ShooterCharacter.uasset" SILENT=true
+[2020.07.28-08.54.11:190][793]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_ShooterCharacterCD3191D34673AB05608292AB84294A6C.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_ShooterCharacter.uasset'
+[2020.07.28-08.54.11:214][793]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2020.07.28-08.54.11:214][793]LogContentValidation: Display: Validating Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2020.07.28-08.55.18:902][751]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter
+[2020.07.28-08.55.18:911][751]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.28-08.55.18:911][751]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2020.07.28-08.55.18:911][751]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00D0
+[2020.07.28-08.55.18:911][751]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0102
+[2020.07.28-08.55.19:130][751]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.28-08.55.19:294][751]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2020.07.28-08.55.19:294][751]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00D0
+[2020.07.28-08.55.19:294][751]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0102
+[2020.07.28-08.55.19:358][752]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2020.07.28-08.55.19:358][752]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00D0
+[2020.07.28-08.55.19:359][752]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0102
+[2020.07.28-08.55.19:371][753]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2020.07.28-08.55.19:371][753]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00D0
+[2020.07.28-08.55.19:371][753]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0102
+[2020.07.28-08.55.19:381][754]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2020.07.28-08.55.19:381][754]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00D0
+[2020.07.28-08.55.19:381][754]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0102
+[2020.07.28-08.55.19:392][755]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:0040
+[2020.07.28-08.55.19:392][755]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_ShooterCharacter_C_0
+	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00D0
+[2020.07.28-08.55.21:500][893]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith.Wraith
+[2020.07.28-08.55.21:510][893]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.28-08.55.21:536][893]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.28-08.55.22:250][923]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith_Skeleton.Wraith_Skeleton
+[2020.07.28-08.55.22:253][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.28-08.55.22:274][923]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.28-08.57.08:922][289]Candidate modules for hot reload:
+[2020.07.28-08.57.08:922][289]  SimpleShooter
+[2020.07.28-08.57.08:922][289]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,6341 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.57.08:928][289]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.57.10:334][355]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:57:10 PM
+[2020.07.28-08.57.10:334][355]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.57.10:334][355]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-08.57.10:334][355]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-08.57.10:334][355]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.28-08.57.10:334][355]CompilerResultsLog:   [1/4] ShooterCharacter.cpp
+[2020.07.28-08.57.10:334][355]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterCharacter.cpp(21) : error C2653: 'EPhsBodyOp': is not a class or namespace name
+[2020.07.28-08.57.10:334][355]LogMainFrame: MainFrame: Module compiling took 1.428 seconds
+[2020.07.28-08.57.10:334][355]Warning: HotReload failed, recompile failed
+[2020.07.28-08.57.36:195][849]Candidate modules for hot reload:
+[2020.07.28-08.57.36:195][849]  SimpleShooter
+[2020.07.28-08.57.36:195][849]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,5950 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.57.36:200][849]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.57.37:506][916]LogSlate: Window 'Message Log' being destroyed
+[2020.07.28-08.57.37:532][916]LogSlate: Window 'Message Log' being destroyed
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:57:38 PM
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.28-08.57.38:849][938]CompilerResultsLog:   [1/4] ShooterCharacter.cpp
+[2020.07.28-08.57.38:849][938]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-5950.lib
+[2020.07.28-08.57.38:849][938]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5950.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5950.exp
+[2020.07.28-08.57.38:849][938]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-5950.dll
+[2020.07.28-08.57.38:849][938]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5950.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5950.suppressed.exp
+[2020.07.28-08.57.38:849][938]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: Total time in Parallel executor: 1.90 seconds
+[2020.07.28-08.57.38:849][938]CompilerResultsLog: Total execution time: 2.50 seconds
+[2020.07.28-08.57.38:849][938]LogMainFrame: MainFrame: Module compiling took 2.658 seconds
+[2020.07.28-08.57.38:877][938]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.07.28-08.57.38:882][938]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-08.57.39:018][938]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-08.57.39:024][938]Display: HotReload took  2.8s.
+[2020.07.28-08.58.15:324][155]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-08.58.15:337][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-08.58.15:337][155]PIE: New page: PIE session: SandBox (Jul 27, 2020, 6:58:15 PM)
+[2020.07.28-08.58.15:337][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-08.58.15:514][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177286s)
+[2020.07.28-08.58.15:515][155]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-08.58.15:515][155]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019BDFC93E00), frame # 414155
+[2020.07.28-08.58.15:515][155]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019BDFCB6D40), frame # 414155
+[2020.07.28-08.58.15:516][155]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2020.07.28-08.58.15:516][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.179286s)
+[2020.07.28-08.58.15:565][155]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-08.58.15:573][155]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-08.58.15:573][155]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-08.58.15:573][155]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-08.58.15:584][155]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-08.58.15:584][155]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-08.58.15:672][155]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-08.58.15:672][155]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-08.58.15:672][155]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-08.58.15:672][155]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-08.58.15:672][155]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-08.58.15:682][155]LogInit: FAudioDevice initialized.
+[2020.07.28-08.58.15:690][155]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-08.58.15:745][155]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-01.58.15
+[2020.07.28-08.58.15:752][155]LogWorld: Bringing up level for play took: 0.061141
+[2020.07.28-08.58.15:752][155]LogOnline: OSS: Creating online subsystem instance for: :Context_97
+[2020.07.28-08.58.15:765][155]PIE: Server logged in
+[2020.07.28-08.58.15:765][155]PIE: Play in editor total start time 0.432 seconds.
+[2020.07.28-08.58.18:284][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.58.18:284][286]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-08.58.18:285][286]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.58.18:294][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.58.18:302][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-08.58.18:309][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.58.18:364][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.58.18:386][286]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019BDFCB6D40), frame # 414286
+[2020.07.28-08.58.18:386][286]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019BDFC93E00), frame # 414286
+[2020.07.28-08.58.18:393][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.07.28-08.58.18:441][287]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2020.07.28-08.58.19:162][320]Candidate modules for hot reload:
+[2020.07.28-08.58.19:162][320]  SimpleShooter
+[2020.07.28-08.58.19:162][320]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,1656 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-08.58.19:167][320]Warning: Starting HotReload took  0.0s.
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 6:58:21 PM
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.28-08.58.21:746][393]CompilerResultsLog:   [1/4] ShooterCharacter.cpp
+[2020.07.28-08.58.21:746][393]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-1656.lib
+[2020.07.28-08.58.21:746][393]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1656.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1656.exp
+[2020.07.28-08.58.21:746][393]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-1656.dll
+[2020.07.28-08.58.21:746][393]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1656.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1656.suppressed.exp
+[2020.07.28-08.58.21:746][393]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: Total time in Parallel executor: 1.91 seconds
+[2020.07.28-08.58.21:746][393]CompilerResultsLog: Total execution time: 2.47 seconds
+[2020.07.28-08.58.21:746][393]LogMainFrame: MainFrame: Module compiling took 2.603 seconds
+[2020.07.28-08.58.21:780][393]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.07.28-08.58.21:788][393]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-08.58.21:922][393]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-08.58.21:928][393]Display: HotReload took  2.8s.
+[2020.07.28-08.58.24:286][453]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-08.58.24:298][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-08.58.24:298][453]PIE: New page: PIE session: SandBox (Jul 27, 2020, 6:58:24 PM)
+[2020.07.28-08.58.24:298][453]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-08.58.24:498][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.199819s)
+[2020.07.28-08.58.24:499][453]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-08.58.24:499][453]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019BD3A69C00), frame # 414453
+[2020.07.28-08.58.24:499][453]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019BD3A9D440), frame # 414453
+[2020.07.28-08.58.24:499][453]LogPlayLevel: PIE: World Init took: (0.001535s)
+[2020.07.28-08.58.24:500][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.201822s)
+[2020.07.28-08.58.24:570][453]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-08.58.24:574][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-08.58.24:574][453]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-08.58.24:574][453]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-08.58.24:588][453]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-08.58.24:588][453]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-08.58.24:664][453]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-08.58.24:664][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-08.58.24:664][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-08.58.24:664][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-08.58.24:664][453]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-08.58.24:673][453]LogInit: FAudioDevice initialized.
+[2020.07.28-08.58.24:679][453]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-08.58.24:725][453]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-01.58.24
+[2020.07.28-08.58.24:734][453]LogWorld: Bringing up level for play took: 0.054351
+[2020.07.28-08.58.24:734][453]LogOnline: OSS: Creating online subsystem instance for: :Context_98
+[2020.07.28-08.58.24:739][453]PIE: Server logged in
+[2020.07.28-08.58.24:739][453]PIE: Play in editor total start time 0.445 seconds.
+[2020.07.28-08.58.28:623][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.58.28:623][669]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-08.58.28:624][669]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.58.28:632][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.58.28:641][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-08.58.28:650][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.58.28:681][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.58.28:728][669]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019BD3A69C00), frame # 414669
+[2020.07.28-08.58.28:728][669]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019BD3A9D440), frame # 414669
+[2020.07.28-08.58.28:732][669]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.07.28-08.58.28:773][670]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2020.07.28-09.04.12:470][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.07.28-09.04.12:475][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox' took 0.039
+[2020.07.28-09.04.12:477][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith_Skeleton] ([1] browsable assets)...
+[2020.07.28-09.04.12:477][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith_Skeleton]
+[2020.07.28-09.04.12:485][612]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Wraith_Skeleton_Auto6C7990D4E4949BB3FC1AFB1A589B4DD67.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith_Skeleton_Auto6.uasset'
+[2020.07.28-09.04.12:487][612]LogFileHelpers: Auto-saving content packages took 0.011
+[2020.07.28-09.04.21:115][638]Candidate modules for hot reload:
+[2020.07.28-09.04.21:115][638]  SimpleShooter
+[2020.07.28-09.04.21:115][638]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,5277 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-09.04.21:121][638]Warning: Starting HotReload took  0.0s.
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 7:04:24 PM
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.28-09.04.24:120][787]CompilerResultsLog:   [1/4] ShooterCharacter.cpp
+[2020.07.28-09.04.24:120][787]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-5277.lib
+[2020.07.28-09.04.24:120][787]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5277.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5277.exp
+[2020.07.28-09.04.24:120][787]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-5277.dll
+[2020.07.28-09.04.24:120][787]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5277.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-5277.suppressed.exp
+[2020.07.28-09.04.24:120][787]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: Total time in Parallel executor: 2.27 seconds
+[2020.07.28-09.04.24:120][787]CompilerResultsLog: Total execution time: 2.90 seconds
+[2020.07.28-09.04.24:120][787]LogMainFrame: MainFrame: Module compiling took 3.010 seconds
+[2020.07.28-09.04.24:156][787]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.07.28-09.04.24:164][787]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-09.04.24:326][787]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-09.04.24:332][787]Display: HotReload took  3.2s.
+[2020.07.28-09.04.25:250][823]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-09.04.25:265][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-09.04.25:265][823]PIE: New page: PIE session: SandBox (Jul 27, 2020, 7:04:25 PM)
+[2020.07.28-09.04.25:302][823]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-09.04.25:523][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.220391s)
+[2020.07.28-09.04.25:523][823]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-09.04.25:523][823]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019BE0CAFE00), frame # 417823
+[2020.07.28-09.04.25:524][823]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019BE0D49440), frame # 417823
+[2020.07.28-09.04.25:524][823]LogPlayLevel: PIE: World Init took: (0.001697s)
+[2020.07.28-09.04.25:525][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.222487s)
+[2020.07.28-09.04.25:601][823]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-09.04.25:607][823]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-09.04.25:607][823]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-09.04.25:607][823]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-09.04.25:620][823]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.04.25:620][823]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-09.04.25:712][823]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-09.04.25:712][823]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-09.04.25:712][823]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-09.04.25:712][823]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-09.04.25:712][823]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-09.04.25:722][823]LogInit: FAudioDevice initialized.
+[2020.07.28-09.04.25:734][823]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-09.04.25:804][823]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-02.04.25
+[2020.07.28-09.04.25:812][823]LogWorld: Bringing up level for play took: 0.077088
+[2020.07.28-09.04.25:812][823]LogOnline: OSS: Creating online subsystem instance for: :Context_99
+[2020.07.28-09.04.25:826][823]PIE: Server logged in
+[2020.07.28-09.04.25:827][823]PIE: Play in editor total start time 0.566 seconds.
+[2020.07.28-09.04.33:793][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.04.33:793][281]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-09.04.33:795][281]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-09.04.33:806][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.04.33:817][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-09.04.33:824][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.04.33:879][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.04.33:917][281]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019BE0CAFE00), frame # 418281
+[2020.07.28-09.04.33:917][281]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019BE0D49440), frame # 418281
+[2020.07.28-09.04.33:920][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.07.28-09.04.33:974][282]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2020.07.28-09.04.53:002][420]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-09.04.53:011][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-09.04.53:011][420]PIE: New page: PIE session: SandBox (Jul 27, 2020, 7:04:53 PM)
+[2020.07.28-09.04.53:032][420]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-09.04.53:200][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167946s)
+[2020.07.28-09.04.53:200][420]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-09.04.53:200][420]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019BDF68E000), frame # 419420
+[2020.07.28-09.04.53:200][420]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019A6F601D00), frame # 419420
+[2020.07.28-09.04.53:201][420]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2020.07.28-09.04.53:201][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.169287s)
+[2020.07.28-09.04.53:233][420]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-09.04.53:237][420]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-09.04.53:237][420]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-09.04.53:237][420]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-09.04.53:248][420]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.04.53:248][420]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-09.04.53:339][420]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-09.04.53:340][420]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-09.04.53:340][420]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-09.04.53:340][420]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-09.04.53:340][420]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-09.04.53:352][420]LogInit: FAudioDevice initialized.
+[2020.07.28-09.04.53:359][420]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-09.04.53:422][420]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-02.04.53
+[2020.07.28-09.04.53:429][420]LogWorld: Bringing up level for play took: 0.069327
+[2020.07.28-09.04.53:430][420]LogOnline: OSS: Creating online subsystem instance for: :Context_100
+[2020.07.28-09.04.53:435][420]PIE: Server logged in
+[2020.07.28-09.04.53:436][420]PIE: Play in editor total start time 0.425 seconds.
+[2020.07.28-09.05.01:402][777]LogEditorViewport: Clicking on Actor (LMB): BP_Rifle_C (BP_Rifle)
+[2020.07.28-09.05.14:311][172]LogEditorViewport: Clicking on Actor (LMB): BP_ShooterCharacter_C (BP_ShooterCharacter)
+[2020.07.28-09.05.15:320][193]LogEditorViewport: Clicking on Actor (LMB): BP_Rifle_C (BP_Rifle)
+[2020.07.28-09.06.03:452][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.06.03:453][ 98]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-09.06.03:454][ 98]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-09.06.03:461][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.06.03:470][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-09.06.03:477][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.06.03:505][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.06.03:531][ 98]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019A6F601D00), frame # 422098
+[2020.07.28-09.06.03:531][ 98]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019BDF68E000), frame # 422098
+[2020.07.28-09.06.03:539][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.07.28-09.06.03:575][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2020.07.28-09.06.13:113][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Rifle" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_Rifle.uasset" SILENT=true
+[2020.07.28-09.06.13:119][346]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_RifleDBA078C14230A2B50D5EB1816AA322A1.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_Rifle.uasset'
+[2020.07.28-09.06.13:133][346]AssetCheck: New page: Asset Save: BP_Rifle
+[2020.07.28-09.06.13:133][346]LogContentValidation: Display: Validating Blueprint /Game/BP_Rifle.BP_Rifle
+[2020.07.28-09.06.14:785][434]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-09.06.14:792][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-09.06.14:792][434]PIE: New page: PIE session: SandBox (Jul 27, 2020, 7:06:14 PM)
+[2020.07.28-09.06.14:793][434]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-09.06.14:950][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156644s)
+[2020.07.28-09.06.14:950][434]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-09.06.14:950][434]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B005F6400), frame # 422434
+[2020.07.28-09.06.14:950][434]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B00635800), frame # 422434
+[2020.07.28-09.06.14:951][434]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2020.07.28-09.06.14:951][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.158055s)
+[2020.07.28-09.06.14:981][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-09.06.14:989][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-09.06.14:989][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-09.06.14:990][434]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-09.06.14:990][434]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-09.06.15:001][434]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.06.15:001][434]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-09.06.15:093][434]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-09.06.15:093][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-09.06.15:093][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-09.06.15:093][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-09.06.15:093][434]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-09.06.15:103][434]LogInit: FAudioDevice initialized.
+[2020.07.28-09.06.15:111][434]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-09.06.15:165][434]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-02.06.15
+[2020.07.28-09.06.15:172][434]LogWorld: Bringing up level for play took: 0.060910
+[2020.07.28-09.06.15:172][434]LogOnline: OSS: Creating online subsystem instance for: :Context_101
+[2020.07.28-09.06.15:179][434]PIE: Server logged in
+[2020.07.28-09.06.15:179][434]PIE: Play in editor total start time 0.387 seconds.
+[2020.07.28-09.06.29:042][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.06.29:042][432]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-09.06.29:044][432]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-09.06.29:054][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.06.29:060][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-09.06.29:068][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.06.29:097][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.06.29:121][432]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B00635800), frame # 423432
+[2020.07.28-09.06.29:121][432]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B005F6400), frame # 423432
+[2020.07.28-09.06.29:129][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.07.28-09.06.29:170][433]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2020.07.28-09.06.46:159][ 83]LogSlate: Window 'Place Actors' being destroyed
+[2020.07.28-09.06.46:181][ 83]LogSlate: Window 'Place Actors' being destroyed
+[2020.07.28-09.07.09:525][259]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-09.07.09:534][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-09.07.09:534][259]PIE: New page: PIE session: SandBox (Jul 27, 2020, 7:07:09 PM)
+[2020.07.28-09.07.09:534][259]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-09.07.09:708][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173841s)
+[2020.07.28-09.07.09:708][259]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-09.07.09:708][259]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019AF5C49C00), frame # 424259
+[2020.07.28-09.07.09:708][259]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019AB8C87240), frame # 424259
+[2020.07.28-09.07.09:709][259]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2020.07.28-09.07.09:709][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.175467s)
+[2020.07.28-09.07.09:743][259]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-09.07.09:753][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-09.07.09:753][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-09.07.09:754][259]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-09.07.09:754][259]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-09.07.09:768][259]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.07.09:768][259]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-09.07.09:863][259]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-09.07.09:864][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-09.07.09:864][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-09.07.09:864][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-09.07.09:864][259]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-09.07.09:873][259]LogInit: FAudioDevice initialized.
+[2020.07.28-09.07.09:881][259]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-09.07.09:924][259]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-02.07.09
+[2020.07.28-09.07.09:931][259]LogWorld: Bringing up level for play took: 0.049915
+[2020.07.28-09.07.09:931][259]LogOnline: OSS: Creating online subsystem instance for: :Context_102
+[2020.07.28-09.07.09:935][259]PIE: Server logged in
+[2020.07.28-09.07.09:936][259]PIE: Play in editor total start time 0.403 seconds.
+[2020.07.28-09.07.11:606][359]LogEditorViewport: Clicking on Actor (LMB): BP_Rifle_C (BP_Rifle)
+[2020.07.28-09.07.13:963][447]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ceiling_B)
+[2020.07.28-09.07.16:553][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.07.16:553][642]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-09.07.16:554][642]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-09.07.16:567][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.07.16:575][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-09.07.16:582][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-09.07.16:619][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-09.07.16:635][642]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019AB8C87240), frame # 424642
+[2020.07.28-09.07.16:635][642]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019AF5C49C00), frame # 424642
+[2020.07.28-09.07.16:642][642]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.07.28-09.07.16:691][643]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2020.07.28-09.10.45:125][171]LogSlate: Window 'Project Settings' being destroyed
+[2020.07.28-09.10.45:129][171]LogSlate: Window 'Project Settings' being destroyed
+[2020.07.28-09.12.13:657][128]Candidate modules for hot reload:
+[2020.07.28-09.12.13:657][128]  SimpleShooter
+[2020.07.28-09.12.13:657][128]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,3775 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.28-09.12.13:664][128]Warning: Starting HotReload took  0.0s.
+[2020.07.28-09.12.21:004][173]CompilerResultsLog: New page: Compilation - Jul 27, 2020, 7:12:21 PM
+[2020.07.28-09.12.21:004][173]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.28-09.12.21:004][173]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.28-09.12.21:004][173]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.28-09.12.21:004][173]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.7284507 seconds
+[2020.07.28-09.12.21:004][173]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.28-09.12.21:005][173]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.28-09.12.21:005][173]CompilerResultsLog: Building 7 actions with 12 processes...
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [1/7] Gun.cpp
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [2/7] ShooterCharacter.gen.cpp
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [3/7] Gun.gen.cpp
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [4/7] ShooterCharacter.cpp
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [5/7] UE4Editor-SimpleShooter-3775.lib
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3775.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3775.exp
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [6/7] UE4Editor-SimpleShooter-3775.dll
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3775.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3775.suppressed.exp
+[2020.07.28-09.12.21:005][173]CompilerResultsLog:   [7/7] SimpleShooterEditor.target
+[2020.07.28-09.12.21:005][173]CompilerResultsLog: Total time in Parallel executor: 1.69 seconds
+[2020.07.28-09.12.21:005][173]CompilerResultsLog: Total execution time: 7.05 seconds
+[2020.07.28-09.12.21:005][173]LogMainFrame: MainFrame: Module compiling took 7.362 seconds
+[2020.07.28-09.12.21:042][173]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.07.28-09.12.21:049][173]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.28-09.12.21:216][173]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3431 classes and 825 folders.
+[2020.07.28-09.12.21:223][173]Display: HotReload took  7.6s.
+[2020.07.28-09.12.22:324][176]MapCheck: New page: Map Check
+[2020.07.28-09.12.22:348][176]Cmd: MAP REBUILD ALLVISIBLE
+[2020.07.28-09.12.22:348][176]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.07.28-09.12.22:474][176]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=false
+[2020.07.28-09.12.22:805][176]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.07.28-09.12.22:805][176]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.07.28-09.12.22:805][176]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.07.28-09.12.22:902][176]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.07.28-09.12.22:924][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:928][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:930][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:932][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:933][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.07.28-09.12.22:935][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.28-09.12.22:935][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:937][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:939][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:941][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:944][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:946][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:948][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:949][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:951][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:953][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.22:956][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2020.07.28-09.12.22:999][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:002][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:005][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:007][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:010][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:012][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:015][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:017][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:020][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:024][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:028][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:032][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:034][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:036][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:038][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:040][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:043][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:046][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:048][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:050][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:052][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:054][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:057][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:059][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:062][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:064][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.23:066][176]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 126
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 125
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 124
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 123
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 122
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 121
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 120
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 119
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 118
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 117
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 116
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 115
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 114
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 113
+[2020.07.28-09.12.29:297][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 112
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 111
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 110
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 109
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 108
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 107
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 106
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 105
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 104
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 103
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 102
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 101
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 100
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 99
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 98
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 97
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 96
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 95
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 94
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 93
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 92
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 91
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 90
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 89
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 88
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 87
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 86
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 85
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 84
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 83
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 82
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 81
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 80
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 79
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 78
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 77
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 76
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 75
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 74
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 73
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 72
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 71
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 70
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 69
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 68
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 67
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 66
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 65
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 64
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 63
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 62
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 61
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 60
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 59
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 58
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 57
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 56
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 55
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 54
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 53
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 52
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 51
+[2020.07.28-09.12.29:298][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 50
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 49
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 48
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 47
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 46
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 45
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 44
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 43
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 42
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 41
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 40
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 39
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 38
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 37
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 36
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 34
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 33
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 32
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 31
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 30
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 29
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 28
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 26
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 25
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 16
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 15
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.07.28-09.12.29:299][176]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.28-09.12.29:299][176]TextureStreamingBuild: Display: Compiling optional shaders took 6.381 seconds.
+[2020.07.28-09.12.29:694][176]LogLevel: Display: Export Material TexCoord Scales took 0.394 seconds.
+[2020.07.28-09.12.29:817][176]TextureStreamingBuild: Display: Build Texture Streaming took 0.124 seconds.
+[2020.07.28-09.12.29:881][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.07.28-09.12.29:884][176]LightingResults: New page: Lighting Build - Jul 27, 2020, 7:12:29 PM
+[2020.07.28-09.12.29:934][176]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.07.28-09.12.30:016][176]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.07.28-09.12.30:029][176]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.07.28-09.12.30:616][176]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.07.28-09.12.30:616][176]LogSwarmInterface: [TryOpenConnection] Local Process ID is 34508
+[2020.07.28-09.12.37:361][176]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.07.28-09.12.37:361][176]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.07.28-09.12.37:361][176]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.07.28-09.12.37:361][176]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.07.28-09.12.37:361][176]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.07.28-09.12.40:571][176]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.07.28-09.12.40:571][176]MapCheck: New page: SandBox - Jul 27, 2020, 7:12:40 PM
+[2020.07.28-09.12.40:588][176]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2020.07.28-09.12.40:595][176]MapCheck: Warning: DoorwayWire_A2_187 Collision enabled but StaticMesh (SM_DoorwayWire_A) has no simple or complex collision. 
+[2020.07.28-09.12.40:595][176]MapCheck: Warning: DoorwayWire_A3 Collision enabled but StaticMesh (SM_DoorwayWire_A) has no simple or complex collision. 
+[2020.07.28-09.12.40:597][176]MapCheck: Warning: S_GDC_Landscape_Peakmesh_01_31 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.12.40:597][176]MapCheck: Warning: S_GDC_Landscape_Peakmesh_2 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.12.40:597][176]MapCheck: Warning: S_GDC_Landscape_Peakmesh_3 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.12.40:597][176]MapCheck: Warning: S_GDC_Landscape_Peakmesh_36 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.12.40:598][176]MapCheck: Warning: IcePlane_2 Collision enabled but StaticMesh (SM_IcePlane) has no simple or complex collision. 
+[2020.07.28-09.12.40:598][176]MapCheck: Warning: S_GDC_Landscape_Peakmesh_5 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.12.40:598][176]MapCheck: Warning: S_GDC_Landscape_Peakmesh_6 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.12.40:600][176]MapCheck: Warning: Ceiling_Main_A8 Collision enabled but StaticMesh (SM_Windows_A_Glass) has no simple or complex collision. 
+[2020.07.28-09.12.40:600][176]MapCheck: Warning: Floor_Filler10 Collision enabled but StaticMesh (SM_Wall_Window_Pipe) has no simple or complex collision. 
+[2020.07.28-09.12.40:600][176]MapCheck: Warning: Floor_Center_A25 Collision enabled but StaticMesh (SM_Ceiling_Window_A_Glass) has no simple or complex collision. 
+[2020.07.28-09.12.40:601][176]MapCheck: Warning: Floor_Filler29 Collision enabled but StaticMesh (SM_Floor_Window_D) has no simple or complex collision. 
+[2020.07.28-09.12.40:601][176]MapCheck: Map check complete: 1 Error(s), 13 Warning(s), took 29.425ms to complete.
+[2020.07.28-09.12.40:603][176]LogEditorBuildUtils: Build time 0:18
+[2020.07.28-09.12.40:980][176]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_A, compiling. 
+[2020.07.28-09.12.40:982][176]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_A, compiling. 
+[2020.07.28-09.12.41:050][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.07.28-09.12.41:050][176]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.07.28-09.12.41:050][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.07.28-09.12.41:050][176]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.07.28-09.12.41:065][177]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_A3, compiling. 
+[2020.07.28-09.12.41:069][177]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.07.28-09.12.41:069][177]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.07.28-09.12.41:069][177]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_A3, compiling. 
+[2020.07.28-09.12.41:073][177]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2020.07.28-09.12.41:076][177]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.28-09.12.41:076][177]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.07.28-09.12.41:076][177]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2020.07.28-09.12.41:170][178]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Light_Square_Blue, compiling. 
+[2020.07.28-09.12.41:173][178]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Light_Square_Blue, compiling. 
+[2020.07.28-09.12.41:177][178]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_AB_M, compiling. 
+[2020.07.28-09.12.41:180][178]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_AB_M, compiling. 
+[2020.07.28-09.12.41:201][179]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Base_Light, compiling. 
+[2020.07.28-09.12.41:205][179]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Base_Light, compiling. 
+[2020.07.28-09.12.41:209][179]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_WallBuffer_B, compiling. 
+[2020.07.28-09.12.41:213][179]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_WallBuffer_B, compiling. 
+[2020.07.28-09.12.41:235][180]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_WhiteMetal, compiling. 
+[2020.07.28-09.12.41:239][180]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_WhiteMetal, compiling. 
+[2020.07.28-09.12.41:242][180]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.07.28-09.12.41:245][180]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.07.28-09.12.41:270][181]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Light_Green_Brighter, compiling. 
+[2020.07.28-09.12.41:274][181]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Light_Green_Brighter, compiling. 
+[2020.07.28-09.12.41:278][181]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Reg_Glass_Dark2, compiling. 
+[2020.07.28-09.12.41:281][181]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Reg_Glass_Dark2, compiling. 
+[2020.07.28-09.12.41:312][182]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Wires_A, compiling. 
+[2020.07.28-09.12.41:315][182]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Wires_A, compiling. 
+[2020.07.28-09.12.41:318][182]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Lights_Yellow, compiling. 
+[2020.07.28-09.12.41:321][182]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Lights_Yellow, compiling. 
+[2020.07.28-09.12.41:345][183]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_EnergyEmissive_A, compiling. 
+[2020.07.28-09.12.41:348][183]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_EnergyEmissive_A, compiling. 
+[2020.07.28-09.12.41:352][183]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling. 
+[2020.07.28-09.12.41:364][183]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling. 
+[2020.07.28-09.12.41:438][185]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Hall_FloorBuffer_M, compiling. 
+[2020.07.28-09.12.41:441][185]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Hall_FloorBuffer_M, compiling. 
+[2020.07.28-09.12.41:462][186]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Keypad_Login, compiling. 
+[2020.07.28-09.12.41:466][186]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Keypad_Login, compiling. 
+[2020.07.28-09.12.41:470][186]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Wires_B_White, compiling. 
+[2020.07.28-09.12.41:473][186]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Wires_B_White, compiling. 
+[2020.07.28-09.12.41:490][187]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 64
+[2020.07.28-09.12.41:494][187]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Keyboard_Scre, compiling. 
+[2020.07.28-09.12.41:498][187]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Keyboard_Scre, compiling. 
+[2020.07.28-09.12.41:501][187]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Laptop_Mail, compiling. 
+[2020.07.28-09.12.41:504][187]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Laptop_Mail, compiling. 
+[2020.07.28-09.12.41:523][188]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 63
+[2020.07.28-09.12.41:529][188]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 55
+[2020.07.28-09.12.41:530][188]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_HandScanner_Screen2, compiling. 
+[2020.07.28-09.12.41:533][188]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_HandScanner_Screen2, compiling. 
+[2020.07.28-09.12.41:539][188]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Cave_SimpleSnow, compiling. 
+[2020.07.28-09.12.41:542][188]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Cave_SimpleSnow, compiling. 
+[2020.07.28-09.12.41:577][189]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_IceChunks_01, compiling. 
+[2020.07.28-09.12.41:581][189]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_IceChunks_01, compiling. 
+[2020.07.28-09.12.41:585][189]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Cave_Landscape_Master, compiling. 
+[2020.07.28-09.12.41:589][189]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 60
+[2020.07.28-09.12.41:589][189]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Cave_Landscape_Master, compiling. 
+[2020.07.28-09.12.41:626][190]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 56
+[2020.07.28-09.12.41:632][190]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2020.07.28-09.12.41:636][190]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2020.07.28-09.12.41:652][191]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 52
+[2020.07.28-09.12.41:665][191]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 45
+[2020.07.28-09.12.41:665][191]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Ice_A-2, compiling. 
+[2020.07.28-09.12.41:669][191]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Ice_A-2, compiling. 
+[2020.07.28-09.12.41:673][191]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_C_Dark, compiling. 
+[2020.07.28-09.12.41:677][191]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_C_Dark, compiling. 
+[2020.07.28-09.12.41:700][192]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Solid_Black, compiling. 
+[2020.07.28-09.12.41:704][192]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Solid_Black, compiling. 
+[2020.07.28-09.12.41:707][192]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_ShinyBlack, compiling. 
+[2020.07.28-09.12.41:711][192]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_ShinyBlack, compiling. 
+[2020.07.28-09.12.41:727][193]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 55
+[2020.07.28-09.12.41:732][193]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Light_White, compiling. 
+[2020.07.28-09.12.41:736][193]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Light_White, compiling. 
+[2020.07.28-09.12.41:739][193]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_A_Black, compiling. 
+[2020.07.28-09.12.41:743][193]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_A_Black, compiling. 
+[2020.07.28-09.12.41:775][194]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Pipes_B_Light, compiling. 
+[2020.07.28-09.12.41:779][194]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Pipes_B_Light, compiling. 
+[2020.07.28-09.12.41:823][195]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Glass_ObservationWindow, compiling. 
+[2020.07.28-09.12.41:827][195]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Glass_ObservationWindow, compiling. 
+[2020.07.28-09.12.41:849][196]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_C_FloorBlack_Det2, compiling. 
+[2020.07.28-09.12.41:852][196]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Trims_C_FloorBlack_Det2, compiling. 
+[2020.07.28-09.12.41:877][197]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Lights_A, compiling. 
+[2020.07.28-09.12.41:880][197]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Lights_A, compiling. 
+[2020.07.28-09.12.41:904][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Coaster, compiling. 
+[2020.07.28-09.12.41:907][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Coaster, compiling. 
+[2020.07.28-09.12.41:911][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_GlassCup, compiling. 
+[2020.07.28-09.12.41:916][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_GlassCup, compiling. 
+[2020.07.28-09.12.41:947][199]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.07.28-09.12.41:954][199]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.07.28-09.12.41:978][200]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Floor_F_Scr, compiling. 
+[2020.07.28-09.12.41:981][200]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Floor_F_Scr, compiling. 
+[2020.07.28-09.12.41:985][200]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Floor_E_Scr, compiling. 
+[2020.07.28-09.12.41:988][200]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_Floor_E_Scr, compiling. 
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 92
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 82
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 72
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 62
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 54
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 47
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 41
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 35
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 30
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 19
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.07.28-09.12.49:713][202]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.07.28-09.12.58:531][552]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2020.07.28-09.13.34:967][ 42]LightingResults: Warning: SM_IcePlane Object has wrapping UVs.
+[2020.07.28-09.13.37:638][ 50]Job is a success!
+[2020.07.28-09.13.38:151][ 51]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.035s
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:      Indirection Texture 32x16x16 = 0.0Mb
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:      Bricks at depth
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:          0: 0.6% covering 100.0% of volume
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:          1: 4.8% covering 11.7% of volume
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:          2: 94.5% covering 3.6% of volume
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:      Bricks in each level
+[2020.07.28-09.13.38:152][ 51]LogVolumetricLightmapImport:          SandBox 			 311 bricks 	 100.0% (Persistent Level)
+[2020.07.28-09.13.38:622][ 51]LightingResults: Warning: SpotLight54 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.07.28-09.13.38:622][ 51]LightingResults: Warning: SpotLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:488][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2020.07.28-09.13.39:489][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_28 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_29 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_30 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_31 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_32 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_33 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_34 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_35 (DXT1, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:490][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_36 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_37 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_39 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_40 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 512X512)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_41 (DXT1, 512X512)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_42 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_43 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_44 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_45 (DXT1, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:491][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_46 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 512X512)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_47 (DXT1, 512X512)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_48 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_49 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_50 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_51 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_52 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_53 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_54 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_55 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_56 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_57 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_58 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_59 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_60 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_61 (DXT1, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:492][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_62 (DXT1, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_63 (DXT1, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_64 (DXT1, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_65 (DXT1, 256X256)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: HQ_Lightmap0_66 (AutoDXT, 128X128)
+[2020.07.28-09.13.39:493][ 51]LogTexture: Display: Building textures: LQ_Lightmap_0_66 (DXT1, 128X128)
+[2020.07.28-09.13.39:617][ 51]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X64)
+[2020.07.28-09.13.39:617][ 51]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 256X512)
+[2020.07.28-09.13.39:617][ 51]Lightmass on DESKTOP-JTGB77T: 40.5 sec total, 1.80 sec importing, 2.07 sec setup, 13.5 sec photons, 23.0 sec processing, 0 ms extra exporting [2370/2370 mappings]. Threads: 4:13 min total, 2:17 min processing.
+[2020.07.28-09.13.39:619][ 51]LogStaticLightingSystem: SandBox_BuiltData storing lightmap data for 2058 meshes in 70 LightmapResourceClusters (29.4 Meshes per cluster).
+[2020.07.28-09.13.39:685][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.07.28-09.13.39:790][ 51]LogStaticLightingSystem: Illumination: 1:09 min (873 ms encoding lightmaps, 82 ms encoding shadowmaps)
+[2020.07.28-09.13.39:790][ 51]LogStaticLightingSystem: Lightmap texture memory:  10.8 MB (8.8 MB streaming, 2.0 MB non-streaming), 132 textures
+[2020.07.28-09.13.39:790][ 51]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.3 MB streaming, 0.7 MB non-streaming), 2 textures
+[2020.07.28-09.13.40:412][ 51]DumpUnbuiltLightIteractions
+[2020.07.28-09.13.40:412][ 51]Lights with unbuilt interactions: 0
+[2020.07.28-09.13.40:412][ 51]
+[2020.07.28-09.13.40:412][ 51]Primitives with unbuilt interactions: 0
+[2020.07.28-09.13.41:423][ 52]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.07.28-09.13.41:423][ 52]MapCheck: New page: SandBox - Jul 27, 2020, 7:13:41 PM
+[2020.07.28-09.13.41:427][ 52]MapCheck: Warning: DoorwayWire_A2_187 Collision enabled but StaticMesh (SM_DoorwayWire_A) has no simple or complex collision. 
+[2020.07.28-09.13.41:427][ 52]MapCheck: Warning: DoorwayWire_A3 Collision enabled but StaticMesh (SM_DoorwayWire_A) has no simple or complex collision. 
+[2020.07.28-09.13.41:430][ 52]MapCheck: Warning: S_GDC_Landscape_Peakmesh_01_31 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.13.41:431][ 52]MapCheck: Warning: S_GDC_Landscape_Peakmesh_2 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.13.41:431][ 52]MapCheck: Warning: S_GDC_Landscape_Peakmesh_3 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.13.41:431][ 52]MapCheck: Warning: S_GDC_Landscape_Peakmesh_36 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.13.41:432][ 52]MapCheck: Warning: IcePlane_2 Collision enabled but StaticMesh (SM_IcePlane) has no simple or complex collision. 
+[2020.07.28-09.13.41:432][ 52]MapCheck: Warning: S_GDC_Landscape_Peakmesh_5 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.13.41:432][ 52]MapCheck: Warning: S_GDC_Landscape_Peakmesh_6 Collision enabled but StaticMesh (SM_GDC_Landscape_Peakmesh_01) has no simple or complex collision. 
+[2020.07.28-09.13.41:433][ 52]MapCheck: Warning: Ceiling_Main_A8 Collision enabled but StaticMesh (SM_Windows_A_Glass) has no simple or complex collision. 
+[2020.07.28-09.13.41:433][ 52]MapCheck: Warning: Floor_Filler10 Collision enabled but StaticMesh (SM_Wall_Window_Pipe) has no simple or complex collision. 
+[2020.07.28-09.13.41:434][ 52]MapCheck: Warning: Floor_Center_A25 Collision enabled but StaticMesh (SM_Ceiling_Window_A_Glass) has no simple or complex collision. 
+[2020.07.28-09.13.41:434][ 52]MapCheck: Warning: Floor_Filler29 Collision enabled but StaticMesh (SM_Floor_Window_D) has no simple or complex collision. 
+[2020.07.28-09.13.41:434][ 52]MapCheck: Map check complete: 0 Error(s), 13 Warning(s), took 11.002ms to complete.

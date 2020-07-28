@@ -3211,3 +3211,303 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.28-07.55.43:579][512]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B407DE0C0), frame # 357512
 [2020.07.28-07.55.43:585][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
 [2020.07.28-07.55.43:639][513]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2020.07.28-07.56.04:876][762]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-07.56.04:886][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-07.56.04:886][762]PIE: New page: PIE session: SandBox (Jul 27, 2020, 5:56:04 PM)
+[2020.07.28-07.56.04:926][762]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-07.56.05:110][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184483s)
+[2020.07.28-07.56.05:111][762]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-07.56.05:111][762]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019AF1B4E000), frame # 357762
+[2020.07.28-07.56.05:111][762]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019A4BABBC40), frame # 357762
+[2020.07.28-07.56.05:111][762]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2020.07.28-07.56.05:112][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.186289s)
+[2020.07.28-07.56.05:135][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-07.56.05:137][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-07.56.05:137][762]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-07.56.05:137][762]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-07.56.05:149][762]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-07.56.05:149][762]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-07.56.05:229][762]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-07.56.05:229][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-07.56.05:229][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-07.56.05:229][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-07.56.05:229][762]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-07.56.05:242][762]LogInit: FAudioDevice initialized.
+[2020.07.28-07.56.05:249][762]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-07.56.05:312][762]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-00.56.05
+[2020.07.28-07.56.05:320][762]LogWorld: Bringing up level for play took: 0.070840
+[2020.07.28-07.56.05:321][762]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2020.07.28-07.56.05:326][762]PIE: Server logged in
+[2020.07.28-07.56.05:327][762]PIE: Play in editor total start time 0.441 seconds.
+[2020.07.28-07.56.20:816][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-07.56.20:816][756]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-07.56.20:817][756]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-07.56.20:830][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-07.56.20:840][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-07.56.20:845][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-07.56.20:869][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-07.56.20:891][756]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019A4BABBC40), frame # 358756
+[2020.07.28-07.56.20:891][756]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019AF1B4E000), frame # 358756
+[2020.07.28-07.56.20:899][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.07.28-07.56.20:948][757]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2020.07.28-07.56.27:392][982]Cmd: SELECT NONE
+[2020.07.28-07.57.17:387][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.07.28-07.57.17:396][288]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox' took 0.029
+[2020.07.28-07.57.17:396][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ABP_ShooterCharacter] ([1] browsable assets)...
+[2020.07.28-07.57.17:406][288]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/ABP_ShooterCharacter.ABP_ShooterCharacter]
+[2020.07.28-07.57.17:406][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/ABP_ShooterCharacter]
+[2020.07.28-07.57.17:418][288]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/ABP_ShooterCharacter_Auto2B4E44D124D9E01A85AE402A5532B7224.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/ABP_ShooterCharacter_Auto2.uasset'
+[2020.07.28-07.57.17:420][288]LogFileHelpers: Auto-saving content packages took 0.024
+[2020.07.28-07.58.08:447][444]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-07.58.08:455][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-07.58.08:455][444]PIE: New page: PIE session: SandBox (Jul 27, 2020, 5:58:08 PM)
+[2020.07.28-07.58.08:495][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-07.58.08:650][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155195s)
+[2020.07.28-07.58.08:651][444]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-07.58.08:651][444]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B30551800), frame # 359444
+[2020.07.28-07.58.08:651][444]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019A559256C0), frame # 359444
+[2020.07.28-07.58.08:651][444]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2020.07.28-07.58.08:652][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.156623s)
+[2020.07.28-07.58.08:671][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-07.58.08:672][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-07.58.08:672][444]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-07.58.08:672][444]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-07.58.08:682][444]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-07.58.08:682][444]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-07.58.08:756][444]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-07.58.08:756][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-07.58.08:756][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-07.58.08:756][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-07.58.08:756][444]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-07.58.08:766][444]LogInit: FAudioDevice initialized.
+[2020.07.28-07.58.08:771][444]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-07.58.08:833][444]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-00.58.08
+[2020.07.28-07.58.08:841][444]LogWorld: Bringing up level for play took: 0.069871
+[2020.07.28-07.58.08:842][444]LogOnline: OSS: Creating online subsystem instance for: :Context_76
+[2020.07.28-07.58.08:846][444]PIE: Server logged in
+[2020.07.28-07.58.08:846][444]PIE: Play in editor total start time 0.392 seconds.
+[2020.07.28-07.58.22:635][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-07.58.22:635][368]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-07.58.22:636][368]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-07.58.22:645][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-07.58.22:654][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-07.58.22:660][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-07.58.22:681][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-07.58.22:700][368]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019A559256C0), frame # 360368
+[2020.07.28-07.58.22:700][368]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B30551800), frame # 360368
+[2020.07.28-07.58.22:707][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.07.28-07.58.22:763][369]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2020.07.28-08.07.40:534][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.28-08.07.40:537][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox' took 0.023
+[2020.07.28-08.07.40:537][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ABP_ShooterCharacter] ([1] browsable assets)...
+[2020.07.28-08.07.40:537][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/ABP_ShooterCharacter]
+[2020.07.28-08.07.40:549][ 10]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/ABP_ShooterCharacter_Auto34FEB277449F97C31DE03AA9ED898ED42.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/ABP_ShooterCharacter_Auto3.uasset'
+[2020.07.28-08.07.40:551][ 10]LogFileHelpers: Auto-saving content packages took 0.014
+[2020.07.28-08.08.11:171][102]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-08.08.11:180][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-08.08.11:180][102]PIE: New page: PIE session: SandBox (Jul 27, 2020, 6:08:11 PM)
+[2020.07.28-08.08.11:180][102]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-08.08.11:347][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.166955s)
+[2020.07.28-08.08.11:348][102]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-08.08.11:348][102]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019AF2418800), frame # 368102
+[2020.07.28-08.08.11:348][102]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019A290282C0), frame # 368102
+[2020.07.28-08.08.11:348][102]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2020.07.28-08.08.11:349][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.168479s)
+[2020.07.28-08.08.11:369][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-08.08.11:370][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-08.08.11:370][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-08.08.11:371][102]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-08.08.11:371][102]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-08.08.11:381][102]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-08.08.11:381][102]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-08.08.11:456][102]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-08.08.11:457][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-08.08.11:457][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-08.08.11:457][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-08.08.11:457][102]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-08.08.11:466][102]LogInit: FAudioDevice initialized.
+[2020.07.28-08.08.11:475][102]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-08.08.11:534][102]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-01.08.11
+[2020.07.28-08.08.11:549][102]LogWorld: Bringing up level for play took: 0.073418
+[2020.07.28-08.08.11:549][102]LogOnline: OSS: Creating online subsystem instance for: :Context_77
+[2020.07.28-08.08.11:554][102]PIE: Server logged in
+[2020.07.28-08.08.11:555][102]PIE: Play in editor total start time 0.376 seconds.
+[2020.07.28-08.08.49:375][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.08.49:375][500]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-08.08.49:376][500]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.08.49:387][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.08.49:396][500]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-08.08.49:402][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.08.49:421][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.08.49:445][500]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019A290282C0), frame # 370500
+[2020.07.28-08.08.49:446][500]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019AF2418800), frame # 370500
+[2020.07.28-08.08.49:452][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.07.28-08.08.49:499][501]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2020.07.28-08.09.19:104][479]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.28-08.09.19:105][479]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2020.07.28-08.09.20:932][568]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.28-08.09.20:932][568]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.28-08.12.00:275][981]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-08.12.00:285][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-08.12.00:285][981]PIE: New page: PIE session: SandBox (Jul 27, 2020, 6:12:00 PM)
+[2020.07.28-08.12.00:285][981]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-08.12.00:448][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.162867s)
+[2020.07.28-08.12.00:449][981]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-08.12.00:449][981]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019AF23F7E00), frame # 372981
+[2020.07.28-08.12.00:449][981]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019A86435E40), frame # 372981
+[2020.07.28-08.12.00:450][981]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2020.07.28-08.12.00:450][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.164313s)
+[2020.07.28-08.12.00:469][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-08.12.00:471][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-08.12.00:471][981]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-08.12.00:471][981]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-08.12.00:481][981]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-08.12.00:481][981]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-08.12.00:555][981]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-08.12.00:555][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-08.12.00:555][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-08.12.00:555][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-08.12.00:555][981]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-08.12.00:564][981]LogInit: FAudioDevice initialized.
+[2020.07.28-08.12.00:575][981]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-08.12.00:628][981]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-01.12.00
+[2020.07.28-08.12.00:635][981]LogWorld: Bringing up level for play took: 0.059719
+[2020.07.28-08.12.00:635][981]LogOnline: OSS: Creating online subsystem instance for: :Context_78
+[2020.07.28-08.12.00:640][981]PIE: Server logged in
+[2020.07.28-08.12.00:640][981]PIE: Play in editor total start time 0.356 seconds.
+[2020.07.28-08.12.28:475][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.12.28:476][848]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-08.12.28:477][848]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.12.28:484][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.12.28:493][848]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-08.12.28:498][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.12.28:517][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.12.28:541][848]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019A86435E40), frame # 374848
+[2020.07.28-08.12.28:541][848]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019AF23F7E00), frame # 374848
+[2020.07.28-08.12.28:549][848]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.07.28-08.12.28:580][849]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2020.07.28-08.14.06:536][ 74]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Animations/Locomotion_Combat/Jog_Fwd_Downhill_Combat.Jog_Fwd_Downhill_Combat
+[2020.07.28-08.14.59:196][480]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.14.59:196][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.14.59:266][480]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.14.59:267][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.15.03:498][672]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2020.07.28-08.15.03:501][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.28-08.15.03:520][672]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.28-08.15.03:758][672]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.28-08.15.09:527][970]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2020.07.28-08.15.11:107][ 57]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.28-08.22.55:283][836]LogSlate: Window 'Jog_Fwd_Combat' being destroyed
+[2020.07.28-08.22.55:299][836]LogSlate: Window 'Jog_Fwd_Combat' being destroyed
+[2020.07.28-08.22.55:309][836]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:309][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.55:535][836]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:535][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.55:541][836]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:541][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.55:729][836]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:729][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.55:753][836]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:753][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.55:800][836]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:800][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.55:876][836]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.22.55:876][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.22.56:795][876]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2020.07.28-08.22.56:802][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.28-08.22.56:855][876]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.28-08.22.57:060][876]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.28-08.23.11:425][144]LogRenderer: Reallocating scene render targets to support 2056x1164 Format 10 NumSamples 1 (Frame:248).
+[2020.07.28-08.28.36:555][298]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.28-08.28.36:563][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.28-08.28.36:563][298]PIE: New page: PIE session: SandBox (Jul 27, 2020, 6:28:36 PM)
+[2020.07.28-08.28.36:563][298]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.28-08.28.36:749][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186082s)
+[2020.07.28-08.28.36:750][298]LogAIModule: Creating AISystem for world SandBox
+[2020.07.28-08.28.36:751][298]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019AA5EB3E00), frame # 388298
+[2020.07.28-08.28.36:751][298]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000199FAB61300), frame # 388298
+[2020.07.28-08.28.36:751][298]LogPlayLevel: PIE: World Init took: (0.001687s)
+[2020.07.28-08.28.36:752][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.188237s)
+[2020.07.28-08.28.36:790][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.07.28-08.28.36:810][298]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.28-08.28.36:810][298]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.28-08.28.36:810][298]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.28-08.28.36:811][298]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.28-08.28.36:811][298]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.28-08.28.36:811][298]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.28-08.28.36:811][298]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.28-08.28.36:811][298]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.28-08.28.36:811][298]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.28-08.28.36:811][298]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.28-08.28.36:822][298]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-08.28.36:822][298]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-08.28.36:899][298]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.28-08.28.36:899][298]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.28-08.28.36:899][298]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.28-08.28.36:899][298]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.28-08.28.36:899][298]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.28-08.28.36:909][298]LogInit: FAudioDevice initialized.
+[2020.07.28-08.28.36:919][298]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.28-08.28.36:978][298]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-01.28.36
+[2020.07.28-08.28.36:985][298]LogWorld: Bringing up level for play took: 0.065371
+[2020.07.28-08.28.36:985][298]LogOnline: OSS: Creating online subsystem instance for: :Context_83
+[2020.07.28-08.28.36:989][298]PIE: Server logged in
+[2020.07.28-08.28.36:990][298]PIE: Play in editor total start time 0.427 seconds.
+[2020.07.28-08.29.11:084][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.29.11:084][834]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.28-08.29.11:085][834]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.29.11:094][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.29.11:100][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.28-08.29.11:105][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.29.11:126][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.28-08.29.11:145][834]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000199FAB61300), frame # 390834
+[2020.07.28-08.29.11:145][834]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019AA5EB3E00), frame # 390834
+[2020.07.28-08.29.11:151][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.07.28-08.29.11:223][835]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2020.07.28-08.29.12:163][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.28-08.29.12:180][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.07.28-08.29.13:491][897]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox6D2D60BB4877B889E289DBBD75A2E331.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
+[2020.07.28-08.29.13:529][897]AssetCheck: New page: Asset Save: SandBox
+[2020.07.28-08.29.13:529][897]LogContentValidation: Display: Validating World /Game/SandBox.SandBox
+[2020.07.28-08.29.14:443][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BS_Locomotion" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BS_Locomotion.uasset" SILENT=true
+[2020.07.28-08.29.14:450][929]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BS_Locomotion1D11681342B2193A0086B68BE42C651C.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BS_Locomotion.uasset'
+[2020.07.28-08.29.15:328][929]AssetCheck: New page: Asset Save: BS_Locomotion
+[2020.07.28-08.29.15:328][929]LogContentValidation: Display: Validating BlendSpace /Game/BS_Locomotion.BS_Locomotion
+[2020.07.28-08.29.15:876][972]LogSlate: Window 'BS_Locomotion' being destroyed
+[2020.07.28-08.29.15:890][972]LogSlate: Window 'BS_Locomotion' being destroyed
+[2020.07.28-08.29.15:890][972]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.29.15:890][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.29.15:967][972]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.07.28-08.29.15:967][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.28-08.29.18:099][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.28-08.29.18:123][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.07.28-08.29.19:429][135]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBoxBCA5546B4738F3282EED75B6037A8534.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
+[2020.07.28-08.29.19:469][135]AssetCheck: New page: Asset Save: SandBox
+[2020.07.28-08.29.19:469][135]LogContentValidation: Display: Validating World /Game/SandBox.SandBox

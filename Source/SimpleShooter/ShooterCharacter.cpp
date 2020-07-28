@@ -30,5 +30,18 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &AShooterCharacter::MoveForward);
+	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AShooterCharacter::LookUp);
+
+}
+
+void AShooterCharacter::MoveForward(float AxisValue) 
+{
+	AddMovementInput(GetActorForwardVector() * AxisValue);
+}
+
+void AShooterCharacter::LookUp(float AxisValue) 
+{
+	AddControllerPitchInput(AxisValue);
 }
 

@@ -21,5 +21,10 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+private:
+	// float Radius = 300.0f;
+	UPROPERTY(EditAnywhere)
+	class UBehaviorTree *AIBehavior;
 	
 };

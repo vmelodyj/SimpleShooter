@@ -40,8 +40,15 @@ void AGun::PullTrigger()
 
 	FHitResult Hit;
 
+
+	// Fix the bug that AI was shooting himself rather than the player
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+	Params.AddIgnoredActor(GetOwner());
+	// 
+
 	// spawn Impact on the end point and deal damage 
-	bool bSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1);
+	bool bSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
 	if (bSuccess) {
 		FVector ShotDirection = -Rotation.Vector();
 		// DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Red, true);

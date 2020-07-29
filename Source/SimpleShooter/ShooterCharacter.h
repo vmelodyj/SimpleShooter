@@ -20,6 +20,10 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+
+	UFUNCTION(BlueprintPure)
+	bool IsDead() const;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

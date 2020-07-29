@@ -793,3 +793,1093 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.29-06.22.01:181][518]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026E759C5080), frame # 16518
 [2020.07.29-06.22.01:182][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2020.07.29-06.22.01:213][519]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.07.29-06.31.23:504][190]Candidate modules for hot reload:
+[2020.07.29-06.31.23:504][190]  SimpleShooter
+[2020.07.29-06.31.23:504][190]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,2834 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-06.31.23:511][190]Warning: Starting HotReload took  0.0s.
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 4:31:26 PM
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:   [1/6] Gun.cpp
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:   [2/6] ShooterCharacter.cpp
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:   [3/6] BTTask_Shoot.cpp
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-2834.lib
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2834.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2834.exp
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-2834.dll
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2834.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2834.suppressed.exp
+[2020.07.29-06.31.26:695][435]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: Total time in Parallel executor: 2.50 seconds
+[2020.07.29-06.31.26:695][435]CompilerResultsLog: Total execution time: 3.08 seconds
+[2020.07.29-06.31.26:695][435]LogMainFrame: MainFrame: Module compiling took 3.196 seconds
+[2020.07.29-06.31.26:723][435]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2020.07.29-06.31.26:726][435]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-06.31.26:813][435]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3435 classes and 823 folders.
+[2020.07.29-06.31.26:817][435]Display: HotReload took  3.3s.
+[2020.07.29-06.31.29:378][551]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-06.31.29:395][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-06.31.29:395][551]PIE: New page: PIE session: SandBox (Jul 28, 2020, 4:31:29 PM)
+[2020.07.29-06.31.29:395][551]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-06.31.29:559][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164541s)
+[2020.07.29-06.31.29:560][551]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-06.31.29:560][551]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EF0E0FC00), frame # 29551
+[2020.07.29-06.31.29:560][551]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026E4176B740), frame # 29551
+[2020.07.29-06.31.29:561][551]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2020.07.29-06.31.29:561][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.165933s)
+[2020.07.29-06.31.29:570][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-06.31.29:572][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-06.31.29:572][551]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-06.31.29:572][551]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-06.31.29:582][551]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-06.31.29:582][551]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-06.31.29:659][551]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-06.31.29:659][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-06.31.29:659][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-06.31.29:659][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-06.31.29:660][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-06.31.29:668][551]LogInit: FAudioDevice initialized.
+[2020.07.29-06.31.29:676][551]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.29-06.31.29:723][551]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-23.31.29
+[2020.07.29-06.31.29:732][551]LogWorld: Bringing up level for play took: 0.055299
+[2020.07.29-06.31.29:733][551]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.07.29-06.31.29:737][551]PIE: Server logged in
+[2020.07.29-06.31.29:737][551]PIE: Play in editor total start time 0.35 seconds.
+[2020.07.29-06.31.39:450][488]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.31.39:724][521]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.31.39:983][552]LogTemp: Warning: Health left 80.000000
+[2020.07.29-06.31.40:274][587]LogTemp: Warning: Health left 70.000000
+[2020.07.29-06.31.40:458][609]LogTemp: Warning: Health left 80.000000
+[2020.07.29-06.31.40:541][619]LogTemp: Warning: Health left 60.000000
+[2020.07.29-06.31.40:817][652]LogTemp: Warning: Health left 50.000000
+[2020.07.29-06.31.41:051][680]LogTemp: Warning: Health left 40.000000
+[2020.07.29-06.31.41:301][710]LogTemp: Warning: Health left 30.000000
+[2020.07.29-06.31.41:467][730]LogTemp: Warning: Health left 70.000000
+[2020.07.29-06.31.41:543][739]LogTemp: Warning: Health left 20.000000
+[2020.07.29-06.31.41:793][769]LogTemp: Warning: Health left 10.000000
+[2020.07.29-06.31.42:034][798]LogTemp: Warning: Health left 0.000000
+[2020.07.29-06.31.51:924][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.31.51:924][955]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-06.31.51:925][955]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-06.31.51:932][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.31.51:942][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-06.31.51:945][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.31.51:972][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.31.51:975][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026E4176B740), frame # 31955
+[2020.07.29-06.31.51:975][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026EF0E0FC00), frame # 31955
+[2020.07.29-06.31.51:980][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.29-06.31.52:014][956]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.07.29-06.31.53:065][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-06.31.53:075][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-06.31.53:075][ 64]PIE: New page: PIE session: SandBox (Jul 28, 2020, 4:31:53 PM)
+[2020.07.29-06.31.53:111][ 64]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-06.31.53:257][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145526s)
+[2020.07.29-06.31.53:258][ 64]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-06.31.53:258][ 64]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F0110BE00), frame # 32064
+[2020.07.29-06.31.53:258][ 64]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EAD18DD00), frame # 32064
+[2020.07.29-06.31.53:258][ 64]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2020.07.29-06.31.53:258][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.146822s)
+[2020.07.29-06.31.53:269][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-06.31.53:270][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-06.31.53:270][ 64]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-06.31.53:270][ 64]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-06.31.53:280][ 64]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-06.31.53:280][ 64]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-06.31.53:348][ 64]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-06.31.53:348][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-06.31.53:348][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-06.31.53:348][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-06.31.53:349][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-06.31.53:349][ 64]LogInit: FAudioDevice initialized.
+[2020.07.29-06.31.53:360][ 64]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.29-06.31.53:403][ 64]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-23.31.53
+[2020.07.29-06.31.53:412][ 64]LogWorld: Bringing up level for play took: 0.051338
+[2020.07.29-06.31.53:412][ 64]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.07.29-06.31.53:415][ 64]PIE: Server logged in
+[2020.07.29-06.31.53:416][ 64]PIE: Play in editor total start time 0.344 seconds.
+[2020.07.29-06.31.55:022][237]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.31.56:041][350]LogTemp: Warning: Health left 80.000000
+[2020.07.29-06.31.57:058][449]LogTemp: Warning: Health left 70.000000
+[2020.07.29-06.31.58:067][556]LogTemp: Warning: Health left 60.000000
+[2020.07.29-06.31.59:076][677]LogTemp: Warning: Health left 50.000000
+[2020.07.29-06.32.00:086][798]LogTemp: Warning: Health left 40.000000
+[2020.07.29-06.32.01:095][919]LogTemp: Warning: Health left 30.000000
+[2020.07.29-06.32.02:105][ 39]LogTemp: Warning: Health left 20.000000
+[2020.07.29-06.32.03:114][160]LogTemp: Warning: Health left 10.000000
+[2020.07.29-06.32.04:123][281]LogTemp: Warning: Health left 0.000000
+[2020.07.29-06.32.11:524][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.32.11:524][165]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-06.32.11:525][165]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-06.32.11:533][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.32.11:543][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-06.32.11:547][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.32.11:562][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.32.11:576][165]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EAD18DD00), frame # 34165
+[2020.07.29-06.32.11:576][165]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F0110BE00), frame # 34165
+[2020.07.29-06.32.11:580][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.29-06.32.11:610][166]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.07.29-06.43.02:021][204]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-06.43.02:030][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-06.43.02:030][204]PIE: New page: PIE session: SandBox (Jul 28, 2020, 4:43:02 PM)
+[2020.07.29-06.43.02:061][204]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-06.43.02:216][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154858s)
+[2020.07.29-06.43.02:216][204]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-06.43.02:216][204]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F1A0CFE00), frame # 36204
+[2020.07.29-06.43.02:216][204]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EF0AA6AC0), frame # 36204
+[2020.07.29-06.43.02:217][204]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2020.07.29-06.43.02:217][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.156348s)
+[2020.07.29-06.43.02:227][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-06.43.02:229][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-06.43.02:229][204]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-06.43.02:229][204]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-06.43.02:239][204]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-06.43.02:239][204]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-06.43.02:308][204]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-06.43.02:308][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-06.43.02:308][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-06.43.02:308][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-06.43.02:308][204]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-06.43.02:317][204]LogInit: FAudioDevice initialized.
+[2020.07.29-06.43.02:326][204]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.29-06.43.02:370][204]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-23.43.02
+[2020.07.29-06.43.02:378][204]LogWorld: Bringing up level for play took: 0.051605
+[2020.07.29-06.43.02:378][204]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.07.29-06.43.02:382][204]PIE: Server logged in
+[2020.07.29-06.43.02:383][204]PIE: Play in editor total start time 0.355 seconds.
+[2020.07.29-06.43.04:073][370]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.43.04:178][382]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.43.04:252][391]LogTemp: Warning: Health left 80.000000
+[2020.07.29-06.43.04:394][408]LogTemp: Warning: Health left 70.000000
+[2020.07.29-06.43.04:550][426]LogTemp: Warning: Health left 60.000000
+[2020.07.29-06.43.04:691][443]LogTemp: Warning: Health left 50.000000
+[2020.07.29-06.43.04:825][459]LogTemp: Warning: Health left 40.000000
+[2020.07.29-06.43.04:975][477]LogTemp: Warning: Health left 30.000000
+[2020.07.29-06.43.05:133][496]LogTemp: Warning: Health left 20.000000
+[2020.07.29-06.43.05:191][503]LogTemp: Warning: Health left 80.000000
+[2020.07.29-06.43.05:267][512]LogTemp: Warning: Health left 10.000000
+[2020.07.29-06.43.05:408][529]LogTemp: Warning: Health left 0.000000
+[2020.07.29-06.43.23:954][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.43.23:954][517]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-06.43.23:955][517]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-06.43.23:962][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.43.23:971][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-06.43.23:975][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.43.24:003][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.43.24:006][517]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EF0AA6AC0), frame # 38517
+[2020.07.29-06.43.24:006][517]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F1A0CFE00), frame # 38517
+[2020.07.29-06.43.24:012][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.29-06.43.24:048][518]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.07.29-06.57.02:163][160]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-06.57.02:173][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-06.57.02:173][160]PIE: New page: PIE session: SandBox (Jul 28, 2020, 4:57:02 PM)
+[2020.07.29-06.57.02:174][160]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-06.57.02:324][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150627s)
+[2020.07.29-06.57.02:325][160]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-06.57.02:325][160]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F0FDD8800), frame # 41160
+[2020.07.29-06.57.02:325][160]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EACFE3D80), frame # 41160
+[2020.07.29-06.57.02:326][160]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2020.07.29-06.57.02:326][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.152319s)
+[2020.07.29-06.57.02:337][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-06.57.02:339][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-06.57.02:340][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-06.57.02:340][160]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-06.57.02:340][160]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-06.57.02:350][160]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-06.57.02:350][160]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-06.57.02:426][160]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-06.57.02:426][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-06.57.02:426][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-06.57.02:426][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-06.57.02:426][160]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-06.57.02:435][160]LogInit: FAudioDevice initialized.
+[2020.07.29-06.57.02:444][160]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.29-06.57.02:492][160]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.28-23.57.02
+[2020.07.29-06.57.02:500][160]LogWorld: Bringing up level for play took: 0.055171
+[2020.07.29-06.57.02:500][160]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.07.29-06.57.02:504][160]PIE: Server logged in
+[2020.07.29-06.57.02:505][160]PIE: Play in editor total start time 0.333 seconds.
+[2020.07.29-06.57.17:572][764]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.57.17:729][781]LogTemp: Warning: Health left 80.000000
+[2020.07.29-06.57.17:749][783]LogTemp: Warning: Health left 90.000000
+[2020.07.29-06.57.17:879][797]LogTemp: Warning: Health left 70.000000
+[2020.07.29-06.57.18:044][814]LogTemp: Warning: Health left 60.000000
+[2020.07.29-06.57.18:203][832]LogTemp: Warning: Health left 50.000000
+[2020.07.29-06.57.18:379][852]LogTemp: Warning: Health left 40.000000
+[2020.07.29-06.57.18:529][867]LogTemp: Warning: Health left 30.000000
+[2020.07.29-06.57.18:690][884]LogTemp: Warning: Health left 20.000000
+[2020.07.29-06.57.18:829][899]LogTemp: Warning: Health left 10.000000
+[2020.07.29-06.57.18:998][917]LogTemp: Warning: Health left 0.000000
+[2020.07.29-06.57.25:883][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.57.25:883][670]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-06.57.25:884][670]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-06.57.25:892][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.57.25:900][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-06.57.25:904][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-06.57.25:930][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-06.57.25:933][670]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EACFE3D80), frame # 43670
+[2020.07.29-06.57.25:933][670]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F0FDD8800), frame # 43670
+[2020.07.29-06.57.25:938][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.29-06.57.25:990][671]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.07.29-07.08.32:708][  3]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.29-07.08.32:708][  3]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.07.29-07.08.43:847][399]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.07.29-07.09.03:019][594]Candidate modules for hot reload:
+[2020.07.29-07.09.03:019][594]  SimpleShooter
+[2020.07.29-07.09.03:019][594]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,1273 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:09:10 PM
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Invalidating makefile for SimpleShooterEditor (source file added)
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.2510537 seconds
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.09.10:433][594]CompilerResultsLog: Building 8 actions with 12 processes...
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [1/8] SimpleShooterGameModeBase.cpp
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [2/8] KillEmAllGameMode.cpp
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [3/8] SimpleShooter.init.gen.cpp
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [4/8] SimpleShooterGameModeBase.gen.cpp
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [5/8] KillEmAllGameMode.gen.cpp
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [6/8] UE4Editor-SimpleShooter-1273.lib
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1273.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1273.exp
+[2020.07.29-07.09.10:433][594]CompilerResultsLog:   [7/8] UE4Editor-SimpleShooter-1273.dll
+[2020.07.29-07.09.10:434][594]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1273.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-1273.suppressed.exp
+[2020.07.29-07.09.10:434][594]CompilerResultsLog:   [8/8] SimpleShooterEditor.target
+[2020.07.29-07.09.10:434][594]CompilerResultsLog: Total time in Parallel executor: 1.46 seconds
+[2020.07.29-07.09.10:434][594]CompilerResultsLog: Total execution time: 7.32 seconds
+[2020.07.29-07.09.10:434][594]LogMainFrame: MainFrame: Module compiling took 7.420 seconds
+[2020.07.29-07.09.10:449][594]LogClass: Could not find existing class KillEmAllGameMode in package /Script/SimpleShooter for HotReload, assuming new class
+[2020.07.29-07.09.10:456][594]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 9 classes and 2 folders.
+[2020.07.29-07.09.10:457][594]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.09.10:551][594]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 3436 classes and 823 folders.
+[2020.07.29-07.09.10:557][594]Display: HotReload took  7.5s.
+[2020.07.29-07.09.10:568][594]Warning: HotReload operation took  7.6s.
+[2020.07.29-07.09.10:606][594]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.07.29-07.09.10:613][594]LogHotReload: New module detected: UE4Editor-SimpleShooter-1273.dll
+[2020.07.29-07.09.10:672][595]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.29-07.09.10:741][595]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 9 classes and 2 folders.
+[2020.07.29-07.09.10:742][595]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.09.10:754][595]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3436 classes and 823 folders.
+[2020.07.29-07.09.10:762][595]Display: HotReload took  0.1s.
+[2020.07.29-07.15.10:313][661]Candidate modules for hot reload:
+[2020.07.29-07.15.10:313][661]  SimpleShooter
+[2020.07.29-07.15.10:313][661]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,931 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.15.10:319][661]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:15:17 PM
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.444426 seconds
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   [1/6] KillEmAllGameMode.cpp
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   [2/6] KillEmAllGameMode.gen.cpp
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   [3/6] ShooterCharacter.cpp
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-0931.lib
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0931.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0931.exp
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-0931.dll
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0931.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0931.suppressed.exp
+[2020.07.29-07.15.17:128][718]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Total time in Parallel executor: 1.43 seconds
+[2020.07.29-07.15.17:128][718]CompilerResultsLog: Total execution time: 6.48 seconds
+[2020.07.29-07.15.17:128][718]LogMainFrame: MainFrame: Module compiling took 6.819 seconds
+[2020.07.29-07.15.17:140][718]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3436 classes and 823 folders.
+[2020.07.29-07.15.17:144][718]Display: HotReload took  6.8s.
+[2020.07.29-07.17.52:591][178]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.17.52:603][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.17.52:603][178]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:17:52 PM)
+[2020.07.29-07.17.52:603][178]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.17.52:758][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155088s)
+[2020.07.29-07.17.52:759][178]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.17.52:759][178]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F0FFD0E00), frame # 49178
+[2020.07.29-07.17.52:759][178]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EC474B880), frame # 49178
+[2020.07.29-07.17.52:760][178]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2020.07.29-07.17.52:760][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.156612s)
+[2020.07.29-07.17.52:769][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.17.52:771][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.17.52:771][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.17.52:772][178]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.17.52:772][178]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.17.52:782][178]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.17.52:782][178]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.17.52:854][178]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.17.52:854][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.17.52:855][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.17.52:855][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.17.52:855][178]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.17.52:863][178]LogInit: FAudioDevice initialized.
+[2020.07.29-07.17.52:873][178]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2020.07.29-07.17.52:917][178]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.17.52
+[2020.07.29-07.17.52:924][178]LogWorld: Bringing up level for play took: 0.051037
+[2020.07.29-07.17.52:925][178]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.07.29-07.17.52:929][178]PIE: Server logged in
+[2020.07.29-07.17.52:930][178]PIE: Play in editor total start time 0.331 seconds.
+[2020.07.29-07.17.54:800][366]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.17.55:813][487]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.17.56:830][591]LogTemp: Warning: Health left 70.000000
+[2020.07.29-07.17.57:840][696]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.17.58:851][807]LogTemp: Warning: Health left 50.000000
+[2020.07.29-07.17.59:866][920]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.18.00:877][ 31]LogTemp: Warning: Health left 30.000000
+[2020.07.29-07.18.01:887][141]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.18.02:898][262]LogTemp: Warning: Health left 10.000000
+[2020.07.29-07.18.03:909][381]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.18.07:802][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.18.07:802][844]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.18.07:803][844]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.18.07:811][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.18.07:815][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.18.07:818][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.18.07:843][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.18.07:849][844]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EC474B880), frame # 50844
+[2020.07.29-07.18.07:849][844]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F0FFD0E00), frame # 50844
+[2020.07.29-07.18.07:856][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.07.29-07.18.07:895][845]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.07.29-07.18.09:651][895]Candidate modules for hot reload:
+[2020.07.29-07.18.09:651][895]  SimpleShooter
+[2020.07.29-07.18.09:651][895]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,3863 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.18.09:656][895]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:18:11 PM
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog:   [1/3] UE4Editor-SimpleShooter-3863.lib
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3863.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3863.exp
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog:   [2/3] UE4Editor-SimpleShooter-3863.dll
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3863.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-3863.suppressed.exp
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog:   [3/3] SimpleShooterEditor.target
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: Total time in Parallel executor: 1.01 seconds
+[2020.07.29-07.18.11:421][  1]CompilerResultsLog: Total execution time: 1.51 seconds
+[2020.07.29-07.18.11:421][  1]LogMainFrame: MainFrame: Module compiling took 1.773 seconds
+[2020.07.29-07.18.11:439][  1]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 9 classes and 2 folders.
+[2020.07.29-07.18.11:440][  1]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.18.11:520][  1]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3436 classes and 823 folders.
+[2020.07.29-07.18.11:524][  1]Display: HotReload took  1.9s.
+[2020.07.29-07.18.28:458][845]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.29-07.18.40:998][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.29-07.18.41:009][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.07.29-07.18.42:281][548]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox3D3DD961483F14AB154DEA9A89FD89AE.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
+[2020.07.29-07.18.42:394][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox_BuiltData" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset" SILENT=true
+[2020.07.29-07.18.42:924][548]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox_BuiltDataD2166BE4431F6067CBEE74ABEF9F05BE.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset'
+[2020.07.29-07.18.42:940][548]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.29-07.18.42:941][548]LogContentValidation: Display: Validating World /Game/SandBox.SandBox
+[2020.07.29-07.18.42:941][548]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SandBox_BuiltData.SandBox_BuiltData
+[2020.07.29-07.19.35:305][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.29-07.19.35:311][169]LogMetaData: Removing '/Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_ShooterGameMode.PackageMetaData'
+[2020.07.29-07.19.35:311][169]LogMetaData: Removing '/Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode_C' ref from Metadata '/Game/BP_ShooterGameMode.PackageMetaData'
+[2020.07.29-07.19.35:311][169]LogMetaData: Removing '/Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_ShooterGameMode.PackageMetaData'
+[2020.07.29-07.19.35:311][169]LogMetaData: Removing '/Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_ShooterGameMode.PackageMetaData'
+[2020.07.29-07.19.35:311][169]LogMetaData: Removing '/Game/BP_KillEmAllGmaeMode.SKEL_BP_KillEmAllGmaeMode_C' ref from Metadata '/Game/BP_ShooterGameMode.PackageMetaData'
+[2020.07.29-07.19.35:334][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_KillEmAllGmaeMode" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_KillEmAllGmaeMode.uasset" SILENT=true
+[2020.07.29-07.19.35:339][169]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_KillEmAllGmaeModeA35EF7F44A94CCF88F883385B3989EE9.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_KillEmAllGmaeMode.uasset'
+[2020.07.29-07.19.36:148][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShooterGameMode" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_ShooterGameMode.uasset" SILENT=true
+[2020.07.29-07.19.36:151][169]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_ShooterGameMode7084299B45596C6FFEA819B91625C0DD.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_ShooterGameMode.uasset'
+[2020.07.29-07.19.36:893][169]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BP_KillEmAllGmaeMode.
+[2020.07.29-07.19.36:901][169]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.29-07.19.36:901][169]LogContentValidation: Display: Validating Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode
+[2020.07.29-07.19.36:901][169]LogContentValidation: Display: Validating ObjectRedirector /Game/BP_ShooterGameMode.BP_ShooterGameMode
+[2020.07.29-07.19.36:901][169]LogContentValidation: Display: Validating ObjectRedirector /Game/BP_ShooterGameMode.BP_ShooterGameMode_C
+[2020.07.29-07.19.39:767][222]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode
+[2020.07.29-07.19.39:910][222]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.07.29-07.19.43:309][491]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.19.43:309][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.19.43:354][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode
+[2020.07.29-07.19.46:527][564]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.29-07.19.48:629][803]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.29-07.19.56:465][674]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode from GameModeBase to KillEmAllGameMode...
+[2020.07.29-07.19.56:469][674]BlueprintLog: New page: Compile BP_KillEmAllGmaeMode
+[2020.07.29-07.19.56:497][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.07.29-07.20.00:483][757]BlueprintLog: New page: Compile BP_KillEmAllGmaeMode
+[2020.07.29-07.20.00:509][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.07.29-07.20.02:897][ 32]LogSlate: Window 'BP_KillEmAllGmaeMode' being destroyed
+[2020.07.29-07.20.02:903][ 32]LogSlate: Window 'BP_KillEmAllGmaeMode' being destroyed
+[2020.07.29-07.20.02:921][ 32]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.20.02:922][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.20.12:937][ 32]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode
+[2020.07.29-07.20.17:075][476]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.29-07.20.33:985][ 76]LogSlate: Window 'BP_KillEmAllGmaeMode' being destroyed
+[2020.07.29-07.20.33:991][ 76]LogSlate: Window 'BP_KillEmAllGmaeMode' being destroyed
+[2020.07.29-07.20.33:992][ 76]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.20.33:992][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.20.42:041][798]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.20.42:052][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.20.42:052][798]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:20:42 PM)
+[2020.07.29-07.20.42:052][798]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.20.42:198][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147072s)
+[2020.07.29-07.20.42:200][798]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.20.42:200][798]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EDAA93E00), frame # 59798
+[2020.07.29-07.20.42:200][798]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F0AE5F4C0), frame # 59798
+[2020.07.29-07.20.42:200][798]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2020.07.29-07.20.42:200][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.148429s)
+[2020.07.29-07.20.42:217][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.20.42:221][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.20.42:221][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.20.42:222][798]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.20.42:222][798]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.20.42:231][798]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.20.42:231][798]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.20.42:301][798]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.20.42:301][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.20.42:301][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.20.42:301][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.20.42:301][798]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.20.42:310][798]LogInit: FAudioDevice initialized.
+[2020.07.29-07.20.42:316][798]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.20.42:365][798]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.20.42
+[2020.07.29-07.20.42:373][798]LogWorld: Bringing up level for play took: 0.056244
+[2020.07.29-07.20.42:373][798]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.07.29-07.20.42:377][798]PIE: Server logged in
+[2020.07.29-07.20.42:377][798]PIE: Play in editor total start time 0.329 seconds.
+[2020.07.29-07.20.44:783][ 62]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.20.45:794][183]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.20.46:802][304]LogTemp: Warning: Health left 70.000000
+[2020.07.29-07.20.47:811][425]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.20.48:819][546]LogTemp: Warning: Health left 50.000000
+[2020.07.29-07.20.49:828][667]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.20.50:836][788]LogTemp: Warning: Health left 30.000000
+[2020.07.29-07.20.51:850][909]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.20.52:859][ 30]LogTemp: Warning: Health left 10.000000
+[2020.07.29-07.20.53:869][151]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.20.53:869][151]LogTemp: Warning: A pawn was killed
+[2020.07.29-07.20.58:100][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.20.58:100][656]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.20.58:101][656]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.20.58:110][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.20.58:118][656]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.20.58:123][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.20.58:143][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.20.58:163][656]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026EDAA93E00), frame # 61656
+[2020.07.29-07.20.58:163][656]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F0AE5F4C0), frame # 61656
+[2020.07.29-07.20.58:166][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.29-07.20.58:204][657]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.07.29-07.20.59:416][791]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.20.59:424][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.20.59:424][791]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:20:59 PM)
+[2020.07.29-07.20.59:449][791]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.20.59:598][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148232s)
+[2020.07.29-07.20.59:598][791]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.20.59:598][791]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F0102A000), frame # 61791
+[2020.07.29-07.20.59:598][791]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F0AD247C0), frame # 61791
+[2020.07.29-07.20.59:599][791]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2020.07.29-07.20.59:599][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.149648s)
+[2020.07.29-07.20.59:616][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.07.29-07.20.59:617][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.20.59:617][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.20.59:617][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.20.59:617][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.20.59:617][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.20.59:617][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.20.59:618][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.20.59:618][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.20.59:618][791]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.20.59:618][791]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.20.59:628][791]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.20.59:628][791]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.20.59:700][791]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.20.59:700][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.20.59:700][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.20.59:700][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.20.59:701][791]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.20.59:710][791]LogInit: FAudioDevice initialized.
+[2020.07.29-07.20.59:720][791]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.20.59:767][791]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.20.59
+[2020.07.29-07.20.59:775][791]LogWorld: Bringing up level for play took: 0.054380
+[2020.07.29-07.20.59:775][791]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.07.29-07.20.59:778][791]PIE: Server logged in
+[2020.07.29-07.20.59:779][791]PIE: Play in editor total start time 0.356 seconds.
+[2020.07.29-07.21.01:263][952]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.21.02:272][ 73]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.21.02:372][ 85]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.21.02:547][106]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.21.02:730][128]LogTemp: Warning: Health left 70.000000
+[2020.07.29-07.21.02:888][147]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.21.03:038][165]LogTemp: Warning: Health left 50.000000
+[2020.07.29-07.21.03:205][185]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.21.03:280][194]LogTemp: Warning: Health left 70.000000
+[2020.07.29-07.21.03:372][205]LogTemp: Warning: Health left 30.000000
+[2020.07.29-07.21.03:555][227]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.21.03:722][247]LogTemp: Warning: Health left 10.000000
+[2020.07.29-07.21.03:906][269]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.21.03:906][269]LogTemp: Warning: A pawn was killed
+[2020.07.29-07.21.04:231][308]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.21.04:231][308]LogTemp: Warning: A pawn was killed
+[2020.07.29-07.21.27:810][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.21.27:810][ 88]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.21.27:811][ 88]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.21.27:819][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.21.27:829][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.21.27:834][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.21.27:848][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.21.27:869][ 88]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F0AD247C0), frame # 65088
+[2020.07.29-07.21.27:869][ 88]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F0102A000), frame # 65088
+[2020.07.29-07.21.27:875][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.07.29-07.21.27:927][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.07.29-07.24.45:380][103]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.29-07.24.45:380][103]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.07.29-07.24.54:766][445]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.07.29-07.25.15:263][443]Candidate modules for hot reload:
+[2020.07.29-07.25.15:263][443]  SimpleShooter
+[2020.07.29-07.25.15:264][443]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,9634 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:25:23 PM
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Invalidating makefile for SimpleShooterEditor (source file added)
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.8869697 seconds
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Building 7 actions with 12 processes...
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [1/7] SimpleShooter.init.gen.cpp
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [2/7] ShooterPlayerController.cpp
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [3/7] KillEmAllGameMode.cpp
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [4/7] ShooterPlayerController.gen.cpp
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [5/7] UE4Editor-SimpleShooter-9634.lib
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9634.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9634.exp
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [6/7] UE4Editor-SimpleShooter-9634.dll
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9634.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9634.suppressed.exp
+[2020.07.29-07.25.23:854][443]CompilerResultsLog:   [7/7] SimpleShooterEditor.target
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Total time in Parallel executor: 1.56 seconds
+[2020.07.29-07.25.23:854][443]CompilerResultsLog: Total execution time: 8.45 seconds
+[2020.07.29-07.25.23:854][443]LogMainFrame: MainFrame: Module compiling took 8.597 seconds
+[2020.07.29-07.25.23:881][443]LogClass: Could not find existing class ShooterPlayerController in package /Script/SimpleShooter for HotReload, assuming new class
+[2020.07.29-07.25.23:886][443]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2020.07.29-07.25.23:889][443]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.25.24:046][443]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3437 classes and 823 folders.
+[2020.07.29-07.25.24:053][443]Display: HotReload took  8.8s.
+[2020.07.29-07.25.24:059][443]Warning: HotReload operation took  8.8s.
+[2020.07.29-07.25.24:096][443]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.07.29-07.25.24:603][444]LogHotReload: New module detected: UE4Editor-SimpleShooter-9634.dll
+[2020.07.29-07.25.24:673][445]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.29-07.25.24:699][445]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0005 seconds. Added 10 classes and 2 folders.
+[2020.07.29-07.25.24:705][445]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.25.24:742][445]LogContentBrowser: Native class hierarchy populated in 0.0305 seconds. Added 3437 classes and 823 folders.
+[2020.07.29-07.25.24:775][445]Display: HotReload took  0.1s.
+[2020.07.29-07.26.00:271][795]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.07.29-07.26.13:282][795]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.29-07.26.30:164][846]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/BP_ShooterPlayerController.
+[2020.07.29-07.26.40:303][937]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode
+[2020.07.29-07.26.49:522][ 17]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.29-07.27.01:809][390]BlueprintLog: New page: Compile BP_KillEmAllGmaeMode
+[2020.07.29-07.27.01:921][390]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.07.29-07.27.02:560][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_KillEmAllGmaeMode" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_KillEmAllGmaeMode.uasset" SILENT=true
+[2020.07.29-07.27.02:566][425]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_KillEmAllGmaeMode6295EE034885F2AB9F744FA08FD4EBC2.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/BP_KillEmAllGmaeMode.uasset'
+[2020.07.29-07.27.02:579][425]AssetCheck: New page: Asset Save: BP_KillEmAllGmaeMode
+[2020.07.29-07.27.02:579][425]LogContentValidation: Display: Validating Blueprint /Game/BP_KillEmAllGmaeMode.BP_KillEmAllGmaeMode
+[2020.07.29-07.27.04:004][524]LogSlate: Window 'BP_KillEmAllGmaeMode' being destroyed
+[2020.07.29-07.27.04:021][524]LogSlate: Window 'BP_KillEmAllGmaeMode' being destroyed
+[2020.07.29-07.27.04:021][524]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.27.04:022][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.29.13:802][ 18]Candidate modules for hot reload:
+[2020.07.29-07.29.13:802][ 18]  SimpleShooter
+[2020.07.29-07.29.13:802][ 18]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,2533 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.29.13:808][ 18]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:29:20 PM
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.8893406 seconds
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Building 5 actions with 12 processes...
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:   [1/5] ShooterPlayerController.cpp
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:   [2/5] ShooterPlayerController.gen.cpp
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:   [3/5] UE4Editor-SimpleShooter-2533.lib
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2533.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2533.exp
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:   [4/5] UE4Editor-SimpleShooter-2533.dll
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2533.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2533.suppressed.exp
+[2020.07.29-07.29.20:900][494]CompilerResultsLog:   [5/5] SimpleShooterEditor.target
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Total time in Parallel executor: 1.48 seconds
+[2020.07.29-07.29.20:900][494]CompilerResultsLog: Total execution time: 6.99 seconds
+[2020.07.29-07.29.20:900][494]LogMainFrame: MainFrame: Module compiling took 7.101 seconds
+[2020.07.29-07.29.20:950][494]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0005 seconds. Added 10 classes and 2 folders.
+[2020.07.29-07.29.20:957][494]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.29.21:121][494]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3437 classes and 823 folders.
+[2020.07.29-07.29.21:130][494]Display: HotReload took  7.3s.
+[2020.07.29-07.29.39:022][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.07.29-07.29.39:025][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox' took 0.077
+[2020.07.29-07.29.39:026][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_ShooterPlayerController] ([1] browsable assets)...
+[2020.07.29-07.29.39:026][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_ShooterPlayerController]
+[2020.07.29-07.29.39:030][877]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/BP_ShooterPlayerController_Auto1F1286DFC4AED422195CF8AAF6CD944AE.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Autosaves/Game/BP_ShooterPlayerController_Auto1.uasset'
+[2020.07.29-07.29.39:031][877]LogFileHelpers: Auto-saving content packages took 0.006
+[2020.07.29-07.30.30:204][826]Candidate modules for hot reload:
+[2020.07.29-07.30.30:204][826]  SimpleShooter
+[2020.07.29-07.30.30:204][826]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,2936 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.30.30:209][826]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:30:32 PM
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.29-07.30.32:439][960]CompilerResultsLog:   [1/4] KillEmAllGameMode.cpp
+[2020.07.29-07.30.32:439][960]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-2936.lib
+[2020.07.29-07.30.32:439][960]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2936.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2936.exp
+[2020.07.29-07.30.32:439][960]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-2936.dll
+[2020.07.29-07.30.32:439][960]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2936.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2936.suppressed.exp
+[2020.07.29-07.30.32:439][960]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: Total time in Parallel executor: 1.61 seconds
+[2020.07.29-07.30.32:439][960]CompilerResultsLog: Total execution time: 2.13 seconds
+[2020.07.29-07.30.32:439][960]LogMainFrame: MainFrame: Module compiling took 2.241 seconds
+[2020.07.29-07.30.32:473][960]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2020.07.29-07.30.32:476][960]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.30.32:595][960]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3437 classes and 823 folders.
+[2020.07.29-07.30.32:601][960]Display: HotReload took  2.4s.
+[2020.07.29-07.30.34:829][106]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.30.34:840][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.30.34:840][106]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:30:34 PM)
+[2020.07.29-07.30.34:840][106]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.30.35:008][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.168119s)
+[2020.07.29-07.30.35:009][106]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.30.35:009][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F2031FE00), frame # 73106
+[2020.07.29-07.30.35:009][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F20345A80), frame # 73106
+[2020.07.29-07.30.35:010][106]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2020.07.29-07.30.35:010][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.170111s)
+[2020.07.29-07.30.35:079][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.07.29-07.30.35:081][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.30.35:082][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.30.35:082][106]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.30.35:082][106]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.30.35:092][106]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.30.35:092][106]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.30.35:180][106]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.30.35:180][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.30.35:180][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.30.35:180][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.30.35:180][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.30.35:189][106]LogInit: FAudioDevice initialized.
+[2020.07.29-07.30.35:199][106]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.30.35:266][106]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.30.35
+[2020.07.29-07.30.35:274][106]LogWorld: Bringing up level for play took: 0.074065
+[2020.07.29-07.30.35:274][106]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.07.29-07.30.35:278][106]PIE: Server logged in
+[2020.07.29-07.30.35:279][106]PIE: Play in editor total start time 0.442 seconds.
+[2020.07.29-07.30.37:841][301]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.30.38:890][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.30.38:890][304]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.30.38:891][304]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.30.38:899][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.30.38:905][304]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.30.38:910][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.30.38:944][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.30.38:950][304]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F20345A80), frame # 73304
+[2020.07.29-07.30.38:950][304]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F2031FE00), frame # 73304
+[2020.07.29-07.30.38:971][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.07.29-07.30.39:005][305]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.07.29-07.31.32:759][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.29-07.31.32:772][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.29-07.31.34:107][496]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBoxEFC9D6D743CB3C2776657C9F8F9BEE78.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
+[2020.07.29-07.31.34:761][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox_BuiltData" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset" SILENT=true
+[2020.07.29-07.31.35:160][496]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox_BuiltData9AD28CCB48A304904878F7B447823FA2.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset'
+[2020.07.29-07.31.35:178][496]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.29-07.31.35:178][496]LogContentValidation: Display: Validating World /Game/SandBox.SandBox
+[2020.07.29-07.31.35:178][496]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SandBox_BuiltData.SandBox_BuiltData
+[2020.07.29-07.31.36:967][625]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.31.36:978][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.31.36:978][625]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:31:36 PM)
+[2020.07.29-07.31.36:978][625]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.31.37:146][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167690s)
+[2020.07.29-07.31.37:146][625]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.31.37:146][625]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EF2444E00), frame # 73625
+[2020.07.29-07.31.37:146][625]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026E93D21A80), frame # 73625
+[2020.07.29-07.31.37:147][625]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2020.07.29-07.31.37:147][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.169108s)
+[2020.07.29-07.31.37:166][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.31.37:168][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.31.37:168][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.31.37:169][625]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.31.37:169][625]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.31.37:181][625]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.31.37:181][625]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.31.37:270][625]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.31.37:270][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.31.37:270][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.31.37:270][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.31.37:270][625]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.31.37:279][625]LogInit: FAudioDevice initialized.
+[2020.07.29-07.31.37:284][625]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.31.37:338][625]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.31.37
+[2020.07.29-07.31.37:345][625]LogWorld: Bringing up level for play took: 0.061354
+[2020.07.29-07.31.37:346][625]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.07.29-07.31.37:349][625]PIE: Server logged in
+[2020.07.29-07.31.37:350][625]PIE: Play in editor total start time 0.373 seconds.
+[2020.07.29-07.31.39:756][885]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.31.40:768][  5]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.31.41:777][126]LogTemp: Warning: Health left 70.000000
+[2020.07.29-07.31.42:785][247]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.31.43:794][368]LogTemp: Warning: Health left 50.000000
+[2020.07.29-07.31.44:802][489]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.31.45:810][610]LogTemp: Warning: Health left 30.000000
+[2020.07.29-07.31.46:819][731]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.31.47:828][852]LogTemp: Warning: Health left 10.000000
+[2020.07.29-07.31.48:835][973]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.31.51:410][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.31.51:410][276]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.31.51:411][276]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.31.51:419][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.31.51:425][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.31.51:430][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.31.51:459][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.31.51:482][276]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026E93D21A80), frame # 75276
+[2020.07.29-07.31.51:482][276]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026EF2444E00), frame # 75276
+[2020.07.29-07.31.51:486][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.07.29-07.31.51:517][277]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.07.29-07.31.54:924][515]Candidate modules for hot reload:
+[2020.07.29-07.31.54:925][515]  SimpleShooter
+[2020.07.29-07.31.54:925][515]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,5680 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.31.54:930][515]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.31.56:552][626]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:31:56 PM
+[2020.07.29-07.31.56:552][626]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.31.56:552][626]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.31.56:552][626]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.31.56:552][626]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.29-07.31.56:552][626]CompilerResultsLog:   [1/4] ShooterCharacter.cpp
+[2020.07.29-07.31.56:552][626]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterCharacter.cpp(71) : error C2065: 'GameMode': undeclared identifier
+[2020.07.29-07.31.56:552][626]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterCharacter.cpp(72) : error C2065: 'GameMode': undeclared identifier
+[2020.07.29-07.31.56:552][626]LogMainFrame: MainFrame: Module compiling took 1.638 seconds
+[2020.07.29-07.31.56:552][626]Warning: HotReload failed, recompile failed
+[2020.07.29-07.32.54:254][645]Candidate modules for hot reload:
+[2020.07.29-07.32.54:255][645]  SimpleShooter
+[2020.07.29-07.32.54:255][645]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,4075 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.32.54:260][645]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.32.55:211][714]LogSlate: Window 'Message Log' being destroyed
+[2020.07.29-07.32.55:230][714]LogSlate: Window 'Message Log' being destroyed
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:32:56 PM
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.29-07.32.56:954][865]CompilerResultsLog:   [1/4] ShooterCharacter.cpp
+[2020.07.29-07.32.56:954][865]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-4075.lib
+[2020.07.29-07.32.56:954][865]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-4075.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-4075.exp
+[2020.07.29-07.32.56:954][865]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-4075.dll
+[2020.07.29-07.32.56:954][865]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-4075.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-4075.suppressed.exp
+[2020.07.29-07.32.56:954][865]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: Total time in Parallel executor: 1.97 seconds
+[2020.07.29-07.32.56:954][865]CompilerResultsLog: Total execution time: 2.61 seconds
+[2020.07.29-07.32.56:954][865]LogMainFrame: MainFrame: Module compiling took 2.704 seconds
+[2020.07.29-07.32.56:997][865]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2020.07.29-07.32.57:000][865]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.32.57:114][865]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 3437 classes and 823 folders.
+[2020.07.29-07.32.57:120][865]Display: HotReload took  2.9s.
+[2020.07.29-07.32.58:149][944]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.32.58:159][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.32.58:159][944]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:32:58 PM)
+[2020.07.29-07.32.58:189][944]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.32.58:350][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160736s)
+[2020.07.29-07.32.58:350][944]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.32.58:350][944]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F4BE23E00), frame # 76944
+[2020.07.29-07.32.58:350][944]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F5976A0C0), frame # 76944
+[2020.07.29-07.32.58:351][944]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2020.07.29-07.32.58:351][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.162115s)
+[2020.07.29-07.32.58:401][944]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.32.58:404][944]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.32.58:404][944]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.32.58:404][944]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.32.58:405][944]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.32.58:415][944]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.32.58:415][944]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.32.58:505][944]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.32.58:505][944]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.32.58:505][944]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.32.58:505][944]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.32.58:505][944]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.32.58:514][944]LogInit: FAudioDevice initialized.
+[2020.07.29-07.32.58:523][944]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.32.58:567][944]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.32.58
+[2020.07.29-07.32.58:575][944]LogWorld: Bringing up level for play took: 0.051968
+[2020.07.29-07.32.58:575][944]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.07.29-07.32.58:579][944]PIE: Server logged in
+[2020.07.29-07.32.58:580][944]PIE: Play in editor total start time 0.423 seconds.
+[2020.07.29-07.33.00:984][196]LogTemp: Warning: Health left 90.000000
+[2020.07.29-07.33.01:992][317]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.33.03:001][437]LogTemp: Warning: Health left 70.000000
+[2020.07.29-07.33.04:012][558]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.33.05:022][679]LogTemp: Warning: Health left 50.000000
+[2020.07.29-07.33.06:029][800]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.33.07:038][921]LogTemp: Warning: Health left 30.000000
+[2020.07.29-07.33.08:046][ 42]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.33.09:054][163]LogTemp: Warning: Health left 10.000000
+[2020.07.29-07.33.10:063][284]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.33.10:063][284]LogTemp: Warning: End Game
+[2020.07.29-07.33.11:310][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.33.11:310][431]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.33.11:311][431]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.33.11:319][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.11:325][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.33.11:330][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.11:353][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.33.11:370][431]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F5976A0C0), frame # 78431
+[2020.07.29-07.33.11:371][431]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F4BE23E00), frame # 78431
+[2020.07.29-07.33.11:387][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.29-07.33.11:420][432]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.07.29-07.33.19:792][165]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShooterCharacter.BP_ShooterCharacter
+[2020.07.29-07.33.27:008][890]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2020.07.29-07.33.27:021][890]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2020.07.29-07.33.27:059][890]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.33.27:059][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.39:193][ 37]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Rifle.BP_Rifle
+[2020.07.29-07.33.41:138][181]LogSlate: Window 'BP_Rifle' being destroyed
+[2020.07.29-07.33.41:152][181]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.33.41:152][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.41:200][181]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Rifle.BP_Rifle
+[2020.07.29-07.33.48:010][843]BlueprintLog: New page: Compile BP_Rifle
+[2020.07.29-07.33.48:043][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.07.29-07.33.49:003][943]LogSlate: Window 'BP_Rifle' being destroyed
+[2020.07.29-07.33.49:018][943]LogSlate: Window 'BP_Rifle' being destroyed
+[2020.07.29-07.33.49:019][943]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.33.49:019][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.49:989][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.33.49:998][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.33.49:998][ 52]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:33:49 PM)
+[2020.07.29-07.33.50:029][ 52]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.33.50:175][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146430s)
+[2020.07.29-07.33.50:176][ 52]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.33.50:176][ 52]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F3C11BE00), frame # 81052
+[2020.07.29-07.33.50:176][ 52]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F20672340), frame # 81052
+[2020.07.29-07.33.50:177][ 52]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2020.07.29-07.33.50:177][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.148053s)
+[2020.07.29-07.33.50:193][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.33.50:194][ 52]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.33.50:194][ 52]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.33.50:194][ 52]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.33.50:204][ 52]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.33.50:204][ 52]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.33.50:273][ 52]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.33.50:274][ 52]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.33.50:274][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.33.50:274][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.33.50:274][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.33.50:282][ 52]LogInit: FAudioDevice initialized.
+[2020.07.29-07.33.50:288][ 52]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.33.50:332][ 52]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.33.50
+[2020.07.29-07.33.50:339][ 52]LogWorld: Bringing up level for play took: 0.051386
+[2020.07.29-07.33.50:340][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.07.29-07.33.50:343][ 52]PIE: Server logged in
+[2020.07.29-07.33.50:344][ 52]PIE: Play in editor total start time 0.347 seconds.
+[2020.07.29-07.33.51:899][225]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.33.52:041][242]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.33.52:065][245]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.33.52:240][266]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.33.52:415][287]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.33.52:699][321]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.33.52:982][355]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.33.54:809][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.33.54:809][563]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.33.54:810][563]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.33.54:818][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.54:828][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.33.54:834][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.33.54:861][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.33.54:884][563]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F20672340), frame # 81563
+[2020.07.29-07.33.54:884][563]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F3C11BE00), frame # 81563
+[2020.07.29-07.33.54:888][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.07.29-07.33.54:919][564]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.07.29-07.41.35:530][695]Candidate modules for hot reload:
+[2020.07.29-07.41.35:530][695]  SimpleShooter
+[2020.07.29-07.41.35:531][695]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,4315 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.41.35:538][695]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.41.40:680][722]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:41:40 PM
+[2020.07.29-07.41.40:680][722]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.41.40:680][722]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.29-07.41.40:680][722]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-07.41.40:680][722]CompilerResultsLog: Error: C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Source/SimpleShooter/ShooterPlayerController.h(25)  : Error: Missing ';' before 'FTimerHandle'
+[2020.07.29-07.41.40:680][722]LogMainFrame: MainFrame: Module compiling took 5.163 seconds
+[2020.07.29-07.41.40:680][722]Warning: HotReload failed, recompile failed
+[2020.07.29-07.41.59:137][119]LogSlate: Window 'Message Log' being destroyed
+[2020.07.29-07.41.59:152][119]LogSlate: Window 'Message Log' being destroyed
+[2020.07.29-07.42.00:085][219]Candidate modules for hot reload:
+[2020.07.29-07.42.00:085][219]  SimpleShooter
+[2020.07.29-07.42.00:085][219]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,9749 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.29-07.42.00:091][219]Warning: Starting HotReload took  0.0s.
+[2020.07.29-07.42.07:377][883]CompilerResultsLog: New page: Compilation - Jul 28, 2020, 5:42:07 PM
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 5.0716785 seconds
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   [1/6] SimpleShooter.init.gen.cpp
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   [2/6] ShooterPlayerController.gen.cpp
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   [3/6] ShooterPlayerController.cpp
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-9749.lib
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9749.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9749.exp
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-9749.dll
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9749.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9749.suppressed.exp
+[2020.07.29-07.42.07:378][883]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Total time in Parallel executor: 1.54 seconds
+[2020.07.29-07.42.07:378][883]CompilerResultsLog: Total execution time: 7.18 seconds
+[2020.07.29-07.42.07:378][883]LogMainFrame: MainFrame: Module compiling took 7.303 seconds
+[2020.07.29-07.42.07:416][883]LogClass: Could not find existing class ShooterPlayerController in package /Script/SimpleShooter for HotReload, assuming new class
+[2020.07.29-07.42.07:427][883]LogHotReload: Re-instancing ShooterPlayerController after hot-reload.
+[2020.07.29-07.42.07:450][883]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2020.07.29-07.42.07:454][883]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.29-07.42.07:571][883]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3437 classes and 823 folders.
+[2020.07.29-07.42.07:577][883]Display: HotReload took  7.5s.
+[2020.07.29-07.42.08:598][968]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.29-07.42.08:610][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.29-07.42.08:610][968]PIE: New page: PIE session: SandBox (Jul 28, 2020, 5:42:08 PM)
+[2020.07.29-07.42.08:638][968]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.42.08:802][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163997s)
+[2020.07.29-07.42.08:803][968]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.42.08:803][968]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026F596CE000), frame # 107968
+[2020.07.29-07.42.08:803][968]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F410F1440), frame # 107968
+[2020.07.29-07.42.08:803][968]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2020.07.29-07.42.08:804][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.165405s)
+[2020.07.29-07.42.08:855][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.07.29-07.42.08:857][968]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-07.42.08:857][968]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-07.42.08:857][968]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-07.42.08:858][968]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-07.42.08:858][968]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-07.42.08:858][968]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-07.42.08:858][968]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-07.42.08:858][968]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-07.42.08:858][968]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-07.42.08:858][968]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-07.42.08:868][968]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-07.42.08:868][968]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-07.42.08:940][968]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-07.42.08:940][968]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-07.42.08:940][968]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-07.42.08:940][968]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-07.42.08:940][968]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-07.42.08:949][968]LogInit: FAudioDevice initialized.
+[2020.07.29-07.42.08:958][968]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.42.09:003][968]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.42.09
+[2020.07.29-07.42.09:010][968]LogWorld: Bringing up level for play took: 0.051266
+[2020.07.29-07.42.09:010][968]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.07.29-07.42.09:014][968]PIE: Server logged in
+[2020.07.29-07.42.09:015][968]PIE: Play in editor total start time 0.408 seconds.
+[2020.07.29-07.42.11:422][ 91]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.42.12:441][189]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.42.13:461][286]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.42.14:473][386]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.42.15:482][503]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.42.18:498][860]LogNet: Browse: /Game/SandBox?restart
+[2020.07.29-07.42.18:505][860]LogLoad: LoadMap: /Game/SandBox
+[2020.07.29-07.42.18:505][860]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.42.18:506][860]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.42.18:516][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.42.18:552][860]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F410F1440), frame # 108860
+[2020.07.29-07.42.18:552][860]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026F596CE000), frame # 108860
+[2020.07.29-07.42.18:581][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.07.29-07.42.18:584][860]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.42.18:753][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.168640s)
+[2020.07.29-07.42.18:753][860]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.42.18:753][860]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026E85181000), frame # 108860
+[2020.07.29-07.42.18:753][860]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026F0AAF11C0), frame # 108860
+[2020.07.29-07.42.18:754][860]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2020.07.29-07.42.18:754][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.170009s)
+[2020.07.29-07.42.18:754][860]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.42.18:779][860]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.42.18
+[2020.07.29-07.42.18:787][860]LogWorld: Bringing up level for play took: 0.032809
+[2020.07.29-07.42.18:793][860]LogLoad: Took 0.287637 seconds to LoadMap(/Game/UEDPIE_0_SandBox)
+[2020.07.29-07.42.21:203][104]LogTemp: Warning: Health left 80.000000
+[2020.07.29-07.42.22:212][225]LogTemp: Warning: Health left 60.000000
+[2020.07.29-07.42.23:220][346]LogTemp: Warning: Health left 40.000000
+[2020.07.29-07.42.24:232][460]LogTemp: Warning: Health left 20.000000
+[2020.07.29-07.42.25:241][581]LogTemp: Warning: Health left 0.000000
+[2020.07.29-07.42.28:251][942]LogNet: Browse: /Game/SandBox?restart
+[2020.07.29-07.42.28:251][942]LogLoad: LoadMap: /Game/SandBox
+[2020.07.29-07.42.28:251][942]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.42.28:252][942]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.42.28:261][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.42.28:301][942]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026F0AAF11C0), frame # 109942
+[2020.07.29-07.42.28:301][942]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026E85181000), frame # 109942
+[2020.07.29-07.42.28:305][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.07.29-07.42.28:311][942]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.29-07.42.28:471][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159900s)
+[2020.07.29-07.42.28:472][942]LogAIModule: Creating AISystem for world SandBox
+[2020.07.29-07.42.28:472][942]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026EF1BE7E00), frame # 109942
+[2020.07.29-07.42.28:472][942]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026EA773B9C0), frame # 109942
+[2020.07.29-07.42.28:473][942]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2020.07.29-07.42.28:473][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.162006s)
+[2020.07.29-07.42.28:473][942]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.29-07.42.28:503][942]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.29-00.42.28
+[2020.07.29-07.42.28:511][942]LogWorld: Bringing up level for play took: 0.037304
+[2020.07.29-07.42.28:516][942]LogLoad: Took 0.264711 seconds to LoadMap(/Game/UEDPIE_0_SandBox)
+[2020.07.29-07.42.59:409][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.42.59:409][504]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.29-07.42.59:410][504]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-07.42.59:419][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.42.59:427][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.29-07.42.59:432][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-07.42.59:446][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-07.42.59:466][504]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026EA773B9C0), frame # 113504
+[2020.07.29-07.42.59:466][504]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026EF1BE7E00), frame # 113504
+[2020.07.29-07.42.59:471][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.07.29-07.42.59:509][505]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.07.29-07.43.10:291][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.29-07.43.10:307][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.07.29-07.43.11:583][395]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox24500D8C4F02A0FCF4D8D6A56EBF2C58.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
+[2020.07.29-07.43.12:269][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox_BuiltData" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset" SILENT=true
+[2020.07.29-07.43.12:676][395]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox_BuiltDataCD7ADE9B444C185A547B3581CF65B722.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset'
+[2020.07.29-07.43.12:701][395]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.29-07.43.12:701][395]LogContentValidation: Display: Validating World /Game/SandBox.SandBox
+[2020.07.29-07.43.12:701][395]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SandBox_BuiltData.SandBox_BuiltData

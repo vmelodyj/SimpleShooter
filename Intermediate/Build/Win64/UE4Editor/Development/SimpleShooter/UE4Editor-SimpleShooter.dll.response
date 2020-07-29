@@ -34,6 +34,8 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\BTService_PlayerLocation.cpp.obj"
+"C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\BTService_PlayerLocationIfSeen.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\bttASK_ClearValue.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\BTTask_Shoot.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\Gun.cpp.obj"
@@ -41,6 +43,8 @@
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\ShooterCharacter.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\SimpleShooter.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\SimpleShooterGameModeBase.cpp.obj"
+"C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\BTService_PlayerLocation.gen.cpp.obj"
+"C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\BTService_PlayerLocationIfSeen.gen.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\bttASK_ClearValue.gen.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\BTTask_Shoot.gen.cpp.obj"
 "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\Gun.gen.cpp.obj"

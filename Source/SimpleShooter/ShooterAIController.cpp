@@ -26,17 +26,17 @@ void AShooterAIController::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
     
-    // SetFocus(PlayerPawn);
+    // // SetFocus(PlayerPawn);
 
-    APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-    // If AI cant see us, clearFocus
-    // OW keep moveToActor
     // APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-    if (LineOfSightTo(PlayerPawn)) {
-        GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
-        GetBlackboardComponent()->SetValueAsVector(TEXT("LastPlayerLocation"), GetPawn()->GetActorLocation());
+    // // If AI cant see us, clearFocus
+    // // OW keep moveToActor
+    // // APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+    // if (LineOfSightTo(PlayerPawn)) {
+    //     GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
+    //     GetBlackboardComponent()->SetValueAsVector(TEXT("LastPlayerLocation"), GetPawn()->GetActorLocation());
 
-    } else {
-        GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
-    }
+    // } else {
+    //     GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
+    // }
 }

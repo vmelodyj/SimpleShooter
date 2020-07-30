@@ -37,7 +37,14 @@ private:
 	UParticleSystem *ImpactEffect;
 
 	UPROPERTY(EditAnywhere)
+	USoundBase *ImpactSound;
+
+	UPROPERTY(EditAnywhere)
 	UParticleSystem *MuzzleFlash;
+
+	//Sound
+	UPROPERTY(EditAnywhere)
+	USoundBase *MuzzleSound;
 
 	UPROPERTY(EditAnywhere)
 	float MaxRange = 1000.0f;
@@ -45,5 +52,8 @@ private:
 	UPROPERTY(EditAnywhere)
 	// float Damage = static_cast<float> (rand())/(static_cast <float> (RAND_MAX/10));
 	float Damage = 10.0f;
+
+	bool GunTrace(FHitResult &Hit, FVector &ShotDirection);
+	AController *GetOwnerController() const;
 	
 };

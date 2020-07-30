@@ -24,40 +24,24 @@ void AGun::PullTrigger()
 {
 	// spawn muzzle flash on the barrel.
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
-
-	// Calculate where the end point is
-	APawn *OwnerPawn = Cast<APawn>(GetOwner());
-	if (OwnerPawn == nullptr) return;
-
-	AController *OwnerController = OwnerPawn->GetController();
-	if (OwnerController == nullptr) return;
-
-	FVector Location;
-	FRotator Rotation;
-	OwnerController->GetPlayerViewPoint(Location, Rotation);
-
-	FVector End = Location + Rotation.Vector() * MaxRange;
+	UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlashSocket"));
 
 	FHitResult Hit;
+	FVector ShotDirection;
+	bool bSuccess = GunTrace(Hit, ShotDirection);
 
-
-	// Fix the bug that AI was shooting himself rather than the player
-	FCollisionQueryParams Params;
-	Params.AddIgnoredActor(this);
-	Params.AddIgnoredActor(GetOwner());
-	// 
-
-	// spawn Impact on the end point and deal damage 
-	bool bSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
+	
 	if (bSuccess) {
-		FVector ShotDirection = -Rotation.Vector();
+		
 		// DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Red, true);
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 
 
 		AActor *HitActor = Hit.GetActor();
 		if (HitActor != nullptr){
 			FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
+			AController *OwnerController = GetOwnerController();
 			// UE_LOG(LogTemp, Warning, TEXT("HIT"));
 			HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
 		}
@@ -79,3 +63,37 @@ void AGun::Tick(float DeltaTime)
 
 }
 
+bool AGun::GunTrace(FHitResult &Hit, FVector &ShotDirection) 
+{
+
+	AController *OwnerController = GetOwnerController();
+	if (OwnerController == nullptr) return false;
+
+	FVector Location;
+	FRotator Rotation;
+	OwnerController->GetPlayerViewPoint(Location, Rotation);
+
+	ShotDirection = -Rotation.Vector();
+
+	FVector End = Location + Rotation.Vector() * MaxRange;
+	// Fix the bug that AI was shooting himself rather than the player
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+	Params.AddIgnoredActor(GetOwner());
+
+	return GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
+	// 
+}
+
+AController* AGun::GetOwnerController() const
+{
+	
+	APawn *OwnerPawn = Cast<APawn>(GetOwner());
+	if (OwnerPawn == nullptr) return nullptr;
+
+	return OwnerPawn->GetController();
+	
+}
+
+
+	

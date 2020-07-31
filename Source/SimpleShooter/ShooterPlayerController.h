@@ -32,6 +32,8 @@ private:
 
 	FTimerHandle RestartTimer;
 
+	UUserWidget *Aim;
+
 
 protected:
 	// Called when the game starts or when spawned

@@ -9,7 +9,7 @@
 void AShooterPlayerController::BeginPlay() 
 {
     Super::BeginPlay();
-    UUserWidget *Aim = CreateWidget(this, AimClass);
+    Aim = CreateWidget(this, AimClass);
     if (Aim != nullptr){
     Aim->AddToViewport();
     }
@@ -21,7 +21,7 @@ void AShooterPlayerController::GameHasEnded(class AActor* EndGameFocus, bool bIs
 {
     Super::GameHasEnded(EndGameFocus, bIsWinner);
 
-
+    Aim->RemoveFromViewport();
     if (bIsWinner) {
         UUserWidget *WinScreen = CreateWidget(this, WinScreenClass);
         if (WinScreen != nullptr) {

@@ -5,6 +5,7 @@
 #include "Gun.h"
 #include "Components/CapsuleComponent.h"
 #include "SimpleShooterGameModeBase.h"
+#include "OpenDoor.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter()
@@ -60,6 +61,10 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &AShooterCharacter::Shoot);
+
+	PlayerInputComponent->BindAction(TEXT("OpenDoor"), IE_Pressed, this, &AShooterCharacter::Shoot);
+
+
 
 }
 
@@ -123,5 +128,10 @@ void AShooterCharacter::LookRightRate(float AxisValue)
 void AShooterCharacter::Shoot() 
 {
 	Gun->PullTrigger();
+}
+
+void AShooterCharacter::OpenDoor() 
+{
+	// OpenDoor->
 }
 

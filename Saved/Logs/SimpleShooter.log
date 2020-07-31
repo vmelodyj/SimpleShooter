@@ -1,8 +1,8 @@
-﻿Log file open, 07/30/20 12:32:37
+﻿Log file open, 07/30/20 17:09:21
 LogInit: Display: Running engine for game: SimpleShooter
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.491160
+LogStats: Stats thread started at 0.150027
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,996 +194,795 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.07.30-19.32.37:636][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.07.30-19.32.37:636][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.07.30-19.32.37:636][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:636][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.07.30-19.32.37:636][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:636][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:636][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.07.30-19.32.37:636][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.07.30-19.32.37:636][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.07.30-19.32.37:637][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:637][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:643][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.30-19.32.37:643][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.30-19.32.37:644][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.30-19.32.37:644][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.30-19.32.37:644][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.30-19.32.37:645][  0]LogHAL: Display: Platform has ~ 32 GB [34283311104 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.07.30-19.32.37:645][  0]LogInit: Going up to parent DeviceProfile []
-[2020.07.30-19.32.37:645][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:645][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.30-19.32.37:645][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.30-19.32.37:645][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.30-19.32.37:646][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.07.30-19.32.37:647][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
-[2020.07.30-19.32.37:647][  0]LogInit: Computer: DESKTOP-JTGB77T
-[2020.07.30-19.32.37:647][  0]LogInit: User: vmelo
-[2020.07.30-19.32.37:647][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.07.30-19.32.37:647][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.30-19.32.37:647][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.07.30-19.32.37:647][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.30-19.32.37:647][  0]LogMemory: Process Physical Memory: 118.48 MB used, 118.48 MB peak
-[2020.07.30-19.32.37:647][  0]LogMemory: Process Virtual Memory: 106.03 MB used, 106.03 MB peak
-[2020.07.30-19.32.37:647][  0]LogMemory: Physical Memory: 9976.45 MB used,  22718.66 MB free, 32695.11 MB total
-[2020.07.30-19.32.37:647][  0]LogMemory: Virtual Memory: 5188.56 MB used,  134212536.00 MB free, 134217728.00 MB total
-[2020.07.30-19.32.37:652][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.07.30-19.32.37:739][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.07.30-19.32.37:740][  0]LogInit: Using OS detected language (en-US).
-[2020.07.30-19.32.37:740][  0]LogInit: Using OS detected locale (en-US).
-[2020.07.30-19.32.37:752][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.07.30-19.32.38:041][  0]LogInit: Setting process to per monitor DPI aware
-[2020.07.30-19.32.38:087][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.07.30-19.32.38:087][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.07.30-19.32.44:233][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.07.30-19.32.44:233][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.07.30-19.32.44:233][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.07.30-19.32.44:234][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.30-19.32.44:284][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
-[2020.07.30-19.32.44:285][  0]LogD3D11RHI:       11048/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.07.30-19.32.44:286][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.30-19.32.44:286][  0]LogD3D11RHI:       0/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.30-19.32.44:286][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.30-19.32.44:302][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.30-19.32.44:302][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
-[2020.07.30-19.32.44:302][  0]LogWindows: EnumDisplayDevices:
-[2020.07.30-19.32.44:302][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
-[2020.07.30-19.32.44:302][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
-[2020.07.30-19.32.44:303][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2020.07.30-19.32.44:303][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2020.07.30-19.32.44:303][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.07.30-19.32.44:303][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
-[2020.07.30-19.32.44:303][  0]LogD3D11RHI:   Driver Version: 451.48 (internal:27.21.14.5148, unified:451.48)
-[2020.07.30-19.32.44:303][  0]LogD3D11RHI:      Driver Date: 6-21-2020
-[2020.07.30-19.32.44:303][  0]LogRHI: Texture pool is 7733 MB (70% of 11048 MB)
-[2020.07.30-19.32.44:336][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.07.30-19.32.44:338][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.07.30-19.32.44:339][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.30-19.32.44:339][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.07.30-19.32.44:340][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
-[2020.07.30-19.32.44:370][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.07.30-19.32.44:657][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.07.30-19.32.44:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.07.30-19.32.44:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.07.30-19.32.44:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.07.30-19.32.44:703][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.07.30-19.32.44:710][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.07.30-19.32.44:718][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.07.30-19.32.44:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.07.30-19.32.44:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.07.30-19.32.44:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.07.30-19.32.44:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.07.30-19.32.44:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.07.30-19.32.44:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.07.30-19.32.44:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.07.30-19.32.44:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.07.30-19.32.44:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.07.30-19.32.44:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.07.30-19.32.44:804][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.07.30-19.32.44:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.07.30-19.32.44:811][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.30-19.32.44:821][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.07.30-19.32.44:895][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Intermediate/Shaders/WorkingDirectory/22112/).
-[2020.07.30-19.32.44:895][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vmelo/AppData/Local/Temp/UnrealShaderWorkingDir/12785E284EED01A32E0E87AFA60487E2/'.
-[2020.07.30-19.32.44:896][  0]LogXGEController: Cleaning working directory: C:/Users/vmelo/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.07.30-19.32.44:896][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.07.30-19.32.44:896][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.07.30-19.32.44:896][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.30-19.32.45:624][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.30-19.32.45:707][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/vmelo/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.30-19.32.45:707][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vmelo/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.07.30-19.32.45:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.30-19.32.45:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.30-19.32.45:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.30-19.32.45:708][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.07.30-19.32.45:717][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.07.30-19.32.45:718][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.30-19.32.45:718][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.07.30-19.32.45:719][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vmelo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.07.30-19.32.45:719][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.07.30-19.32.45:719][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.07.30-19.32.45:774][  0]LogSlate: Using FreeType 2.10.0
-[2020.07.30-19.32.45:776][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.30-19.32.45:812][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
-[2020.07.30-19.32.46:052][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.30-19.32.46:212][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.30-19.32.46:212][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.07.30-19.32.46:212][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.07.30-19.32.46:212][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.07.30-19.32.46:213][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.07.30-19.32.46:240][  0]LogNetVersion: SimpleShooter 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1740914163)
-[2020.07.30-19.32.46:802][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000025736FB8380), frame # 0
-[2020.07.30-19.32.46:802][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025736EDFC40), frame # 0
-[2020.07.30-19.32.46:805][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025736F3DE00), frame # 0
-[2020.07.30-19.32.46:858][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.039748 seconds
-[2020.07.30-19.32.46:862][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.07.30-19.32.46:862][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.07.30-19.32.46:862][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.30-19.32.47:370][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.30-19.32.47:375][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.30-19.32.47:826][  0]SourceControl: Source control is disabled
-[2020.07.30-19.32.48:724][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.30-19.32.48:745][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.30-19.32.48:745][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.30-19.32.48:798][  0]LogOcInput: OculusInput pre-init called
-[2020.07.30-19.32.48:811][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.07.30-19.32.48:811][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.07.30-19.32.48:896][  0]LogEngine: Initializing Engine...
-[2020.07.30-19.32.48:945][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.07.30-19.32.48:945][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.07.30-19.32.48:947][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.07.30-19.32.49:045][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.07.30-19.32.49:065][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.07.30-19.32.49:065][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002573AF03C00), frame # 0
-[2020.07.30-19.32.49:065][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002573AF61940), frame # 0
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-19.32.49:073][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-19.32.49:073][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-19.32.49:074][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-19.32.49:074][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-19.32.49:097][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-19.32.49:097][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-19.32.49:205][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-19.32.49:207][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-19.32.49:210][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-19.32.49:210][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-19.32.49:211][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-19.32.49:212][  0]LogInit: FAudioDevice initialized.
-[2020.07.30-19.32.49:212][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.07.30-19.32.49:251][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/vmelo/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.30-19.32.49:251][  0]LogInit: Texture streaming: Enabled
-[2020.07.30-19.32.49:266][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.07.30-19.32.49:266][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.07.30-19.32.49:267][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.07.30-19.32.49:308][  0]LogInit: Transaction tracking system initialized
-[2020.07.30-19.32.49:336][  0]BlueprintLog: New page: Editor Load
-[2020.07.30-19.32.49:451][  0]LocalizationService: Localization service is disabled
-[2020.07.30-19.32.49:637][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.07.30-19.32.49:637][  0]LogCook: Display: Mobile HDR setting 1
-[2020.07.30-19.32.49:796][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/' took 0.03s
-[2020.07.30-19.32.49:979][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.074
-[2020.07.30-19.32.49:979][  0]Cmd: MAP LOAD FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.07.30-19.32.49:980][  0]LightingResults: New page: Lighting Build
-[2020.07.30-19.32.49:983][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-19.32.49:983][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-19.32.49:983][  0]MapCheck: New page: Map Check
-[2020.07.30-19.32.49:983][  0]LightingResults: New page: Lighting Build
-[2020.07.30-19.32.49:995][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002573AF03C00), frame # 0
-[2020.07.30-19.32.49:995][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002573AF61940), frame # 0
-[2020.07.30-19.32.49:996][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
-[2020.07.30-19.32.52:588][  0]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-19.32.52:588][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025764144E00), frame # 0
-[2020.07.30-19.32.52:589][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025764123B00), frame # 0
-[2020.07.30-19.32.52:762][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.07.30-19.32.52:931][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2020.07.30-19.32.52:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.30-19.32.52:933][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.558ms to complete.
-[2020.07.30-19.32.52:933][  0]LogFileHelpers: Loading map 'SandBox' took 2.954
-[2020.07.30-19.32.52:948][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.044
-[2020.07.30-19.32.53:082][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-19.32.53:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-19.32.53:099][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-19.32.53:106][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-19.32.53:158][  0]LogCollectionManager: Loaded 0 collections in 0.000756 seconds
-[2020.07.30-19.32.53:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Collections/' took 0.00s
-[2020.07.30-19.32.53:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/Developers/vmelo/Collections/' took 0.00s
-[2020.07.30-19.32.53:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/Collections/' took 0.00s
-[2020.07.30-19.32.53:186][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3437 classes and 823 folders.
-[2020.07.30-19.32.53:192][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.07.30-19.32.53:263][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.07.30-19.32.53:304][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.07.30-19.32.53:304][  0]LogLoad: (Engine Initialization) Total time: 17.40 seconds
-[2020.07.30-19.32.53:304][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.30-19.32.53:364][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.07.30-19.32.53:376][  0]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.30-19.32.53:380][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.07.30-19.32.53:382][  0]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.07.30-19.32.53:383][  0]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.07.30-19.32.53:524][  1]LogRenderer: Reallocating scene render targets to support 1820x732 Format 10 NumSamples 1 (Frame:1).
-[2020.07.30-19.32.53:955][  1]LogAssetRegistry: Asset discovery search completed in 8.1445 seconds
-[2020.07.30-19.32.53:961][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.07.30-19.32.54:253][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	ABP_ShooterCharacter_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
+[2020.07.31-00.09.22:053][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.31-00.09.22:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:054][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:057][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.31-00.09.22:057][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.31-00.09.22:058][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.31-00.09.22:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.31-00.09.22:058][  0]LogHAL: Display: Platform has ~ 32 GB [34283311104 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.31-00.09.22:058][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.31-00.09.22:058][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:058][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Scalability.ini]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.31-00.09.22:059][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Config/Windows/Engine.ini]
+[2020.07.31-00.09.22:059][  0]LogInit: Computer: DESKTOP-JTGB77T
+[2020.07.31-00.09.22:059][  0]LogInit: User: vmelo
+[2020.07.31-00.09.22:059][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.07.31-00.09.22:060][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.31-00.09.22:060][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.07.31-00.09.22:060][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.31-00.09.22:060][  0]LogMemory: Process Physical Memory: 118.84 MB used, 118.85 MB peak
+[2020.07.31-00.09.22:060][  0]LogMemory: Process Virtual Memory: 106.13 MB used, 106.13 MB peak
+[2020.07.31-00.09.22:060][  0]LogMemory: Physical Memory: 14398.04 MB used,  18297.07 MB free, 32695.11 MB total
+[2020.07.31-00.09.22:060][  0]LogMemory: Virtual Memory: 5188.56 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.07.31-00.09.22:064][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.31-00.09.22:086][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.31-00.09.22:087][  0]LogInit: Using OS detected language (en-US).
+[2020.07.31-00.09.22:087][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.31-00.09.22:088][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.31-00.09.22:211][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.31-00.09.22:239][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.31-00.09.22:240][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.31-00.09.22:352][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.07.31-00.09.22:352][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.31-00.09.22:352][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.31-00.09.22:352][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.31-00.09.22:400][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.07.31-00.09.22:400][  0]LogD3D11RHI:       11048/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.07.31-00.09.22:402][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.31-00.09.22:402][  0]LogD3D11RHI:       0/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.31-00.09.22:402][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.31-00.09.22:411][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.31-00.09.22:411][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.31-00.09.22:411][  0]LogWindows: EnumDisplayDevices:
+[2020.07.31-00.09.22:411][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.07.31-00.09.22:411][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.07.31-00.09.22:412][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.07.31-00.09.22:412][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.07.31-00.09.22:412][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.31-00.09.22:412][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.07.31-00.09.22:412][  0]LogD3D11RHI:   Driver Version: 451.48 (internal:27.21.14.5148, unified:451.48)
+[2020.07.31-00.09.22:412][  0]LogD3D11RHI:      Driver Date: 6-21-2020
+[2020.07.31-00.09.22:412][  0]LogRHI: Texture pool is 7733 MB (70% of 11048 MB)
+[2020.07.31-00.09.22:444][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.31-00.09.22:445][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.31-00.09.22:445][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.31-00.09.22:445][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.31-00.09.22:447][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2020.07.31-00.09.22:466][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.07.31-00.09.22:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.31-00.09.22:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.31-00.09.22:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.31-00.09.22:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.31-00.09.22:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.31-00.09.22:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.31-00.09.22:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.31-00.09.22:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.31-00.09.22:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.31-00.09.22:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.31-00.09.22:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.31-00.09.22:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.31-00.09.22:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.31-00.09.22:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.31-00.09.22:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.31-00.09.22:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.31-00.09.22:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.31-00.09.22:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.31-00.09.22:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.31-00.09.22:835][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.31-00.09.22:840][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.31-00.09.22:877][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Intermediate/Shaders/WorkingDirectory/44028/).
+[2020.07.31-00.09.22:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vmelo/AppData/Local/Temp/UnrealShaderWorkingDir/CF69AE314755A3ECF5D82CA3B3AD2527/'.
+[2020.07.31-00.09.22:877][  0]LogXGEController: Cleaning working directory: C:/Users/vmelo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.31-00.09.22:877][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.31-00.09.22:877][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.31-00.09.22:877][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.31-00.09.23:418][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.31-00.09.23:454][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/vmelo/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.31-00.09.23:454][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vmelo/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.31-00.09.23:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.31-00.09.23:454][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.31-00.09.23:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.31-00.09.23:454][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.31-00.09.23:461][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.31-00.09.23:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.31-00.09.23:461][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.31-00.09.23:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vmelo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.31-00.09.23:463][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.31-00.09.23:463][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.31-00.09.23:500][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.31-00.09.23:501][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.31-00.09.23:517][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2020.07.31-00.09.23:679][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.31-00.09.23:761][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.31-00.09.23:761][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.31-00.09.23:761][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.31-00.09.23:761][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.31-00.09.23:761][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.31-00.09.23:773][  0]LogNetVersion: SimpleShooter 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1740914163)
+[2020.07.31-00.09.24:075][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001AAA1A48380), frame # 0
+[2020.07.31-00.09.24:075][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AAA1983C40), frame # 0
+[2020.07.31-00.09.24:076][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AAA19D9E00), frame # 0
+[2020.07.31-00.09.24:119][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.038768 seconds
+[2020.07.31-00.09.24:123][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.31-00.09.24:123][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.31-00.09.24:123][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.31-00.09.24:363][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.31-00.09.24:366][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.31-00.09.24:501][  0]SourceControl: Source control is disabled
+[2020.07.31-00.09.25:281][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.31-00.09.25:294][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.31-00.09.25:294][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.31-00.09.25:324][  0]LogOcInput: OculusInput pre-init called
+[2020.07.31-00.09.25:331][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.31-00.09.25:331][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.31-00.09.25:370][  0]LogEngine: Initializing Engine...
+[2020.07.31-00.09.25:414][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.07.31-00.09.25:414][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.31-00.09.25:415][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.31-00.09.25:494][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.31-00.09.25:501][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.31-00.09.25:501][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AAA51ABC00), frame # 0
+[2020.07.31-00.09.25:501][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AAA51FD940), frame # 0
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.31-00.09.25:514][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.31-00.09.25:514][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.31-00.09.25:514][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.31-00.09.25:530][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.31-00.09.25:530][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.31-00.09.25:618][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.31-00.09.25:620][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.31-00.09.25:621][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.31-00.09.25:621][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.31-00.09.25:622][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.31-00.09.25:622][  0]LogInit: FAudioDevice initialized.
+[2020.07.31-00.09.25:623][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.31-00.09.25:659][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/vmelo/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.31-00.09.25:659][  0]LogInit: Texture streaming: Enabled
+[2020.07.31-00.09.25:670][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.31-00.09.25:670][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.31-00.09.25:671][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.31-00.09.25:701][  0]LogInit: Transaction tracking system initialized
+[2020.07.31-00.09.25:714][  0]BlueprintLog: New page: Editor Load
+[2020.07.31-00.09.25:757][  0]LocalizationService: Localization service is disabled
+[2020.07.31-00.09.25:850][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.31-00.09.25:850][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.31-00.09.25:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/' took 0.02s
+[2020.07.31-00.09.26:081][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.984
+[2020.07.31-00.09.26:081][  0]Cmd: MAP LOAD FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.31-00.09.26:082][  0]LightingResults: New page: Lighting Build
+[2020.07.31-00.09.26:082][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.09.26:082][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.09.26:082][  0]MapCheck: New page: Map Check
+[2020.07.31-00.09.26:082][  0]LightingResults: New page: Lighting Build
+[2020.07.31-00.09.26:090][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AAA51ABC00), frame # 0
+[2020.07.31-00.09.26:090][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AAA51FD940), frame # 0
+[2020.07.31-00.09.26:091][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.07.31-00.09.27:665][  0]LogAIModule: Creating AISystem for world SandBox
+[2020.07.31-00.09.27:665][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AACE025E00), frame # 0
+[2020.07.31-00.09.27:665][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AACE03E480), frame # 0
+[2020.07.31-00.09.27:821][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.31-00.09.27:950][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.07.31-00.09.27:951][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.31-00.09.27:951][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.342ms to complete.
+[2020.07.31-00.09.27:951][  0]LogFileHelpers: Loading map 'SandBox' took 1.870
+[2020.07.31-00.09.27:953][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.856
+[2020.07.31-00.09.28:048][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.09.28:054][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.09.28:062][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.09.28:068][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.09.28:085][  0]LogCollectionManager: Loaded 0 collections in 0.000632 seconds
+[2020.07.31-00.09.28:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/Collections/' took 0.00s
+[2020.07.31-00.09.28:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/Developers/vmelo/Collections/' took 0.00s
+[2020.07.31-00.09.28:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/Collections/' took 0.00s
+[2020.07.31-00.09.28:098][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3437 classes and 823 folders.
+[2020.07.31-00.09.28:100][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.31-00.09.28:136][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.31-00.09.28:185][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.31-00.09.28:185][  0]LogLoad: (Engine Initialization) Total time: 7.09 seconds
+[2020.07.31-00.09.28:185][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.31-00.09.28:244][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.31-00.09.28:255][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.31-00.09.28:258][  0]LogSlate: Took 0.000072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.31-00.09.28:259][  0]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.31-00.09.28:260][  0]LogSlate: Took 0.000063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.31-00.09.28:381][  1]LogRenderer: Reallocating scene render targets to support 1820x732 Format 10 NumSamples 1 (Frame:1).
+[2020.07.31-00.09.28:626][  1]LogAssetRegistry: Asset discovery search completed in 5.1096 seconds
+[2020.07.31-00.09.28:632][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.07.31-00.09.29:063][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
 	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:00EC
-[2020.07.30-19.32.54:253][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	ABP_ShooterCharacter_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
+[2020.07.31-00.09.29:063][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
 	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:017C
-[2020.07.30-19.32.54:253][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	ABP_ShooterCharacter_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
+[2020.07.31-00.09.29:063][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
 	Function /Game/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:01AE
-[2020.07.30-19.41.33:489][999]Candidate modules for hot reload:
-[2020.07.30-19.41.33:489][999]  SimpleShooter
-[2020.07.30-19.41.33:489][999]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,8535 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
-[2020.07.30-19.41.33:494][999]Warning: Starting HotReload took  0.0s.
-[2020.07.30-19.41.43:992][ 54]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 5:41:43 AM
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog: Parsing headers for SimpleShooterEditor
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 6.1074458 seconds
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog: Building SimpleShooterEditor...
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog: Building 6 actions with 12 processes...
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog:   [1/6] Gun.cpp
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\Gun.cpp(74) : error C2065: 'ShotDirection': undeclared identifier
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog:   [2/6] Gun.gen.cpp
-[2020.07.30-19.41.43:993][ 54]CompilerResultsLog:   [3/6] ShooterCharacter.cpp
-[2020.07.30-19.41.43:993][ 54]LogMainFrame: MainFrame: Module compiling took 10.508 seconds
-[2020.07.30-19.41.43:993][ 54]Warning: HotReload failed, recompile failed
-[2020.07.30-19.43.06:139][722]Candidate modules for hot reload:
-[2020.07.30-19.43.06:139][722]  SimpleShooter
-[2020.07.30-19.43.06:140][722]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,6998 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
-[2020.07.30-19.43.06:146][722]Warning: Starting HotReload took  0.0s.
-[2020.07.30-19.43.07:058][812]LogSlate: Window 'Message Log' being destroyed
-[2020.07.30-19.43.07:063][812]LogSlate: Window 'Message Log' being destroyed
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 5:43:13 AM
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Parsing headers for SimpleShooterEditor
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.8967682 seconds
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Building SimpleShooterEditor...
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Building 6 actions with 12 processes...
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   [1/6] Gun.cpp
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   [2/6] Gun.gen.cpp
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   [3/6] ShooterCharacter.cpp
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   [4/6] UE4Editor-SimpleShooter-6998.lib
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-6998.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-6998.exp
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   [5/6] UE4Editor-SimpleShooter-6998.dll
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-6998.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-6998.suppressed.exp
-[2020.07.30-19.43.13:365][105]CompilerResultsLog:   [6/6] SimpleShooterEditor.target
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Total time in Parallel executor: 1.59 seconds
-[2020.07.30-19.43.13:365][105]CompilerResultsLog: Total execution time: 7.06 seconds
-[2020.07.30-19.43.13:365][105]LogMainFrame: MainFrame: Module compiling took 7.230 seconds
-[2020.07.30-19.43.13:386][105]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0004 seconds. Added 10 classes and 2 folders.
-[2020.07.30-19.43.13:388][105]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2020.07.30-19.43.13:489][105]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3437 classes and 823 folders.
-[2020.07.30-19.43.13:495][105]Display: HotReload took  7.4s.
-[2020.07.30-21.32.53:231][329]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.30-21.32.53:255][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.30-21.32.53:255][329]PIE: New page: PIE session: SandBox (Jul 30, 2020, 7:32:53 AM)
-[2020.07.30-21.32.53:257][329]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.07.30-21.32.53:259][329]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.07.30-21.32.53:259][329]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.32.53:460][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.200659s)
-[2020.07.30-21.32.53:462][329]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.32.53:462][329]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000257B0D7BE00), frame # 25329
-[2020.07.30-21.32.53:462][329]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025772F59080), frame # 25329
-[2020.07.30-21.32.53:463][329]LogPlayLevel: PIE: World Init took: (0.002692s)
-[2020.07.30-21.32.53:463][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.204166s)
-[2020.07.30-21.32.53:477][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-21.32.53:508][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-21.32.53:508][329]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-21.32.53:509][329]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-21.32.53:509][329]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-21.32.53:519][329]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-21.32.53:519][329]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-21.32.53:591][329]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-21.32.53:591][329]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-21.32.53:592][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-21.32.53:592][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-21.32.53:594][329]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-21.32.53:601][329]LogInit: FAudioDevice initialized.
-[2020.07.30-21.32.53:626][329]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.32.53:693][329]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.32.53
-[2020.07.30-21.32.53:704][329]LogWorld: Bringing up level for play took: 0.074956
-[2020.07.30-21.32.53:704][329]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2020.07.30-21.32.53:720][329]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2020.07.30-21.32.53:725][329]PIE: Server logged in
-[2020.07.30-21.32.53:727][329]PIE: Play in editor total start time 0.485 seconds.
-[2020.07.30-21.32.55:617][519]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.32.55:721][523]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.32.55:788][531]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.32.55:971][553]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.32.56:138][573]LogTemp: Warning: Health left 20.000000
-[2020.07.30-21.32.56:297][592]LogTemp: Warning: Health left 0.000000
-[2020.07.30-21.32.56:462][611]LogTemp: Warning: Health left 0.000000
-[2020.07.30-21.32.59:475][952]LogNet: Browse: /Game/SandBox?restart
-[2020.07.30-21.32.59:481][952]LogLoad: LoadMap: /Game/SandBox
-[2020.07.30-21.32.59:481][952]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.32.59:483][952]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.32.59:491][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.32.59:573][952]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000257B0D7BE00), frame # 25952
-[2020.07.30-21.32.59:573][952]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025772F59080), frame # 25952
-[2020.07.30-21.32.59:574][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
-[2020.07.30-21.32.59:586][952]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.32.59:751][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164853s)
-[2020.07.30-21.32.59:751][952]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.32.59:751][952]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000257B0EABE00), frame # 25952
-[2020.07.30-21.32.59:751][952]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002578CD0DA80), frame # 25952
-[2020.07.30-21.32.59:752][952]LogPlayLevel: PIE: World Init took: (0.001004s)
-[2020.07.30-21.32.59:752][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.166161s)
-[2020.07.30-21.32.59:752][952]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.32.59:776][952]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.32.59
-[2020.07.30-21.32.59:784][952]LogWorld: Bringing up level for play took: 0.030961
-[2020.07.30-21.32.59:789][952]LogLoad: Took 0.306818 seconds to LoadMap(/Game/UEDPIE_0_SandBox)
-[2020.07.30-21.33.33:768][984]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.33.34:776][105]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.33.37:811][462]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.33.39:263][623]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.33.40:276][741]LogTemp: Warning: Health left 20.000000
-[2020.07.30-21.33.41:286][859]LogTemp: Warning: Health left 0.000000
-[2020.07.30-21.33.44:295][204]LogNet: Browse: /Game/SandBox?restart
-[2020.07.30-21.33.44:295][204]LogLoad: LoadMap: /Game/SandBox
-[2020.07.30-21.33.44:295][204]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.33.44:297][204]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.33.44:307][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.33.44:327][204]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002578CD0DA80), frame # 31204
-[2020.07.30-21.33.44:327][204]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000257B0EABE00), frame # 31204
-[2020.07.30-21.33.44:332][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.07.30-21.33.44:348][204]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.33.44:495][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146947s)
-[2020.07.30-21.33.44:496][204]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.33.44:496][204]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000257CC406200), frame # 31204
-[2020.07.30-21.33.44:496][204]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000257C3C07880), frame # 31204
-[2020.07.30-21.33.44:496][204]LogPlayLevel: PIE: World Init took: (0.000990s)
-[2020.07.30-21.33.44:496][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.148245s)
-[2020.07.30-21.33.44:496][204]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.33.44:521][204]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.33.44
-[2020.07.30-21.33.44:528][204]LogWorld: Bringing up level for play took: 0.031277
-[2020.07.30-21.33.44:533][204]LogLoad: Took 0.237679 seconds to LoadMap(/Game/UEDPIE_0_SandBox)
-[2020.07.30-21.33.50:419][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.33.50:419][892]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.33.50:420][892]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.33.50:428][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.33.50:438][892]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.07.30-21.33.50:448][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.33.50:463][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.33.50:479][892]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000257C3C07880), frame # 31892
-[2020.07.30-21.33.50:479][892]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000257CC406200), frame # 31892
-[2020.07.30-21.33.50:483][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2020.07.30-21.33.50:521][893]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2020.07.30-21.33.51:166][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A29)
-[2020.07.30-21.34.02:194][879]Cmd: SELECT NONE
-[2020.07.30-21.34.18:865][ 66]LogSlate: Took 0.007334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.07.30-21.35.21:570][253]Candidate modules for hot reload:
-[2020.07.30-21.35.21:570][253]  SimpleShooter
-[2020.07.30-21.35.21:570][253]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,7683 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
-[2020.07.30-21.35.21:576][253]Warning: Starting HotReload took  0.0s.
-[2020.07.30-21.35.30:644][653]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Rifle.BP_Rifle
-[2020.07.30-21.35.30:845][653]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 7:35:32 AM
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Parsing headers for SimpleShooterEditor
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.8792791 seconds
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Building SimpleShooterEditor...
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Building 7 actions with 12 processes...
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [1/7] SimpleShooter.init.gen.cpp
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [2/7] Gun.gen.cpp
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [3/7] Gun.cpp
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [4/7] ShooterCharacter.cpp
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [5/7] UE4Editor-SimpleShooter-7683.lib
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-7683.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-7683.exp
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [6/7] UE4Editor-SimpleShooter-7683.dll
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-7683.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-7683.suppressed.exp
-[2020.07.30-21.35.32:299][687]CompilerResultsLog:   [7/7] SimpleShooterEditor.target
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Total time in Parallel executor: 5.12 seconds
-[2020.07.30-21.35.32:299][687]CompilerResultsLog: Total execution time: 10.63 seconds
-[2020.07.30-21.35.32:300][687]LogMainFrame: MainFrame: Module compiling took 10.735 seconds
-[2020.07.30-21.35.32:321][687]LogClass: Could not find existing class Gun in package /Script/SimpleShooter for HotReload, assuming new class
-[2020.07.30-21.35.32:335][687]LogHotReload: Re-instancing Gun after hot-reload.
-[2020.07.30-21.35.32:382][687]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 10 classes and 2 folders.
-[2020.07.30-21.35.32:384][687]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2020.07.30-21.35.32:475][687]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3437 classes and 823 folders.
-[2020.07.30-21.35.32:482][687]Display: HotReload took 10.9s.
-[2020.07.30-21.35.34:491][779]LogSlate: Window 'BP_Rifle' being destroyed
-[2020.07.30-21.35.34:510][779]LogSlate: Window 'BP_Rifle' being destroyed
-[2020.07.30-21.35.34:528][779]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.35.34:528][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.35.35:368][823]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Rifle.BP_Rifle
-[2020.07.30-21.35.39:416][979]LogSlate: Window 'BP_Rifle' being destroyed
-[2020.07.30-21.35.39:432][979]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.35.39:432][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.35.39:483][979]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Rifle.BP_Rifle
-[2020.07.30-21.35.39:785][979]LogSlate: Took 0.000524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.07.30-21.35.53:486][435]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot02...
-[2020.07.30-21.35.53:493][435]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02 will be modified from 80 to 80.
-[2020.07.30-21.35.53:512][435]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 172986 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02.
-[2020.07.30-21.35.57:002][676]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.30-21.35.57:013][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.30-21.35.57:013][676]PIE: New page: PIE session: SandBox (Jul 30, 2020, 7:35:57 AM)
-[2020.07.30-21.35.57:013][676]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.35.57:196][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182875s)
-[2020.07.30-21.35.57:197][676]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.35.57:197][676]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025822B8BC00), frame # 34676
-[2020.07.30-21.35.57:197][676]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000257E5FB6700), frame # 34676
-[2020.07.30-21.35.57:198][676]LogPlayLevel: PIE: World Init took: (0.001905s)
-[2020.07.30-21.35.57:199][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.185274s)
-[2020.07.30-21.35.57:258][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
-[2020.07.30-21.35.57:268][676]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-21.35.57:268][676]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-21.35.57:269][676]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-21.35.57:269][676]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-21.35.57:269][676]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-21.35.57:269][676]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-21.35.57:269][676]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-21.35.57:269][676]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-21.35.57:269][676]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-21.35.57:269][676]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-21.35.57:280][676]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-21.35.57:280][676]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-21.35.57:366][676]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-21.35.57:366][676]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-21.35.57:366][676]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-21.35.57:366][676]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-21.35.57:367][676]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-21.35.57:376][676]LogInit: FAudioDevice initialized.
-[2020.07.30-21.35.57:386][676]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.35.57:442][676]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.35.57
-[2020.07.30-21.35.57:451][676]LogWorld: Bringing up level for play took: 0.064685
-[2020.07.30-21.35.57:452][676]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2020.07.30-21.35.57:456][676]PIE: Server logged in
-[2020.07.30-21.35.57:456][676]PIE: Play in editor total start time 0.446 seconds.
-[2020.07.30-21.35.59:864][897]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.00:875][  7]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.36.01:887][113]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.36.02:763][214]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.02:896][230]LogTemp: Warning: Health left 20.000000
-[2020.07.30-21.36.03:391][289]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.36.03:909][351]LogTemp: Warning: Health left 0.000000
-[2020.07.30-21.36.03:968][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.03:968][354]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.03:969][354]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.36.03:977][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.03:988][354]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.07.30-21.36.03:992][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.04:007][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.04:046][354]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025822B8BC00), frame # 35354
-[2020.07.30-21.36.04:046][354]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000257E5FB6700), frame # 35354
-[2020.07.30-21.36.04:049][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
-[2020.07.30-21.36.04:082][355]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2020.07.30-21.36.07:456][680]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot05...
-[2020.07.30-21.36.07:456][680]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot05.AssaultRifle_Shot05 will be modified from 80 to 80.
-[2020.07.30-21.36.07:468][680]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 178320 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot05.AssaultRifle_Shot05.
-[2020.07.30-21.36.09:066][842]BlueprintLog: New page: Compile BP_Rifle
-[2020.07.30-21.36.09:096][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2020.07.30-21.36.09:763][904]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.30-21.36.09:772][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.30-21.36.09:772][904]PIE: New page: PIE session: SandBox (Jul 30, 2020, 7:36:09 AM)
-[2020.07.30-21.36.09:797][904]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.09:957][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160046s)
-[2020.07.30-21.36.09:958][904]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.36.09:958][904]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002579DA7C800), frame # 35904
-[2020.07.30-21.36.09:958][904]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000258305A8400), frame # 35904
-[2020.07.30-21.36.09:958][904]LogPlayLevel: PIE: World Init took: (0.001171s)
-[2020.07.30-21.36.09:958][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.161549s)
-[2020.07.30-21.36.09:976][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2020.07.30-21.36.09:977][904]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-21.36.09:977][904]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-21.36.09:977][904]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-21.36.09:978][904]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-21.36.09:978][904]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-21.36.09:978][904]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-21.36.09:978][904]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-21.36.09:978][904]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-21.36.09:978][904]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-21.36.09:978][904]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-21.36.09:988][904]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-21.36.09:988][904]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-21.36.10:071][904]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-21.36.10:071][904]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-21.36.10:071][904]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-21.36.10:071][904]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-21.36.10:071][904]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-21.36.10:082][904]LogInit: FAudioDevice initialized.
-[2020.07.30-21.36.10:092][904]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.36.10:145][904]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.36.10
-[2020.07.30-21.36.10:153][904]LogWorld: Bringing up level for play took: 0.060425
-[2020.07.30-21.36.10:153][904]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2020.07.30-21.36.10:164][904]PIE: Server logged in
-[2020.07.30-21.36.10:165][904]PIE: Play in editor total start time 0.393 seconds.
-[2020.07.30-21.36.13:003][210]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.13:152][227]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.36.13:304][245]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.36.13:412][258]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.14:288][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.14:288][357]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.14:289][357]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.36.14:297][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.14:305][357]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.07.30-21.36.14:309][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.14:343][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.14:347][357]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000258305A8400), frame # 36357
-[2020.07.30-21.36.14:347][357]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002579DA7C800), frame # 36357
-[2020.07.30-21.36.14:353][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2020.07.30-21.36.14:392][358]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2020.07.30-21.36.17:448][632]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot06...
-[2020.07.30-21.36.17:448][632]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot06.AssaultRifle_Shot06 will be modified from 80 to 80.
-[2020.07.30-21.36.17:460][632]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 176970 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot06.AssaultRifle_Shot06.
-[2020.07.30-21.36.22:086][116]BlueprintLog: New page: Compile BP_Rifle
-[2020.07.30-21.36.22:116][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2020.07.30-21.36.23:019][202]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.30-21.36.23:027][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.30-21.36.23:027][202]PIE: New page: PIE session: SandBox (Jul 30, 2020, 7:36:23 AM)
-[2020.07.30-21.36.23:027][202]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.23:181][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153640s)
-[2020.07.30-21.36.23:182][202]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.36.23:182][202]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002584D0DD200), frame # 37202
-[2020.07.30-21.36.23:182][202]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025831304E00), frame # 37202
-[2020.07.30-21.36.23:182][202]LogPlayLevel: PIE: World Init took: (0.001045s)
-[2020.07.30-21.36.23:183][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.154962s)
-[2020.07.30-21.36.23:199][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-21.36.23:199][202]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-21.36.23:199][202]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-21.36.23:200][202]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-21.36.23:200][202]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-21.36.23:211][202]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-21.36.23:211][202]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-21.36.23:288][202]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-21.36.23:288][202]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-21.36.23:288][202]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-21.36.23:288][202]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-21.36.23:289][202]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-21.36.23:298][202]LogInit: FAudioDevice initialized.
-[2020.07.30-21.36.23:305][202]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.36.23:352][202]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.36.23
-[2020.07.30-21.36.23:359][202]LogWorld: Bringing up level for play took: 0.054189
-[2020.07.30-21.36.23:360][202]LogOnline: OSS: Creating online subsystem instance for: :Context_14
-[2020.07.30-21.36.23:363][202]PIE: Server logged in
-[2020.07.30-21.36.23:364][202]PIE: Play in editor total start time 0.337 seconds.
-[2020.07.30-21.36.25:291][418]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.25:299][419]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.25:975][500]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.36.26:305][539]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.36.26:568][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.26:568][567]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.26:569][567]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.36.26:577][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.26:582][567]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.07.30-21.36.26:587][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.26:620][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.26:623][567]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025831304E00), frame # 37567
-[2020.07.30-21.36.26:623][567]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002584D0DD200), frame # 37567
-[2020.07.30-21.36.26:629][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
-[2020.07.30-21.36.26:659][568]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2020.07.30-21.36.28:627][765]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot03...
-[2020.07.30-21.36.28:627][765]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03 will be modified from 80 to 80.
-[2020.07.30-21.36.28:639][765]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 166776 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03.
-[2020.07.30-21.36.29:513][857]BlueprintLog: New page: Compile BP_Rifle
-[2020.07.30-21.36.29:544][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
-[2020.07.30-21.36.30:138][916]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.30-21.36.30:147][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.30-21.36.30:147][916]PIE: New page: PIE session: SandBox (Jul 30, 2020, 7:36:30 AM)
-[2020.07.30-21.36.30:177][916]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.30:328][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151359s)
-[2020.07.30-21.36.30:329][916]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.36.30:329][916]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002587194C800), frame # 37916
-[2020.07.30-21.36.30:329][916]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000258312374C0), frame # 37916
-[2020.07.30-21.36.30:329][916]LogPlayLevel: PIE: World Init took: (0.001021s)
-[2020.07.30-21.36.30:330][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.152689s)
-[2020.07.30-21.36.30:347][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-21.36.30:348][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-21.36.30:348][916]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-21.36.30:349][916]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-21.36.30:349][916]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-21.36.30:358][916]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-21.36.30:358][916]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-21.36.30:427][916]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-21.36.30:427][916]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-21.36.30:427][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-21.36.30:427][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-21.36.30:428][916]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-21.36.30:436][916]LogInit: FAudioDevice initialized.
-[2020.07.30-21.36.30:447][916]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.36.30:495][916]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.36.30
-[2020.07.30-21.36.30:503][916]LogWorld: Bringing up level for play took: 0.054615
-[2020.07.30-21.36.30:503][916]LogOnline: OSS: Creating online subsystem instance for: :Context_15
-[2020.07.30-21.36.30:507][916]PIE: Server logged in
-[2020.07.30-21.36.30:508][916]PIE: Play in editor total start time 0.361 seconds.
-[2020.07.30-21.36.32:110][ 93]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.32:192][102]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.36.32:430][130]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.36.32:572][147]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.36.32:715][164]LogTemp: Warning: Health left 20.000000
-[2020.07.30-21.36.33:188][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.33:188][215]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.36.33:189][215]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.36.33:196][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.33:202][215]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.07.30-21.36.33:207][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.36.33:240][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.36.33:243][215]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000258312374C0), frame # 38215
-[2020.07.30-21.36.33:244][215]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002587194C800), frame # 38215
-[2020.07.30-21.36.33:250][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
-[2020.07.30-21.36.33:282][216]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2020.07.30-21.36.39:048][372]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave AssaultRifle_Shot01...
-[2020.07.30-21.36.39:049][372]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01 will be modified from 80 to 80.
-[2020.07.30-21.36.39:058][372]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 138090 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01.
-[2020.07.30-21.38.13:953][830]Candidate modules for hot reload:
-[2020.07.30-21.38.13:953][830]  SimpleShooter
-[2020.07.30-21.38.13:953][830]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,2291 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
-[2020.07.30-21.38.13:959][830]Warning: Starting HotReload took  0.0s.
-[2020.07.30-21.38.18:673][276]LogSlate: Window 'BP_Rifle' being destroyed
-[2020.07.30-21.38.18:686][276]LogSlate: Window 'BP_Rifle' being destroyed
-[2020.07.30-21.38.18:686][276]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.38.18:686][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 7:38:21 AM
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Parsing headers for SimpleShooterEditor
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 5.0946902 seconds
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Building SimpleShooterEditor...
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Building 7 actions with 12 processes...
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [1/7] SimpleShooter.init.gen.cpp
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [2/7] Gun.cpp
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [3/7] Gun.gen.cpp
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [4/7] ShooterCharacter.cpp
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [5/7] UE4Editor-SimpleShooter-2291.lib
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2291.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2291.exp
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [6/7] UE4Editor-SimpleShooter-2291.dll
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2291.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-2291.suppressed.exp
-[2020.07.30-21.38.21:732][435]CompilerResultsLog:   [7/7] SimpleShooterEditor.target
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Total time in Parallel executor: 1.78 seconds
-[2020.07.30-21.38.21:732][435]CompilerResultsLog: Total execution time: 7.53 seconds
-[2020.07.30-21.38.21:732][435]LogMainFrame: MainFrame: Module compiling took 7.783 seconds
-[2020.07.30-21.38.21:745][435]LogClass: Could not find existing class Gun in package /Script/SimpleShooter for HotReload, assuming new class
-[2020.07.30-21.38.21:756][435]LogHotReload: Re-instancing Gun after hot-reload.
-[2020.07.30-21.38.21:778][435]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0003 seconds. Added 10 classes and 2 folders.
-[2020.07.30-21.38.21:781][435]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2020.07.30-21.38.21:884][435]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3437 classes and 823 folders.
-[2020.07.30-21.38.21:890][435]Display: HotReload took  7.9s.
-[2020.07.30-21.38.23:466][462]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Rifle.BP_Rifle
-[2020.07.30-21.38.33:114][434]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Weapon_AssaultRifle_ImpactConcrete05...
-[2020.07.30-21.38.33:114][434]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete05.Weapon_AssaultRifle_ImpactConcrete05 will be modified from 80 to 80.
-[2020.07.30-21.38.33:128][434]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 110172 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/Weapon_AssaultRifle_ImpactConcrete05.Weapon_AssaultRifle_ImpactConcrete05.
-[2020.07.30-21.38.33:945][520]BlueprintLog: New page: Compile BP_Rifle
-[2020.07.30-21.38.34:011][520]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2020.07.30-21.38.38:848][744]BlueprintLog: New page: Compile BP_Rifle
-[2020.07.30-21.38.38:898][744]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
-[2020.07.30-21.38.40:377][898]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.30-21.38.40:387][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.30-21.38.40:387][898]PIE: New page: PIE session: SandBox (Jul 30, 2020, 7:38:40 AM)
-[2020.07.30-21.38.40:387][898]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.38.40:553][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164914s)
-[2020.07.30-21.38.40:553][898]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.38.40:553][898]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025876CEA200), frame # 40898
-[2020.07.30-21.38.40:553][898]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002583F04FD80), frame # 40898
-[2020.07.30-21.38.40:554][898]LogPlayLevel: PIE: World Init took: (0.001076s)
-[2020.07.30-21.38.40:554][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.166333s)
-[2020.07.30-21.38.40:572][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-21.38.40:572][898]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-21.38.40:572][898]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-21.38.40:573][898]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-21.38.40:573][898]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-21.38.40:583][898]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-21.38.40:583][898]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-21.38.40:655][898]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-21.38.40:655][898]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-21.38.40:655][898]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-21.38.40:655][898]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-21.38.40:655][898]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-21.38.40:665][898]LogInit: FAudioDevice initialized.
-[2020.07.30-21.38.40:672][898]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.38.40:721][898]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.38.40
-[2020.07.30-21.38.40:729][898]LogWorld: Bringing up level for play took: 0.056391
-[2020.07.30-21.38.40:729][898]LogOnline: OSS: Creating online subsystem instance for: :Context_17
-[2020.07.30-21.38.40:733][898]PIE: Server logged in
-[2020.07.30-21.38.40:733][898]PIE: Play in editor total start time 0.348 seconds.
-[2020.07.30-21.38.46:516][526]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.38.47:064][590]LogTemp: Warning: Health left 80.000000
-[2020.07.30-21.38.47:532][645]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.38.47:576][650]LogTemp: Warning: Health left 60.000000
-[2020.07.30-21.38.48:008][701]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.38.48:545][763]LogTemp: Warning: Health left 20.000000
-[2020.07.30-21.38.48:546][763]LogTemp: Warning: Health left 40.000000
-[2020.07.30-21.38.49:065][816]LogTemp: Warning: Health left 0.000000
-[2020.07.30-21.38.52:073][120]LogNet: Browse: /Game/SandBox?restart
-[2020.07.30-21.38.52:073][120]LogLoad: LoadMap: /Game/SandBox
-[2020.07.30-21.38.52:073][120]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.38.52:074][120]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.38.52:085][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.38.52:144][120]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002583F04FD80), frame # 42120
-[2020.07.30-21.38.52:145][120]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025876CEA200), frame # 42120
-[2020.07.30-21.38.52:150][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
-[2020.07.30-21.38.52:162][120]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
-[2020.07.30-21.38.52:326][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163585s)
-[2020.07.30-21.38.52:326][120]LogAIModule: Creating AISystem for world SandBox
-[2020.07.30-21.38.52:326][120]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025871DF8800), frame # 42120
-[2020.07.30-21.38.52:326][120]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025876BE20C0), frame # 42120
-[2020.07.30-21.38.52:327][120]LogPlayLevel: PIE: World Init took: (0.001063s)
-[2020.07.30-21.38.52:327][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.165124s)
-[2020.07.30-21.38.52:327][120]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
-[2020.07.30-21.38.52:359][120]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-14.38.52
-[2020.07.30-21.38.52:367][120]LogWorld: Bringing up level for play took: 0.039582
-[2020.07.30-21.38.52:372][120]LogLoad: Took 0.299469 seconds to LoadMap(/Game/UEDPIE_0_SandBox)
-[2020.07.30-21.38.55:407][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.38.55:408][412]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
-[2020.07.30-21.38.55:409][412]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-21.38.55:417][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.38.55:427][412]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.07.30-21.38.55:432][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-21.38.55:469][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-21.38.55:472][412]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025876BE20C0), frame # 42412
-[2020.07.30-21.38.55:472][412]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025871DF8800), frame # 42412
-[2020.07.30-21.38.55:479][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2020.07.30-21.38.55:521][413]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2020.07.30-21.39.24:745][384]LogSlate: Window 'Project Settings' being destroyed
-[2020.07.30-21.39.24:761][384]LogSlate: Window 'Project Settings' being destroyed
+[2020.07.31-00.27.32:688][311]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.31-00.27.32:697][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.31-00.27.32:697][311]PIE: New page: PIE session: SandBox (Jul 30, 2020, 10:27:32 AM)
+[2020.07.31-00.27.32:698][311]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.31-00.27.32:699][311]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.31-00.27.32:700][311]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.31-00.27.32:870][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.169827s)
+[2020.07.31-00.27.32:871][311]LogAIModule: Creating AISystem for world SandBox
+[2020.07.31-00.27.32:871][311]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AB5D909A00), frame # 3311
+[2020.07.31-00.27.32:871][311]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AACDF99D00), frame # 3311
+[2020.07.31-00.27.32:871][311]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2020.07.31-00.27.32:871][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.171536s)
+[2020.07.31-00.27.32:883][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.31-00.27.32:887][311]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.31-00.27.32:887][311]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.31-00.27.32:888][311]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.31-00.27.32:888][311]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.31-00.27.32:898][311]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.31-00.27.32:898][311]LogAudioMixer: Display: 1: FrontRight
+[2020.07.31-00.27.32:968][311]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.31-00.27.32:968][311]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.31-00.27.32:968][311]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.31-00.27.32:968][311]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.31-00.27.32:968][311]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.31-00.27.32:978][311]LogInit: FAudioDevice initialized.
+[2020.07.31-00.27.32:995][311]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.31-00.27.33:040][311]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-17.27.33
+[2020.07.31-00.27.33:049][311]LogWorld: Bringing up level for play took: 0.053036
+[2020.07.31-00.27.33:049][311]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.07.31-00.27.33:052][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.07.31-00.27.33:054][311]PIE: Server logged in
+[2020.07.31-00.27.33:055][311]PIE: Play in editor total start time 0.358 seconds.
+[2020.07.31-00.27.36:970][747]LogTemp: Warning: Health left 80.000000
+[2020.07.31-00.27.37:088][761]LogTemp: Warning: Health left 80.000000
+[2020.07.31-00.27.37:597][822]LogTemp: Warning: Health left 60.000000
+[2020.07.31-00.27.37:979][868]LogTemp: Warning: Health left 60.000000
+[2020.07.31-00.27.38:310][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.27.38:310][903]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.31-00.27.38:311][903]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.27.38:319][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.27.38:328][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.31-00.27.38:330][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.27.38:359][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.27.38:376][903]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AB5D909A00), frame # 3903
+[2020.07.31-00.27.38:376][903]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AACDF99D00), frame # 3903
+[2020.07.31-00.27.38:378][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.31-00.27.38:409][904]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.07.31-00.27.48:643][121]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.31-00.27.48:653][121]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShooterPlayerController.BP_ShooterPlayerController
+[2020.07.31-00.27.48:775][121]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.07.31-00.27.50:736][272]LogSlate: Window 'BP_ShooterPlayerController' being destroyed
+[2020.07.31-00.27.50:780][272]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.27.50:780][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.27.50:817][272]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShooterPlayerController.BP_ShooterPlayerController
+[2020.07.31-00.27.51:072][272]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.31-00.27.54:712][661]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2020.07.31-00.28.05:485][811]BlueprintLog: New page: Compile WBP_HUD
+[2020.07.31-00.28.05:526][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.07.31-00.28.06:085][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/UI/WBP_HUD.uasset" SILENT=true
+[2020.07.31-00.28.06:091][859]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/WBP_HUD9742657F4F916344E395F58D9E628453.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/UI/WBP_HUD.uasset'
+[2020.07.31-00.28.06:109][859]AssetCheck: New page: Asset Save: WBP_HUD
+[2020.07.31-00.28.06:109][859]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2020.07.31-00.28.06:850][938]LogSlate: Window 'WBP_HUD' being destroyed
+[2020.07.31-00.28.06:857][938]LogSlate: Window 'WBP_HUD' being destroyed
+[2020.07.31-00.28.06:899][938]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.28.06:899][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.28.06:935][938]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.28.06:935][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.28.06:938][938]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.28.06:938][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.28.07:851][ 38]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.31-00.28.07:859][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.31-00.28.07:859][ 38]PIE: New page: PIE session: SandBox (Jul 30, 2020, 10:28:07 AM)
+[2020.07.31-00.28.07:889][ 38]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.31-00.28.08:037][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148374s)
+[2020.07.31-00.28.08:038][ 38]LogAIModule: Creating AISystem for world SandBox
+[2020.07.31-00.28.08:038][ 38]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AB8120BE00), frame # 6038
+[2020.07.31-00.28.08:038][ 38]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AB6F89B240), frame # 6038
+[2020.07.31-00.28.08:038][ 38]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2020.07.31-00.28.08:038][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.149696s)
+[2020.07.31-00.28.08:078][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.07.31-00.28.08:079][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.31-00.28.08:079][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.31-00.28.08:080][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.31-00.28.08:080][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.31-00.28.08:080][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.31-00.28.08:080][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.31-00.28.08:080][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.31-00.28.08:080][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.31-00.28.08:080][ 38]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.31-00.28.08:080][ 38]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.31-00.28.08:090][ 38]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.31-00.28.08:090][ 38]LogAudioMixer: Display: 1: FrontRight
+[2020.07.31-00.28.08:164][ 38]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.31-00.28.08:164][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.31-00.28.08:164][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.31-00.28.08:164][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.31-00.28.08:164][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.31-00.28.08:172][ 38]LogInit: FAudioDevice initialized.
+[2020.07.31-00.28.08:182][ 38]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.31-00.28.08:225][ 38]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-17.28.08
+[2020.07.31-00.28.08:233][ 38]LogWorld: Bringing up level for play took: 0.050252
+[2020.07.31-00.28.08:233][ 38]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.07.31-00.28.08:237][ 38]PIE: Server logged in
+[2020.07.31-00.28.08:237][ 38]PIE: Play in editor total start time 0.379 seconds.
+[2020.07.31-00.28.12:420][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.28.12:420][506]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.31-00.28.12:421][506]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.28.12:429][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.28.12:437][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.31-00.28.12:442][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.28.12:477][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.28.12:500][506]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AB6F89B240), frame # 6506
+[2020.07.31-00.28.12:500][506]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AB8120BE00), frame # 6506
+[2020.07.31-00.28.12:514][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.07.31-00.28.12:548][507]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.07.31-00.29.30:774][772]Candidate modules for hot reload:
+[2020.07.31-00.29.30:774][772]  SimpleShooter
+[2020.07.31-00.29.30:775][772]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,7661 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.31-00.29.30:781][772]Warning: Starting HotReload took  0.0s.
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 10:29:38 AM
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: Parsing headers for SimpleShooterEditor
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\SimpleShooter.uproject" "C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\SimpleShooterEditor\Development\SimpleShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\vmelo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: Reflection code generated for SimpleShooterEditor in 4.9095651 seconds
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.31-00.29.38:424][439]CompilerResultsLog: Building 5 actions with 12 processes...
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:   [1/5] ShooterPlayerController.gen.cpp
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:   [2/5] ShooterPlayerController.cpp
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(16) : error C2059: syntax error: 'if'
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(16) : error C2143: syntax error: missing ';' before '{'
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(16) : error C2447: '{': missing function header (old-style formal list?)
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(22) : error C2059: syntax error: 'else'
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(22) : error C2143: syntax error: missing ';' before '{'
+[2020.07.31-00.29.38:424][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(22) : error C2447: '{': missing function header (old-style formal list?)
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C3484: syntax error: expected '->' before the return type
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C3613: missing return type after '->' ('int' assumed)
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C3646: 'SetTimer': unknown override specifier
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C3551: if a trailing return type is used then the leading return type shall be the single type-specifier 'auto' (not 'int')
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C2059: syntax error: '('
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C2143: syntax error: missing ')' before ','
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C2059: syntax error: 'this'
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(29) : error C2059: syntax error: ')'
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(31) : error C2059: syntax error: '}'
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(31) : error C2143: syntax error: missing ';' before '}'
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(34) : error C2143: syntax error: missing ';' before '{'
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:    C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(34) : error C2447: '{': missing function header (old-style formal list?)
+[2020.07.31-00.29.38:425][439]CompilerResultsLog:   C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Source\SimpleShooter\ShooterPlayerController.cpp(40): fatal error C1004: unexpected end-of-file found
+[2020.07.31-00.29.38:425][439]LogMainFrame: MainFrame: Module compiling took 7.656 seconds
+[2020.07.31-00.29.38:425][439]Warning: HotReload failed, recompile failed
+[2020.07.31-00.29.49:003][729]LogSlate: Window 'Message Log' being destroyed
+[2020.07.31-00.29.49:007][729]LogSlate: Window 'Message Log' being destroyed
+[2020.07.31-00.29.49:798][812]Candidate modules for hot reload:
+[2020.07.31-00.29.49:798][812]  SimpleShooter
+[2020.07.31-00.29.49:798][812]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,60 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.31-00.29.49:803][812]Warning: Starting HotReload took  0.0s.
+[2020.07.31-00.29.54:499][183]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 10:29:54 AM
+[2020.07.31-00.29.54:499][183]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.31-00.29.54:499][183]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.31-00.29.54:499][183]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.31-00.29.54:499][183]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.31-00.29.54:499][183]CompilerResultsLog:   [1/4] ShooterPlayerController.cpp
+[2020.07.31-00.29.54:500][183]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-0060.lib
+[2020.07.31-00.29.54:500][183]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0060.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0060.exp
+[2020.07.31-00.29.54:500][183]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-0060.dll
+[2020.07.31-00.29.54:500][183]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0060.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-0060.suppressed.exp
+[2020.07.31-00.29.54:500][183]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.31-00.29.54:500][183]CompilerResultsLog: Total time in Parallel executor: 4.08 seconds
+[2020.07.31-00.29.54:500][183]CompilerResultsLog: Total execution time: 4.62 seconds
+[2020.07.31-00.29.54:500][183]LogMainFrame: MainFrame: Module compiling took 4.715 seconds
+[2020.07.31-00.29.54:508][183]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3437 classes and 823 folders.
+[2020.07.31-00.29.54:516][183]Display: HotReload took  4.7s.
+[2020.07.31-00.29.55:248][227]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.31-00.29.55:259][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.31-00.29.55:259][227]PIE: New page: PIE session: SandBox (Jul 30, 2020, 10:29:55 AM)
+[2020.07.31-00.29.55:279][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.31-00.29.55:443][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163877s)
+[2020.07.31-00.29.55:444][227]LogAIModule: Creating AISystem for world SandBox
+[2020.07.31-00.29.55:444][227]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AB6FC58800), frame # 8227
+[2020.07.31-00.29.55:444][227]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AB6FC65BC0), frame # 8227
+[2020.07.31-00.29.55:444][227]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2020.07.31-00.29.55:444][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.165225s)
+[2020.07.31-00.29.55:497][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.31-00.29.55:499][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.31-00.29.55:499][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.31-00.29.55:500][227]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.31-00.29.55:500][227]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.31-00.29.55:509][227]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.31-00.29.55:509][227]LogAudioMixer: Display: 1: FrontRight
+[2020.07.31-00.29.55:583][227]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.31-00.29.55:583][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.31-00.29.55:583][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.31-00.29.55:583][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.31-00.29.55:583][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.31-00.29.55:592][227]LogInit: FAudioDevice initialized.
+[2020.07.31-00.29.55:599][227]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.31-00.29.55:645][227]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-17.29.55
+[2020.07.31-00.29.55:653][227]LogWorld: Bringing up level for play took: 0.053375
+[2020.07.31-00.29.55:653][227]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.07.31-00.29.55:657][227]PIE: Server logged in
+[2020.07.31-00.29.55:657][227]PIE: Play in editor total start time 0.402 seconds.
+[2020.07.31-00.29.57:660][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.29.57:660][399]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.31-00.29.57:661][399]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.29.57:669][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.29.57:674][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.31-00.29.57:679][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.29.57:704][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.29.57:730][399]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AB6FC65BC0), frame # 8399
+[2020.07.31-00.29.57:730][399]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AB6FC58800), frame # 8399
+[2020.07.31-00.29.57:745][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.07.31-00.29.57:784][400]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.07.31-00.30.15:472][490]Candidate modules for hot reload:
+[2020.07.31-00.30.15:472][490]  SimpleShooter
+[2020.07.31-00.30.15:472][490]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,8238 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.31-00.30.15:478][490]Warning: Starting HotReload took  0.0s.
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 10:30:20 AM
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.31-00.30.20:569][765]CompilerResultsLog:   [1/4] ShooterPlayerController.cpp
+[2020.07.31-00.30.20:569][765]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-8238.lib
+[2020.07.31-00.30.20:569][765]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-8238.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-8238.exp
+[2020.07.31-00.30.20:569][765]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-8238.dll
+[2020.07.31-00.30.20:569][765]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-8238.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-8238.suppressed.exp
+[2020.07.31-00.30.20:569][765]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: Total time in Parallel executor: 4.18 seconds
+[2020.07.31-00.30.20:569][765]CompilerResultsLog: Total execution time: 4.75 seconds
+[2020.07.31-00.30.20:569][765]LogMainFrame: MainFrame: Module compiling took 5.101 seconds
+[2020.07.31-00.30.20:601][765]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.07.31-00.30.20:606][765]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.31-00.30.20:717][765]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3437 classes and 823 folders.
+[2020.07.31-00.30.20:723][765]Display: HotReload took  5.3s.
+[2020.07.31-00.30.27:034][814]Candidate modules for hot reload:
+[2020.07.31-00.30.27:035][814]  SimpleShooter
+[2020.07.31-00.30.27:035][814]Launching UnrealBuildTool... [H:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SimpleShooter,9156 SimpleShooterEditor Win64 Development -Project="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject" "C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/SimpleShooter.uproject"  -IgnoreJunk]
+[2020.07.31-00.30.27:041][814]Warning: Starting HotReload took  0.0s.
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: New page: Compilation - Jul 30, 2020, 10:30:32 AM
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter).
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: Building SimpleShooterEditor...
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.07.31-00.30.32:158][845]CompilerResultsLog:   [1/4] ShooterPlayerController.cpp
+[2020.07.31-00.30.32:158][845]CompilerResultsLog:   [2/4] UE4Editor-SimpleShooter-9156.lib
+[2020.07.31-00.30.32:158][845]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9156.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9156.exp
+[2020.07.31-00.30.32:158][845]CompilerResultsLog:   [3/4] UE4Editor-SimpleShooter-9156.dll
+[2020.07.31-00.30.32:158][845]CompilerResultsLog:      Creating library C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9156.suppressed.lib and object C:\Users\vmelo\Desktop\GitHub\SimpleShooter\SimpleShooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\UE4Editor-SimpleShooter-9156.suppressed.exp
+[2020.07.31-00.30.32:158][845]CompilerResultsLog:   [4/4] SimpleShooterEditor.target
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: Total time in Parallel executor: 4.24 seconds
+[2020.07.31-00.30.32:158][845]CompilerResultsLog: Total execution time: 4.81 seconds
+[2020.07.31-00.30.32:158][845]LogMainFrame: MainFrame: Module compiling took 5.136 seconds
+[2020.07.31-00.30.32:185][845]LogContentBrowser: Native class hierarchy updated for 'SimpleShooter' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.07.31-00.30.32:188][845]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.07.31-00.30.32:293][845]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3437 classes and 823 folders.
+[2020.07.31-00.30.32:299][845]Display: HotReload took  5.3s.
+[2020.07.31-00.30.34:775][877]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.31-00.30.34:785][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.31-00.30.34:785][877]PIE: New page: PIE session: SandBox (Jul 30, 2020, 10:30:34 AM)
+[2020.07.31-00.30.34:809][877]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SandBox
+[2020.07.31-00.30.34:973][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164265s)
+[2020.07.31-00.30.34:974][877]LogAIModule: Creating AISystem for world SandBox
+[2020.07.31-00.30.34:974][877]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AB7B61E600), frame # 8877
+[2020.07.31-00.30.34:974][877]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AB83579080), frame # 8877
+[2020.07.31-00.30.34:974][877]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2020.07.31-00.30.34:974][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox.SandBox to /Game/UEDPIE_0_SandBox.SandBox (0.165588s)
+[2020.07.31-00.30.35:046][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.31-00.30.35:048][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.31-00.30.35:048][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.31-00.30.35:049][877]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.31-00.30.35:049][877]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.31-00.30.35:061][877]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.31-00.30.35:061][877]LogAudioMixer: Display: 1: FrontRight
+[2020.07.31-00.30.35:154][877]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.31-00.30.35:154][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.31-00.30.35:154][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.31-00.30.35:154][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.31-00.30.35:154][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.31-00.30.35:164][877]LogInit: FAudioDevice initialized.
+[2020.07.31-00.30.35:175][877]LogLoad: Game class is 'BP_KillEmAllGmaeMode_C'
+[2020.07.31-00.30.35:219][877]LogWorld: Bringing World /Game/UEDPIE_0_SandBox.SandBox up for play (max tick rate 0) at 2020.07.30-17.30.35
+[2020.07.31-00.30.35:227][877]LogWorld: Bringing up level for play took: 0.051647
+[2020.07.31-00.30.35:227][877]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.07.31-00.30.35:231][877]PIE: Server logged in
+[2020.07.31-00.30.35:232][877]PIE: Play in editor total start time 0.45 seconds.
+[2020.07.31-00.30.37:186][ 80]LogTemp: Warning: Health left 80.000000
+[2020.07.31-00.30.37:377][103]LogTemp: Warning: Health left 80.000000
+[2020.07.31-00.30.37:637][134]LogTemp: Warning: Health left 60.000000
+[2020.07.31-00.30.38:386][224]LogTemp: Warning: Health left 60.000000
+[2020.07.31-00.30.40:405][463]LogTemp: Warning: Health left 40.000000
+[2020.07.31-00.30.41:413][584]LogTemp: Warning: Health left 20.000000
+[2020.07.31-00.30.42:356][697]LogTemp: Warning: Health left 40.000000
+[2020.07.31-00.30.42:423][705]LogTemp: Warning: Health left 0.000000
+[2020.07.31-00.30.43:680][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.30.43:680][851]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SandBox
+[2020.07.31-00.30.43:681][851]LogWorld: UWorld::CleanupWorld for SandBox, bSessionEnded=true, bCleanupResources=true
+[2020.07.31-00.30.43:690][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.30.43:696][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.31-00.30.43:701][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.31-00.30.43:728][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.31-00.30.43:760][851]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AB7B61E600), frame # 9851
+[2020.07.31-00.30.43:760][851]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AB83579080), frame # 9851
+[2020.07.31-00.30.43:762][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.07.31-00.30.43:795][852]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.07.31-00.30.48:159][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.31-00.30.48:175][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.07.31-00.30.49:503][916]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox54A77F444A5BB614E9E036ABB542E874.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox.umap'
+[2020.07.31-00.30.50:196][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox_BuiltData" FILE="C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset" SILENT=true
+[2020.07.31-00.30.50:744][916]LogSavePackage: Moving 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Saved/SandBox_BuiltData7351928E45C7470B97EEE3825D6A8AC3.tmp' to 'C:/Users/vmelo/Desktop/GitHub/SimpleShooter/SimpleShooter/Content/SandBox_BuiltData.uasset'
+[2020.07.31-00.30.50:761][916]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.31-00.30.50:761][916]LogContentValidation: Display: Validating World /Game/SandBox.SandBox
+[2020.07.31-00.30.50:761][916]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SandBox_BuiltData.SandBox_BuiltData

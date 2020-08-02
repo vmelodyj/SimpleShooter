@@ -3,9 +3,13 @@
 
 #include "ShooterCharacter.h"
 #include "Gun.h"
+#include "OpenDoor.h"
 #include "Components/CapsuleComponent.h"
 #include "SimpleShooterGameModeBase.h"
-#include "OpenDoor.h"
+#include "Engine/World.h"
+
+#include "GameFramework/PlayerController.h"
+
 
 // Sets default values
 AShooterCharacter::AShooterCharacter()
@@ -60,9 +64,10 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAxis(TEXT("LookRightRate"), this, &AShooterCharacter::LookRightRate);
 
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
+
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &AShooterCharacter::Shoot);
 
-	PlayerInputComponent->BindAction(TEXT("OpenDoor"), IE_Pressed, this, &AShooterCharacter::Shoot);
+	PlayerInputComponent->BindAction(TEXT("Interact"), IE_Pressed, this, &AShooterCharacter::Interact);
 
 
 
@@ -127,11 +132,17 @@ void AShooterCharacter::LookRightRate(float AxisValue)
 
 void AShooterCharacter::Shoot() 
 {
+	// UE_LOG(LogTemp, Warning, TEXT("test"));
 	Gun->PullTrigger();
 }
 
-void AShooterCharacter::OpenDoor() 
-{
-	// OpenDoor->
+void AShooterCharacter::Interact() 
+{	
+	if (OpenDoor != nullptr){
+	UE_LOG(LogTemp, Warning, TEXT("test in interact"));
+	OpenDoor->OpenDoor();
+	} else {
+		UE_LOG(LogTemp, Warning, TEXT("test in interact failed"));
+	}
 }
 

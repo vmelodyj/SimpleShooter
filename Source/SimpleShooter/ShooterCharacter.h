@@ -4,8 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Engine/TriggerVolume.h"
+
+
 #include "ShooterCharacter.generated.h"
 class AGun;
+class UOpenDoor;
 UCLASS()
 class SIMPLESHOOTER_API AShooterCharacter : public ACharacter
 {
@@ -35,8 +39,7 @@ public:
 
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 	void Shoot();
-
-	void OpenDoor();
+	void Interact();
 private:
 	void MoveForward(float AxisValue);
 	void MoveLeft(float AxisValue);
@@ -63,5 +66,14 @@ private:
 
 	UPROPERTY()
 	AGun *Gun;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<UOpenDoor> DoorClasss;
+
+	UPROPERTY()
+	UOpenDoor *OpenDoor;
+
+	// UPROPERTY(EditAnyWhere)
+	// ATriggerVolume *PressurePlate;
 
 };

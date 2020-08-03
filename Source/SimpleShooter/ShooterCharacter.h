@@ -67,13 +67,15 @@ private:
 	UPROPERTY()
 	AGun *Gun;
 
-	UPROPERTY(EditDefaultsOnly)
-	TSubclassOf<UOpenDoor> DoorClasss;
+	// UPROPERTY(EditDefaultsOnly)
+	// TSubclassOf<UOpenDoor> DoorClasss;
 
-	UPROPERTY()
-	UOpenDoor *OpenDoor;
+	// UPROPERTY()
+	// UOpenDoor *OpenDoor;
 
 	// UPROPERTY(EditAnyWhere)
 	// ATriggerVolume *PressurePlate;
+
+	float Reach {500.f};
 
 };

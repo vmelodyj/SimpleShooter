@@ -7,6 +7,7 @@
 #include "Components/CapsuleComponent.h"
 #include "SimpleShooterGameModeBase.h"
 #include "Engine/World.h"
+#include "DrawDebugHelpers.h" // test for draw debug line, prepare for the linetrace
 
 #include "GameFramework/PlayerController.h"
 
@@ -138,11 +139,40 @@ void AShooterCharacter::Shoot()
 
 void AShooterCharacter::Interact() 
 {	
-	if (OpenDoor != nullptr){
-	UE_LOG(LogTemp, Warning, TEXT("test in interact"));
-	OpenDoor->OpenDoor();
-	} else {
-		UE_LOG(LogTemp, Warning, TEXT("test in interact failed"));
+	// if (OpenDoor != nullptr){
+	// UE_LOG(LogTemp, Warning, TEXT("test in interact"));
+	// OpenDoor->OpenDoor();
+	// } else {
+	// 	UE_LOG(LogTemp, Warning, TEXT("test in interact failed"));
+	// }
+
+
+	// Do a line trace here, if it hits something, cast that to UOpenDoor, if it succeed then call OpenDoor()
+	FVector PlayerLocation;
+	FRotator PlayerRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerLocation,PlayerRotation);
+	UE_LOG(LogTemp, Warning, TEXT("The player location is: %s, rotation is: %s"), 
+	*PlayerLocation.ToString(), 
+	*PlayerRotation.ToString());
+
+	FVector LineTraceEnd = PlayerLocation + PlayerRotation.Vector() * Reach;
+	FHitResult Hit;
+
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, this);
+	GetWorld()->LineTraceSingleByObjectType(
+		Hit,
+		PlayerLocation,
+		LineTraceEnd,
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		TraceParams
+	);
+	AActor* ActorHit = Hit.GetActor();
+	
+	if (ActorHit) {
+		// Call OpenDoor->Opendoor();
+		UE_LOG(LogTemp, Warning, TEXT("Has hit %s"), *(ActorHit->GetName()));
 	}
+
+
 }
 

@@ -166,12 +166,22 @@ void AShooterCharacter::Interact()
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
 		TraceParams
 	);
-	AActor* ActorHit = Hit.GetActor();
-	
-	if (ActorHit) {
+	AActor* ActorThatHit = Hit.GetActor();
+	if (ActorThatHit != nullptr) {
+	UOpenDoor* DoorComponent = ActorThatHit->FindComponentByClass<UOpenDoor>();
+	if (DoorComponent) {
 		// Call OpenDoor->Opendoor();
-		UE_LOG(LogTemp, Warning, TEXT("Has hit %s"), *(ActorHit->GetName()));
+		UE_LOG(LogTemp, Warning, TEXT("Component has found on %s"), *(ActorThatHit->GetName()));
+		DoorComponent->OpenDoor();
+	} else {
+		UE_LOG(LogTemp, Warning, TEXT("Component NOT FOUND %s"));
 	}
+
+	} else {
+		UE_LOG(LogTemp, Warning, TEXT("Nothing is hit"));
+	}
+	
+	
 
 
 }

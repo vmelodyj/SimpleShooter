@@ -44,4 +44,5 @@ private:
 		
 	// UPROPERTY(EditAnyWhere)
 	// ATriggerVolume *PressurePlate;
+	float DoorNeedsToOpen {false};
 };

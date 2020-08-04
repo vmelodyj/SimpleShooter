@@ -44,16 +44,20 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	// FRotator DoorRotation = GetOwner()->GetActorRotation();
 	// DoorRotation.Yaw = CurrentYaw;
 	// GetOwner()->SetActorRotation(DoorRotation);
-}
-
-void UOpenDoor::OpenDoor() 
-{
-	// UE_LOG(LogTemp, Warning, TEXT("Call in opendoor"));
+	if (DoorNeedsToOpen) {
 	UE_LOG(LogTemp, Warning, TEXT("Current Yaw is %f"));
 	CurrentYaw = FMath::FInterpConstantTo(CurrentYaw, OpenAngle, GetWorld()->GetDeltaSeconds(),45);	
 	FRotator DoorRotation = GetOwner()->GetActorRotation();
 	DoorRotation.Yaw = CurrentYaw;
 	GetOwner()->SetActorRotation(DoorRotation);
+	}
+}
+
+void UOpenDoor::OpenDoor() 
+{
+	// UE_LOG(LogTemp, Warning, TEXT("Call in opendoor"));
+	DoorNeedsToOpen = true;
+
 }
 
 
